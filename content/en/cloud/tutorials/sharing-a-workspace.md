@@ -4,6 +4,7 @@ description: >
   Learn how to control access to workspaces and their resources.
 weight: 5
 ---
+
 ## Share designs from Workspaces
 
 You can share the designs and connections that you store in a workspace with anyone in your organization, but your organization may limit how you can share designs with other people.
@@ -15,6 +16,7 @@ Step 1: Find the design you want to share
 **Share a single design**
 
 In your browser, go to [Layer5 Cloud](https://cloud.layer5.io).
+
 1. Click the design you want to share.
 2. Click Share.
 3. Enter the email addresses of the individual(s) you want to share with.
@@ -30,7 +32,6 @@ Tip: When you update permissions for a design you share from a workspace and the
 - The workspace that contains the design
 - Only the design itself
 
-
 ### Share and collaborate on a design with many people
 
 **Important:**
@@ -43,7 +44,7 @@ To share and collaborate on a design with a very wide audience:
 
 - If you need multiple people to open a design, publish the design then create a link to share to people with access. You can give edit access to people who need to edit or comment on the design. [Learn how to publish a design](#).
 - Depending on your account’s settings, publishing a design makes it visible to everyone on the web, everyone in your organization, or a group of people in your organization. Be careful when publishing private or sensitive info.
-    - **Important:** Provider administrators and Organization administrators can limit who can access a published design. If you're an administrator, [learn how to control who can publish documents to the web](#).
+  - **Important:** Provider administrators and Organization administrators can limit who can access a published design. If you're an administrator, [learn how to control who can publish documents to the web](#).
 - To remove a design from the web, you must stop publishing it. [Learn how to stop publishing a design](#).
 - To stop sharing a design with collaborators, [learn how to change sharing permissions](#).
 

@@ -1,7 +1,7 @@
 ---
 title: Navigating Organizations
 description: >
-    Learn how to navigate between different organizations in Layer5 Cloud and understand the order of precedence for organization settings.
+  Learn how to navigate between different organizations in Layer5 Cloud and understand the order of precedence for organization settings.
 weight: 2
 categories: [Identity]
 tags: [orgs]

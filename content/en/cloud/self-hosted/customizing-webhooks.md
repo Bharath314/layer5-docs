@@ -1,6 +1,6 @@
 ---
 title: Customizing Webhooks
-description: "Layer5 Cloud uses webhooks to automate approval flows and email notifications. This guide will help you customize and add your own custom webhooks."
+description: 'Layer5 Cloud uses webhooks to automate approval flows and email notifications. This guide will help you customize and add your own custom webhooks.'
 categories: [Self-Hosted]
 weight: 1
 ---
@@ -26,7 +26,7 @@ Add your custom webhook URLs to the **.env** file by modifying the existing vari
 # Below is the list of webhooks that Layer5 Cloud uses internally.
 # You can replace the values of these variables with your own webhook URLs.
 
-# Triggers when a user fills the help and support form.  
+# Triggers when a user fills the help and support form.
 WEBHOOK_HELP_AND_SUPPORT="https://your-custom-webhook-url.com/help-support"
 
 # Webhook to send an email notification to the user when they receive a Kanvas entitlement

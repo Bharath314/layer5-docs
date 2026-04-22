@@ -2,11 +2,10 @@
 # Layer5 Cloud Documentation — Diátaxis-Aligned Structure
 
 ## /cloud/
-
 ```
 
 /cloud/
-├── _index.md
+├── \_index.md
 ├── tutorials/
 ├── how-to/
 ├── reference/
@@ -38,13 +37,13 @@
 
 ## Tutorials (Learning-Oriented)
 
-📍 Goal: Guided, end-to-end learning journeys  
+📍 Goal: Guided, end-to-end learning journeys
 📍 Audience: New users or users learning a workflow
 
 ```
 
 /cloud/tutorials/
-├── _index.md
+├── \_index.md
 ├── onboarding-to-layer5-cloud.md
 ├── first-organization-and-space.md
 ├── collaborating-with-teams.md
@@ -58,34 +57,34 @@
 
 ## How-to Guides (Task-Oriented)
 
-📍 Goal: Solve a specific problem  
+📍 Goal: Solve a specific problem
 📍 Audience: Users who already understand the system
 
 ```
 
 /cloud/how-to/
-├── _index.md
+├── \_index.md
 ├── identity/
-│   ├── invite-users.md
-│   ├── manage-teams.md
-│   ├── configure-roles.md
-│   └── revoke-access.md
+│ ├── invite-users.md
+│ ├── manage-teams.md
+│ ├── configure-roles.md
+│ └── revoke-access.md
 ├── security/
-│   ├── configure-sso.md
-│   ├── manage-api-tokens.md
-│   ├── audit-access-logs.md
-│   └── rotate-credentials.md
+│ ├── configure-sso.md
+│ ├── manage-api-tokens.md
+│ ├── audit-access-logs.md
+│ └── rotate-credentials.md
 ├── spaces/
-│   ├── create-and-delete-spaces.md
-│   ├── move-assets-between-spaces.md
-│   └── manage-space-permissions.md
+│ ├── create-and-delete-spaces.md
+│ ├── move-assets-between-spaces.md
+│ └── manage-space-permissions.md
 ├── catalog/
-│   ├── publish-to-catalog.md
-│   ├── import-from-catalog.md
-│   └── version-assets.md
+│ ├── publish-to-catalog.md
+│ ├── import-from-catalog.md
+│ └── version-assets.md
 ├── automation/
-│   ├── use-github-actions.md
-│   └── trigger-cloud-workflows.md
+│ ├── use-github-actions.md
+│ └── trigger-cloud-workflows.md
 └── self-hosted/
 ├── connect-self-hosted-meshery.md
 └── configure-cloud-sync.md
@@ -96,29 +95,29 @@
 
 ## Reference (Authoritative Lookup)
 
-📍 Goal: Precise, complete, factual information  
+📍 Goal: Precise, complete, factual information
 📍 Audience: Users who need to look something up
 
 ```
 
 /cloud/reference/
-├── _index.md
+├── \_index.md
 ├── api/
-│   ├── rest-api.md
-│   ├── authentication.md
-│   └── rate-limits.md
+│ ├── rest-api.md
+│ ├── authentication.md
+│ └── rate-limits.md
 ├── identity/
-│   ├── roles-and-permissions.md
-│   ├── role-matrix.md
-│   └── permission-definitions.md
+│ ├── roles-and-permissions.md
+│ ├── role-matrix.md
+│ └── permission-definitions.md
 ├── objects/
-│   ├── organization.md
-│   ├── space.md
-│   ├── user.md
-│   └── asset.md
+│ ├── organization.md
+│ ├── space.md
+│ ├── user.md
+│ └── asset.md
 ├── configuration/
-│   ├── environment-variables.md
-│   └── feature-flags.md
+│ ├── environment-variables.md
+│ └── feature-flags.md
 └── limits-and-quotas.md
 
 ```
@@ -127,13 +126,13 @@
 
 ## Explanation (Conceptual & Architectural)
 
-📍 Goal: Build understanding and mental models  
+📍 Goal: Build understanding and mental models
 📍 Audience: Users who want to understand “why” and “how”
 
 ```
 
 /cloud/explanation/
-├── _index.md
+├── \_index.md
 ├── cloud-architecture.md
 ├── identity-and-access-model.md
 ├── multi-tenancy-and-spaces.md
@@ -148,7 +147,7 @@
 
 ## Feature Index (Non-Diátaxis Routing Layer)
 
-📍 Goal: Cross-reference entry points  
+📍 Goal: Cross-reference entry points
 📍 Not a primary documentation type
 
 ```
@@ -190,5 +189,5 @@ Each feature page:
 
 If you want, I can next:
 
-* Convert **one existing Cloud doc page** into all four Diátaxis forms, or
-* Draft a **Docusaurus sidebar configuration** matching this structure.
+- Convert **one existing Cloud doc page** into all four Diátaxis forms, or
+- Draft a **Docusaurus sidebar configuration** matching this structure.

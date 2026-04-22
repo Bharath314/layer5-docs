@@ -27,17 +27,17 @@ The `INIT_CONFIG` environment variable accepts a YAML configuration with the fol
 
 ```yaml
 organization:
-  name: "Layer5"
-  description: "The uber organization for all things Layer5."
-  country: "United States"
-  region: "North America"
+  name: 'Layer5'
+  description: 'The uber organization for all things Layer5.'
+  country: 'United States'
+  region: 'North America'
 
 user:
-  first_name: "Admin"
-  last_name: "User"
-  email: "admin@layer5.io"
-  username: "admin@layer5.io"  # Optional, defaults to email if not provided
-  password: "change-me-on-first-login"  # Required
+  first_name: 'Admin'
+  last_name: 'User'
+  email: 'admin@layer5.io'
+  username: 'admin@layer5.io' # Optional, defaults to email if not provided
+  password: 'change-me-on-first-login' # Required
 ```
 
 #### Setting the Environment Variable
@@ -62,12 +62,14 @@ user:
 #### Required and Optional Fields
 
 **Organization:**
+
 - `name`: Name of the provider organization (required)
 - `description`: Description of the organization (optional)
 - `country`: Country where the organization is located (optional)
 - `region`: Region where the organization is located (optional)
 
 **User:**
+
 - `first_name`: First name of the provider admin user (required)
 - `last_name`: Last name of the provider admin user (required)
 - `email`: Email address of the provider admin user (required)
@@ -91,6 +93,7 @@ When the server starts and `INIT_CONFIG` is set:
 #### Idempotency
 
 The initialization process is idempotent:
+
 - Running the server multiple times with the same configuration will not create duplicate organizations
 - If the provider organization already exists, the initialization is skipped
 - No errors are thrown if the organization already exists
@@ -98,6 +101,7 @@ The initialization process is idempotent:
 #### Error Handling
 
 If initialization fails:
+
 - Errors are logged using MeshKit logger
 - The server continues to start (non-fatal error)
 - All database operations are wrapped in a transaction for atomicity
@@ -110,6 +114,7 @@ You can set the `INIT_CONFIG` environment variable using several methods:
 **Option A (Helm with inline values)**: Include `initConfig` in the Helm `values.yaml` file with the YAML configuration as a multiline string
 
 **Option B (Helm with --set-file flag)**: Use `--set-file` to load configuration from a separate file:
+
 ```bash
 helm install meshery-cloud ./install/kubernetes/helm/layer5-cloud \
   --set-file env.initConfig=./config/provider-init.yaml.example
@@ -130,11 +135,12 @@ For detailed configuration options, see the configuration schema below.
 {{< alert type="warning" title="Important" >}}
 Plan your INIT_CONFIG carefully as it is only processed during initial startup. Changes require redeployment or manual configuration updates.
 {{< /alert >}}
- Layer5 Cloud Deployment
+Layer5 Cloud Deployment
 description: "Understand deployment prerequisites and prepare your environment for a secure and scalable Layer5 Cloud deployment."
 categories: [Self-Hosted]
 #tags: [helm]
 weight: 1
+
 ---
 
 ### Considerations of Air-Gapped Deployments

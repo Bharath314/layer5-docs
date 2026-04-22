@@ -28,27 +28,25 @@ Edge relationships indicate the possibility of traffic flow between two componen
 
 The Edge-Network relationship type configures the networking between one or more components. This deals with IP addresses and DNS names and provides stable endpoints for communication. For instance, a “Service” provides a stable endpoint for accessing multiple replicas of a “Deployment”. Here's a visual representation of this kind of relationship.
 
-  ![example of edge-network relationship](./EdgeNetworkRelationship.svg)
+![example of edge-network relationship](./EdgeNetworkRelationship.svg)
 
 **ii. Edge-Firewall**
 
 This acts as intermediary for communications which include standard networking protocols like TCP and UDP. It can enforce network policies to control traffic between components, for example between two Pods.
 
-   ![example of edge-firewall relationship](./edge_firewall_relationship_pod_to_pod.svg)
+![example of edge-firewall relationship](./edge_firewall_relationship_pod_to_pod.svg)
 
 **iii. Edge-Mount**
 
-   This subtype addresses the storage and access possibility between involved components. For example, a “PersistentVolume” can be mounted to a “Pod” to provide persistent storage for the pod’s data.
+This subtype addresses the storage and access possibility between involved components. For example, a “PersistentVolume” can be mounted to a “Pod” to provide persistent storage for the pod’s data.
 
-   ![example of edge-mount relationship](./EdgeMountRelationship.svg)
+![example of edge-mount relationship](./EdgeMountRelationship.svg)
 
 **iv. Edge-Permission**
 
-   This defines the permissions for components if they can have a possible relationship with other components. It ensures that only authorized components can interact with each other. For example, a “Role” can define permissions for Components to access specific resources.
+This defines the permissions for components if they can have a possible relationship with other components. It ensures that only authorized components can interact with each other. For example, a “Role” can define permissions for Components to access specific resources.
 
-   ![example of edge-permission relationship](./edge_permission_relationship_cluster_role_service_account.svg)
-
-
+![example of edge-permission relationship](./edge_permission_relationship_cluster_role_service_account.svg)
 
 **v. Edge-Reference**
 
@@ -56,13 +54,12 @@ The **Edge-Reference** relationship type represents a **logical or declarative l
 
 This type of relationship does **not directly provide communication, access, or permission**, but **enables such interactions by declaring intent or pointing to another component**.
 
-
 **Example of an Edge-Reference Relationship**
 
-* A component that refers to a configuration object (e.g., referencing a config file or environment settings).
-* A workload component referencing a credentials object or identity provider.
-* A service referencing a volume or storage claim.
-* A managed resource referencing its controller or owner entity.
+- A component that refers to a configuration object (e.g., referencing a config file or environment settings).
+- A workload component referencing a credentials object or identity provider.
+- A service referencing a volume or storage claim.
+- A managed resource referencing its controller or owner entity.
 
 **Kubernetes-Based Example**
 
@@ -77,16 +74,14 @@ spec:
       image: nginx
       envFrom:
         - configMapRef:
-            name: app-config  # <- Reference to configuration object
+            name: app-config # <- Reference to configuration object
   volumes:
     - name: secret-volume
       secret:
-        secretName: app-secret  # <- Reference to secret
+        secretName: app-secret # <- Reference to secret
 ```
 
-
-
-   ![example of edge-reference relationship](./reference-deployment-configmap.png)
+![example of edge-reference relationship](./reference-deployment-configmap.png)
 
 ### 2. Hierarchical Relationships
 
@@ -94,15 +89,15 @@ Hierarchical relationships involve either an ancestral connection of the compone
 
 **i. Hierarchical-Inventory**
 
-  This is a relationship between components where the configuration settings of one component, known as the parent, are combined or integrated with the configuration settings of another component, known as the child. This implies that changes or updates made to the parent component can affect or influence the configuration of the child component. Here's an example of a Hierarchical-Inventory relationship
+This is a relationship between components where the configuration settings of one component, known as the parent, are combined or integrated with the configuration settings of another component, known as the child. This implies that changes or updates made to the parent component can affect or influence the configuration of the child component. Here's an example of a Hierarchical-Inventory relationship
 
-   ![example of edge-permission relationship](./Hierachical_Inventory_Relationships.svg)
+![example of edge-permission relationship](./Hierachical_Inventory_Relationships.svg)
 
 **ii. Hierarchical-Parent**
 
 A parent-child relationship implies that the parent component must be present or established before the child component can be created. For instance, in Kubernetes, a 'Namespace' can serve as a parent to 'Pods' within that namespace. Therefore, the namespace must be created beforehand for pods to be deployed within it. Here's an example of a Hierarchical-Parent relationship
 
-   ![example of edge-permission relationship](./Hierarchical_Parent_Relationship.svg)
+![example of edge-permission relationship](./Hierarchical_Parent_Relationship.svg)
 
 ### 3. TagSets Relationships
 

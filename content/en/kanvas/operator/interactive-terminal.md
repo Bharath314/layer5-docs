@@ -1,7 +1,7 @@
 ---
 title: Interactive Terminal
 description: >
-  Learn about Interactive Terminal in Operator mode 
+  Learn about Interactive Terminal in Operator mode
 categories: [Operator]
 ---
 
@@ -13,10 +13,10 @@ The Kanvas Interactive Terminal allows operators to establish a secure, low-late
 
 ### Key Features
 
-* **Direct Shell Access:** Instantly `exec` into any running container within your Kubernetes cluster to run standard shell commands (e.g., `ls`, `curl`, `top`).
-* **Multi-Session Support:** Open concurrent terminal sessions for different pods to compare environments or run simultaneous tests.
-* **Integrated Workflow:** Debug specific nodes while maintaining visibility of the surrounding infrastructure topology.
-* **Session Management:** Configure preferences such as "Auto-close Terminal Sessions" to manage resources efficiently.
+- **Direct Shell Access:** Instantly `exec` into any running container within your Kubernetes cluster to run standard shell commands (e.g., `ls`, `curl`, `top`).
+- **Multi-Session Support:** Open concurrent terminal sessions for different pods to compare environments or run simultaneous tests.
+- **Integrated Workflow:** Debug specific nodes while maintaining visibility of the surrounding infrastructure topology.
+- **Session Management:** Configure preferences such as "Auto-close Terminal Sessions" to manage resources efficiently.
 
 ## How to Access the Terminal
 
@@ -25,10 +25,10 @@ To use the Interactive Terminal, ensure you are in **Operator Mode** and have a 
 1. **Navigate to Visualizer:** Open Kanvas and switch to **Operator** mode to view your active cluster resources.
 2. **Select a Workload:** Click on a **Pod** or **Deployment** node within your design.
 3. **Launch the Session:**
-    * Expand the **Details** panel (bottom drawer).
-    * Select the **Terminal** tab (located alongside *Performance* and *Log Stream*).
-    * If the pod contains multiple containers, select the specific container you wish to access.
-    * Click **Connect** to initialize the session.
+   - Expand the **Details** panel (bottom drawer).
+   - Select the **Terminal** tab (located alongside _Performance_ and _Log Stream_).
+   - If the pod contains multiple containers, select the specific container you wish to access.
+   - Click **Connect** to initialize the session.
 
 ## Use Cases and Examples
 
@@ -73,9 +73,9 @@ While using the interactive terminal, understand that you can only open one sess
 
 ![interactive-terminal-sequence-diagram](/images/interactive-terminal-sequence-diagram.svg)
 
-***
+---
 
 ### See Also
 
-* **[Log Streaming](/kanvas/operator/log-streaming):** Learn how to live-tail logs for real-time application monitoring.
+- **[Log Streaming](/kanvas/operator/log-streaming):** Learn how to live-tail logs for real-time application monitoring.
 <!-- * **[Performance Management](/kanvas/performance):** Run load tests and analyze performance profiles. -->

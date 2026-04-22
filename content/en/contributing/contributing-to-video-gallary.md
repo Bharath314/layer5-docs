@@ -9,6 +9,7 @@ description: A detailed contribution guide for adding videos to Layer5 Docs vide
 ## Overview
 
 Contributing videos involves either:
+
 1. Creating a category → subcategory → adding video markdown files, or
 2. Adding video markdown files directly under a category (these will automatically be assigned to an "ALL" subcategory)
 
@@ -25,8 +26,9 @@ description: >
   Getting started videos on Cloud and Kanvas
 weight: 2 # Order in which this category appears in the /videos page and left sidebar
 icon: bi-rocket-takeoff-fill # Icon for the category (supports Bootstrap icons and local/remote assets)
-videoGrid: true # When true, shows all child  / nested videos as a grid of cards on this section's index page
-                # When false, presents a hyperlinked list of videos/sub-sections instead
+videoGrid:
+  true # When true, shows all child  / nested videos as a grid of cards on this section's index page
+  # When false, presents a hyperlinked list of videos/sub-sections instead
 
 draft: true # When true, previews this section on local dev server but hides from left sidebar and /videos landing page on published site
 ```
@@ -50,23 +52,22 @@ weight: 2 # Order in which this subcategory appears
 
 ```yaml
 ---
-title: "Design Reviews: Adding Comments" # Required: title of the video card/list
+title: 'Design Reviews: Adding Comments' # Required: title of the video card/list
 description: > # Required: description of the video
-   Add comments to your designs in Kanvas's Designer Mode to enhance collaboration and streamline design reviews. 
-videoId: "" # Required: YouTube video ID, example: bb6J--aApk8
+  Add comments to your designs in Kanvas's Designer Mode to enhance collaboration and streamline design reviews.
+videoId: '' # Required: YouTube video ID, example: bb6J--aApk8
 videoType: youtube # Required: currently supports "youtube" (support for "local" is present, though currently disabled)
 
-# Categories and tags help match videos with documentation pages by scoring relevance, 
+# Categories and tags help match videos with documentation pages by scoring relevance,
 # see the guide at bottom to know how
-categories: [Designer] 
+categories: [Designer]
 tags: [review, collaboration, comments] # Available as hyperlinked tags in the video card and individual video page
 duration: 2:30 # Optional: duration in minutes:seconds format ("min" is automatically added)
 ---
-
 # the following youtube shortcode is used for individual video page
 # Example: {{</* youtube id=bb6J--aApk8 class="yt-embed-container" */>}}
 # we can control the styling of resulting iframe and wrapping div by modify style of .yt-embed-container in assets/scss/_videos_project.scss
-{{</* youtube id="videoId" class="yt-embed-container" */>}}
+{ { </* youtube id="videoId" class="yt-embed-container" */> } }
 ```
 
 ### Approach B: Add Videos Directly Under a Category
@@ -85,6 +86,7 @@ To display `Related Videos` carousel on documentation pages section pages and in
 ### Example
 
 If a documentation page has:
+
 ```yaml
 categories: [Designer]
 tags: [catalog, publishing]
@@ -93,12 +95,14 @@ tags: [catalog, publishing]
 And there are two videos:
 
 **Video A**:
+
 ```yaml
 categories: [Designer]
 tags: [catalog, review]
 ```
 
 **Video B**:
+
 ```yaml
 categories: [Designer]
 tags: [designs]

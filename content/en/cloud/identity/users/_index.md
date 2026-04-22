@@ -50,8 +50,8 @@ You can link your Layer5 account to social sign-in providers after sign up, as w
 **Rules and Limitations**
 
 1. You cannot link the same social sign-in to multiple Layer5 accounts
-2. If you delete your account, any linked OAuth providers (e.g., GitHub) are automatically unlinked  
-3. Re-registering with the same email **does not** automatically re-link the OAuth provider  
+2. If you delete your account, any linked OAuth providers (e.g., GitHub) are automatically unlinked
+3. Re-registering with the same email **does not** automatically re-link the OAuth provider
 4. You may unlink a social sign-in provider at any time
 
 ## Account Deletion
@@ -98,9 +98,8 @@ This is a known issue. Future versions of Layer5 Cloud will address it through U
 {{< alert type="info" >}}
 While account deletion is permanent for end-users, future versions of Layer5 Cloud may introduce:
 
-- A pre-deletion flow for reviewing and exporting data  
-- The ability to transfer ownership of resources (e.g., workspaces, teams, organizations)  
+- A pre-deletion flow for reviewing and exporting data
+- The ability to transfer ownership of resources (e.g., workspaces, teams, organizations)
 - Support for recovering accounts or restoring deleted data
 
 {{< /alert >}}
-

@@ -3,6 +3,7 @@ title: Getting Started
 description: Learn how to effectively manage your organizations, teams, users, workspaces, environments, and more.
 weight: 1
 ---
+
 <!-- {{% pageinfo %}}
 Page under construction.
 {{% /pageinfo %}} -->
@@ -29,4 +30,5 @@ Is there any initial setup users need to do after installation to try your proje
 ## Try it out!
 
 Can your users test their installation, for example by running a command or deploying a Hello World example? -->
-![layer5-cloud-provider](images/layer5-cloud-provider.svg "image-center-shadow")
+
+![layer5-cloud-provider](images/layer5-cloud-provider.svg 'image-center-shadow')

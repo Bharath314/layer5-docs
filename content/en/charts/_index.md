@@ -3,10 +3,10 @@ title: Layer5 Helm Repository
 description: Layer5 Helm Repository contains a collection of charts, including Layer5 Cloud, which can be deployed in any Kubernetes cluster on-premises or in Cloud using Helm.
 linkTitle: Layer5 Helm Repository
 type: docs
-menu: {main: {weight: 3}}
+menu: { main: { weight: 3 } }
 weight: 1
-cascade: 
-    type: docs
+cascade:
+  type: docs
 ---
 
 {{< alert type="info" title="Repository Only">}}

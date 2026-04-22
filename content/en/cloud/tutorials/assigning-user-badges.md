@@ -4,14 +4,13 @@ description: >
   Showcasing user and contributor achievements
 ---
 
-
 Layer5 badges are one of the many ways that we recognize the efforts of our contributors and uplift our users. Layer5 badges represent milestones that you achieve both in using and in contributing to Layer5-supported open source projects. As a contributor, this is how you demonstrate your ownership, dedication, skills and loyalty to Layer5. As a user, this is how you demonstrate your prowess.
 
 {{< alert type="info" >}}
 See all Achievement and all Project badges in the [Badge Gallery](https://badges.layer5.io).
 {{< /alert >}}
 
-<!-- 
+<!--
 Pending Leaderboard completion
 See the badge leaderboard in the [Leaderboard](https://badges.layer5.io/leaderboard). -->
 
@@ -27,9 +26,10 @@ Project Badges are assigned by the admin to the user when a user contributes to 
 See the **Recognition** section of the [Layer5 Community Handbook](https://layer5.io/community/handbook/recognition) for details of when and how each badge is awarded.
 {{< /alert >}}
 
-
 ### How to Embed Badges
+
 To share your badges on other social profiles, utilize the provided embedded code and direct share functionality. Access your badges from the Layer5 Cloud profile badges section, and then use it to post your achievements on social media platforms seamlessly. This enables you to showcase your Layer5 contributions and milestones to a wider audience.
+
 ##### Follow these steps to display your badge:
 
 1. Visit your [Layer5 Cloud](https://cloud.layer5.io/) Profile to see the badges
@@ -40,6 +40,7 @@ To share your badges on other social profiles, utilize the provided embedded cod
 {{< figure src="/cloud/tutorials/images/embedding-badges-modal.svg" alt="Embedding-badges-modal">}}
 
 ### FAQ
+
 - **Is there a limit to the number of badges that I can earn?**  
   There is no set limit to the number of badges you can earn within the Layer5 Recognition Program. Your achievements and contributions determine the badges you receive, showcasing your dedication and skills within the community.
 

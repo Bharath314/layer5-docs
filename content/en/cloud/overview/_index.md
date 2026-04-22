@@ -6,7 +6,8 @@ categories: [Examples, Placeholders]
 tags: [test, docs]
 draft: true
 ---
-<!-- 
+
+<!--
 {{% pageinfo %}}
 Page under construction.
 {{% /pageinfo %}}

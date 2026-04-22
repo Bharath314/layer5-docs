@@ -2,7 +2,7 @@
 title: Leaderboard
 weight: 2
 description: >
-   The Leaderboard is a visual representation of Designs, ranked based on key Metrics such as Opens, Downloads, Deployments, Clones, and Shares.
+  The Leaderboard is a visual representation of Designs, ranked based on key Metrics such as Opens, Downloads, Deployments, Clones, and Shares.
 categories: [Catalog]
 tags: [Designer]
 ---

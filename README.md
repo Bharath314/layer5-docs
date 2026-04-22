@@ -224,6 +224,7 @@ Our projects are community-driven and open to collaboration. 👍 Be sure to see
 
 Find out more on the <a href="https://layer5.io/community">Layer5 community</a>. <br />
 <br /><br /><br /><br />
+
 </p>
 
 <div>&nbsp;</div>

@@ -10,7 +10,7 @@ This guide will walk you through setting up your Layer5 account.
 
 The first steps in starting with Layer5 are to create an account, verify your email, setup an organization and a workspace, and view your profile.
 
- Every person who uses Layer5 Cloud has their own personal account, which can be part of multiple organizations and teams. Your personal account is your identity on Layer5 Cloud and represents you as an individual.
+Every person who uses Layer5 Cloud has their own personal account, which can be part of multiple organizations and teams. Your personal account is your identity on Layer5 Cloud and represents you as an individual.
 
 ### 1. Creating an account
 
@@ -23,7 +23,6 @@ You may choose to either signup with your personal email or any of our supported
 
 To ensure you can use all the features in your Layer5 plan, verify your email address after signing up for a new account. For more information, see "Verifying your email address."
 
-
 <!-- considering we would want to use 2FA in future
 4. Configuring two-factor authentication
 
@@ -35,7 +34,6 @@ Optionally, after you have configured 2FA, add a passkey to your account to enab
 
 To sign in to Layer5 Cloud, navigate to <https://cloud.layer5.io/login>. Use your new credentials to sign in. In case you have signed up with OAuth provider, you will be redirected to the provider's login page.
 On successful login, you will be prompted to setup your first organization and workspace.
-
 
 ### 4. Creating an organization
 

@@ -10,7 +10,7 @@ description: >
 
 ## On-premises Deployment of Layer5 Cloud
 
-Layer5 Cloud is a collection of services that can be deployed on-premises. 
+Layer5 Cloud is a collection of services that can be deployed on-premises.
 
 <br />
 <br />

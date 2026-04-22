@@ -1,12 +1,12 @@
 ---
-title: "Content Creator Guide"
+title: 'Content Creator Guide'
 weight: 2
 description: >
   Learn how to create, manage, and publish learning paths, challenges, and certifications on the Layer5 Academy platform.
 categories: [Academy]
 tags: [Academy]
-aliases: 
-- /cloud/academy/extending-the-academy/
+aliases:
+  - /cloud/academy/extending-the-academy/
 ---
 
 **Welcome, content creators and instructors!**
@@ -15,9 +15,9 @@ This guide provides all the necessary documentation for building high-quality ed
 
 **This section covers the entire content creation lifecycle, including:**
 
-* Structuring your first Learning Path from scratch.
-* Writing course materials and embedding interactive labs.
-* Designing effective quizzes and assessments.
-* Managing and publishing your content.
+- Structuring your first Learning Path from scratch.
+- Writing course materials and embedding interactive labs.
+- Designing effective quizzes and assessments.
+- Managing and publishing your content.
 
 We're excited to see what you'll build!

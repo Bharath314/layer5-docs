@@ -1,5 +1,5 @@
 ---
-title: "Academy Instructor Console Guide"
+title: 'Academy Instructor Console Guide'
 weight: 5
 description: >
   A comprehensive guide to using the Instructor Console. Learn how to track learner progress, analyze test performance, and manage your academy's content and metrics.
@@ -29,11 +29,11 @@ This tool walks you through three quick steps to create your content's boilerpla
 
 1. **Basic Information**: First, you'll provide the essential details for your new content, such as its **Content Type** (Learning Path/Certification/Challenge), **Title**, and **Description**.
 
-    | Feature | Learning Path | Challenge | Certification |
-    | :--- | :--- | :--- | :--- |
-    | Primary Goal | To teach and guide through a comprehensive curriculum. | To solve a specific, hands-on problem in a competitive scenario. | To validate and prove existing knowledge through formal examination. |
-    | Main Content | Lessons, informational pages, labs, and progressive assessments. | A set of instructions for a practical task and a validation mechanism. | A series of exams, potentially with a brief study guide. |
-    | Outcome | Acquired knowledge and skills. | A score and rank status. | An optional, paid official certificate and a verifiable badge.|
+   | Feature      | Learning Path                                                    | Challenge                                                              | Certification                                                        |
+   | :----------- | :--------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------- |
+   | Primary Goal | To teach and guide through a comprehensive curriculum.           | To solve a specific, hands-on problem in a competitive scenario.       | To validate and prove existing knowledge through formal examination. |
+   | Main Content | Lessons, informational pages, labs, and progressive assessments. | A set of instructions for a practical task and a validation mechanism. | A series of exams, potentially with a brief study guide.             |
+   | Outcome      | Acquired knowledge and skills.                                   | A score and rank status.                                               | An optional, paid official certificate and a verifiable badge.       |
 
 2. **Content Details**: Next, you'll refine additional properties for the content.
 
@@ -60,6 +60,7 @@ These charts display your most important, high-level statistics, giving you a sn
 - **Total Test Taken**: Indicates the level of interaction with your assessments.
 
 **Strategic Uses**
+
 - Monitor Total Learners growth - steady increases indicate growing academy reach
 - Analyze Total Test Taken - high counts suggest challenging material requiring retakes, low counts may indicate learners avoiding assessments, assessments not being mandatory, or content being too easy
 
@@ -73,33 +74,36 @@ Specifically, it counts the number of registrations that are currently in the `R
 
 This widget provides a quick inventory of your academy's content:
 
-- **Content Version**: Shows the version of the academy content your learners are using. 
+- **Content Version**: Shows the version of the academy content your learners are using.
 - **Content Stats**: Shows a quick count of the different types of content you've published. Each category is interactive; clicking on one will take you to the Academy Catalog, pre-filtered to show all your content of that type.
 
 ![Content Details](./images/content-details.png)
 
 **Strategic Uses**
+
 - Monitor content version updates - when version numbers don't change, check if your GitHub releases and Layer5 Cloud deployments are complete
 - Track content distribution - if one content type dominates, consider diversifying your academy offerings
 
 {{< alert type="info" title="Content Versioning and Release Process" >}}
-If you've recently published new content but don't see the version number updated here, it is likely due to the platform's two-stage release process. Your updates become fully live only after both your content repository's GitHub Release is created and the subsequent Layer5 Cloud release is deployed. 
+If you've recently published new content but don't see the version number updated here, it is likely due to the platform's two-stage release process. Your updates become fully live only after both your content repository's GitHub Release is created and the subsequent Layer5 Cloud release is deployed.
 
 For a complete walkthrough of this workflow, see the [Publishing Your Content Guide](/cloud/academy/creating-content/creating-your-learning-path/#5-publishing-your-learning-path).
 {{< /alert >}}
 
 ### Learner Registration
 
-This chart provides an immediate visual summary of your learner base. 
+This chart provides an immediate visual summary of your learner base.
 
 ![Learner Registration](./images/learner-registration.png)
 
 While the chart will only display statuses that currently have data, the system recognizes the following definitions, each represented by a specific color:
-  -   `Registered` (Blue): The learner has enrolled but has not yet completed the content.
-  -   `Completed` (Green): The learner has successfully finished all required parts of the content.
-  -   `Withdrawn` (Red): The learner has unenrolled from the content.
+
+- `Registered` (Blue): The learner has enrolled but has not yet completed the content.
+- `Completed` (Green): The learner has successfully finished all required parts of the content.
+- `Withdrawn` (Red): The learner has unenrolled from the content.
 
 **Strategic Uses**
+
 - Monitor the `registered` vs `completed` ratio - if `registered` grows much faster than `completed`, your content may be too difficult or lacks engagement
 - Watch for large `withdrawn` segments - high withdrawal rates may indicate content quality issues or poor learner experience
 - Track completion rates over time - improving rates suggest content optimization success, declining rates may signal new content challenges
@@ -111,6 +115,7 @@ It lists your content and ranks them by the total number of passes, giving you a
 ![Content Metrics](./images/content-metrics.png)
 
 **Strategic Uses**
+
 - Identify top-performing content - high registration numbers indicate strong learner interest, use this to understand what resonates
 - Monitor new content launch performance - if new Learning Paths get few registrations, check marketing or content positioning
 - Compare content performance - if similar topics have very different registration numbers, investigate what makes the difference
@@ -125,17 +130,17 @@ The All Learners section provides a detailed, interactive table that allows you 
 
 Each row in the table represents a single user's registration for a specific content. Here's what each column means:
 
--   **USER**: The learner's information. Clicking the avatar will take you to their public user profile.
--   **CURRICULA**: The specific content the user is enrolled in. Clicking the title will navigate you directly to that content.
--   **REGISTERED AT**: A timestamp indicating when the user enrolled. This is shown as a relative time (e.g., "6 hours ago") and will display the full date on hover.
--   **STATUS**: The learner's current standing in the content. The definition for each status is provided in the Learner Registration section [above](#learner-registration).
+- **USER**: The learner's information. Clicking the avatar will take you to their public user profile.
+- **CURRICULA**: The specific content the user is enrolled in. Clicking the title will navigate you directly to that content.
+- **REGISTERED AT**: A timestamp indicating when the user enrolled. This is shown as a relative time (e.g., "6 hours ago") and will display the full date on hover.
+- **STATUS**: The learner's current standing in the content. The definition for each status is provided in the Learner Registration section [above](#learner-registration).
 
 #### Filtering and Finding Learners
 
 To find specific groups of learners, use the filter control at the top-right of the table.
 
--   **Filter by Content Type**: Want to see everyone enrolled only in Certifications? Select `Certification` from the 'Content Type' filter.
--   **Filter by Status**: Need a list of everyone who has successfully finished content? Select `Completed` from the 'Status' filter.
+- **Filter by Content Type**: Want to see everyone enrolled only in Certifications? Select `Certification` from the 'Content Type' filter.
+- **Filter by Status**: Need a list of everyone who has successfully finished content? Select `Completed` from the 'Status' filter.
 
 #### Customizing Your View
 
@@ -150,12 +155,13 @@ If there are a large number of learner registrations, the report is split into m
 **Rows per page**: Choose how many records to display on each page (e.g., 10, 25, 50).
 
 **Strategic Uses**
+
 - Identify at-risk learners - filter for users in `Registered` status for over 30 days, they may need support or content may be too challenging
 - Gather feedback from recent completions - contact learners who moved to `Completed` status within the last week while content is fresh in their minds
 
 ### Analyzing Test Performance
 
-The final section is dedicated to analyzing the performance of your assessments. 
+The final section is dedicated to analyzing the performance of your assessments.
 
 ![Test Statistics Overview](./images/test-stats.png)
 
@@ -163,12 +169,12 @@ The final section is dedicated to analyzing the performance of your assessments.
 
 These statistics provide a high-level summary of all test activities in your academy.
 
--   **Pass/Fail Summary Bar:** This bar chart gives you an at-a-glance comparison of the total number of passed attempts (green) versus failed attempts (red) across all tests.
+- **Pass/Fail Summary Bar:** This bar chart gives you an at-a-glance comparison of the total number of passed attempts (green) versus failed attempts (red) across all tests.
 
--   **Insight Cards:** These three cards automatically surface key trends and outliers from your data:
-    -   **Most Difficult Test:** The quiz with the lowest pass-to-fail ratio, helping you identify challenging content.
-    -   **Easiest Test:** The quiz with the highest pass-to-fail ratio.
-    -   **Most Attempted Test:** The quiz that learners have attempted the most times, regardless of the outcome.
+- **Insight Cards:** These three cards automatically surface key trends and outliers from your data:
+  - **Most Difficult Test:** The quiz with the lowest pass-to-fail ratio, helping you identify challenging content.
+  - **Easiest Test:** The quiz with the highest pass-to-fail ratio.
+  - **Most Attempted Test:** The quiz that learners have attempted the most times, regardless of the outcome.
 
 #### Test Metrics
 
@@ -181,6 +187,7 @@ Use this list to quickly identify which specific assessments are causing the mos
 {{< /alert >}}
 
 **Strategic Uses**
+
 - Investigate difficult tests - when a quiz appears in the **Most Difficult Test** card with low pass rates, review the content and questions for clarity
 - Monitor test attempt patterns - if **Most Attempted Test** has low pass rates, learners may be struggling with fundamental concepts
 - Use pass rate trends - improving pass rates suggest content optimization success, declining rates may indicate new content is too challenging
@@ -196,10 +203,12 @@ Yes, you can assign Academy Admin roles to users within your organization. As an
 <summary>Can I export the All Learners Report to a CSV or Excel file?</summary>
 
 Currently, the Instructor Console does not have a built-in feature to export the report directly to a file format like CSV. If you need this functionality urgently, please contact us at https://layer5.io/company/contact
+
 </details>
 
 <details>
 <summary>Does "Total Test Taken" show the number of unique learners who took tests?</summary>
 
 No. The "Total Test Taken" metric is a raw count of all attempts, including retakes by the same user. It is a measure of overall testing activity, not the number of unique learners who have been tested.
+
 </details>

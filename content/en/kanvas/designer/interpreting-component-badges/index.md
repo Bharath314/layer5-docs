@@ -89,10 +89,10 @@ Provides direct, interactive shell access to the component's runtime, specifical
 ### Best Practices
 
 - **Fix Errors First:**
-Always resolve all validation errors in Designer before you deploy. A clean design is the best way to ensure a successful launch.
+  Always resolve all validation errors in Designer before you deploy. A clean design is the best way to ensure a successful launch.
 
 - **Find the Right Source File:**
-When fixing a problem with a live service, use the Design Link in Operator Mode. It's the fastest way to open the correct configuration file, saving you time while being clear and reliable.
+  When fixing a problem with a live service, use the Design Link in Operator Mode. It's the fastest way to open the correct configuration file, saving you time while being clear and reliable.
 
 - **Know Your Mode:**
-Pay close attention to your current mode. A badge's meaning is completely different in Designer than it is in Operator.
+  Pay close attention to your current mode. A badge's meaning is completely different in Designer than it is in Operator.

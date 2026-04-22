@@ -1,6 +1,6 @@
 ---
 title: Identity Services
-description: "Understand identity services prerequisites and how to integrate your existing identity with OIDC."
+description: 'Understand identity services prerequisites and how to integrate your existing identity with OIDC.'
 categories: [Self-Hosted]
 tags: [identity]
 weight: 3
@@ -18,4 +18,4 @@ Layer5 Cloud is also working toward being the IDP for Layer5 by supporting OIDC.
 
 The following diagram illustrates the architecture of Layer5 Cloud.
 
-![self-hosted-deployment](../images/self-hosted-deployment.svg "image-center-no-shadow")
+![self-hosted-deployment](../images/self-hosted-deployment.svg 'image-center-no-shadow')

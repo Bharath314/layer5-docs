@@ -4,9 +4,9 @@ weight: 5
 description: >
   An advanced guide to the Layer5 Academy architecture, multi-repository workflow, and development best practices for contributors.
 categories: [Academy]
-aliases: 
-- /cloud/academy/advanced-contribution-guide/
-- /cloud/academy/platform-development/
+aliases:
+  - /cloud/academy/advanced-contribution-guide/
+  - /cloud/academy/platform-development/
 ---
 
 This guide walks you through the Layer5 Academy platform's multi-repository architecture. You will learn the role of each core component and master the practical workflows for theme development, local testing, and end-to-end validation with Layer5 Cloud.
@@ -25,7 +25,7 @@ The Layer5 Academy platform is composed of several core repositories.
 
 This repository is the "skin" for the entire Academy. It controls the website's design, including all the layouts, colors, and fonts.
 
-Content repositories automatically import this theme as a Go Module. As a content creator, you do not need to fork or clone this repository; your academy will use these styles by default. 
+Content repositories automatically import this theme as a Go Module. As a content creator, you do not need to fork or clone this repository; your academy will use these styles by default.
 
 > Currently, we only support customizing shortcodes in your content repository, not full theme customization. For requests regarding new archetypes, layouts, or theme enhancements, please open an issue in the [academy-theme repository](https://github.com/layer5io/academy-theme/issues).
 
@@ -91,27 +91,31 @@ Use this workflow for end-to-end testing that mirrors the production environment
 All steps in this section should be performed from the root of your local `academy-build` repository.
 
 1.  **Install Dependencies**: Run this command once to install necessary dependencies.
+
     ```bash
     make setup
     ```
 
-2. **Prepare Local Dependencies**: If you're testing local changes from other repositories (like a theme or content module), edit the `go.mod` file in `academy-build` to point to your local versions using a replace directive:
-   ```go
-   replace github.com/layer5io/academy-theme => ../academy-theme
-   replace github.com/layer5io/layer5-academy => ../layer5-academy
-   ```
+2.  **Prepare Local Dependencies**: If you're testing local changes from other repositories (like a theme or content module), edit the `go.mod` file in `academy-build` to point to your local versions using a replace directive:
+
+    ```go
+    replace github.com/layer5io/academy-theme => ../academy-theme
+    replace github.com/layer5io/layer5-academy => ../layer5-academy
+    ```
 
 3.  **Build for Staging**: Run the command to build the entire Academy site specifically for the staging environment.
+
     ```bash
     make stg-build
     ```
 
 4.  **Sync with Cloud**: After the build completes, run the following command to sync the generated static files with the Layer5 Cloud staging environment:
+
     ```bash
     make sync-with-cloud
     ```
 
-5. **Preview on Staging**: Your changes will be available on the [staging environment](https://staging-cloud.layer5.io/) within approximately 10 minutes.
+5.  **Preview on Staging**: Your changes will be available on the [staging environment](https://staging-cloud.layer5.io/) within approximately 10 minutes.
 
 {{< alert type="warning" title="Local vs. Cloud Discrepancies" >}}
 The local preview (`make site`) is excellent for rapid development, but it is **not** a 100% accurate representation of the final product. The Cloud UI acts as a wrapper around the Academy content, which can introduce subtle differences. These are often caused by CSS class conflicts or variations in JavaScript execution within the larger application.

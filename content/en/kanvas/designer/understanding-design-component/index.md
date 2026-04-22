@@ -13,7 +13,9 @@ When you're designing and visualizing in [Kanvas](https://kanvas.new/), you'll e
 [Components](https://docs.meshery.io/concepts/logical/components) in Kanvas fall into two fundamental categories, distinguished by whether they can be orchestrated (managed) during deployment.
 
 ### Semantic Components (Orchestratable)
+
 These components represent actual infrastructure resources that Kanvas can understand and manage during deployment. They are "meaningful" because they map directly to real infrastructure elements. Examples include:
+
 - Kubernetes resources (Pods, Services, Deployments)
 - Cloud provider resources (AWS S3 buckets, Azure Functions)
 - Infrastructure components (Load Balancers, Databases)
@@ -22,12 +24,15 @@ These components are orchestratable because Kanvas can create, configure, and ma
 
 {{< alert title="Visual Distinction Rule" type="info">}}
 To help users quickly distinguish between component types, Kanvas follows a clear visual design rule:
+
 - Semantic (Configurable) Components: Have a background to represent their status as "real" infrastructure resources
 - Non-semantic (Annotation) Components: Have transparent backgrounds, as they are purely visual aids
-{{< /alert >}}
+  {{< /alert >}}
 
 ### Non-semantic Components (Annotation-Only)
+
 These components are visual and organizational elements that help document and organize your designs. They are "meaningless" in terms of infrastructure because they don't represent deployable resources. Examples include:
+
 - Text boxes and comments
 - Shapes and containers for grouping
 - Arrows and lines for relationships
@@ -49,10 +54,11 @@ Kanvas provides a rich ecosystem of semantic components through various integrat
 
 {{< alert title="Integration Hierarchy" type="info">}}
 Kanvas organizes integrated components in a clear hierarchy:
+
 1. **Categories:** High-level groups (e.g., "Cloud Native Network", "Database")
 2. **Integration Models:** Specific technologies (e.g., "AWS App Mesh", "Prometheus", "Kubernetes")
 3. **Semantic Components:** Functional building blocks that can be deployed and managed
-{{< /alert >}}
+   {{< /alert >}}
 
 ### Kubernetes Components Example
 
@@ -63,6 +69,7 @@ To illustrate how semantic components work in practice, let's examine Kubernetes
 For Kubernetes resources, Kanvas employs a thoughtful design system built on these key principles:
 
 **Principle 1: Color and Structure**
+
 - **Uniform Color Scheme:** Kubernetes component icons typically use a **distinctive blue background** as a standard identifier
 - **Standardized Icon Structure:** The fundamental structure is consistent: an outer container shape with the blue background, encompassing a unique inner white symbol
 - **Meaningful Inner Symbols:** The white symbol inside each icon is the crucial unique identifier for that specific Kubernetes Kind

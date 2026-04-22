@@ -18,6 +18,7 @@ In Kanvas, there are two main types of edges, each serving a different purpose:
 ### Semantic Edges: Representing Real Infrastructure
 
 These edges represent real infrastructure relationships that Kanvas can understand and manage. For example:
+
 - Network connections between services
 - Volume mounts between containers
 - Dependencies between components
@@ -29,6 +30,7 @@ What makes semantic edges special is their ability to automatically configure co
 ### Non-semantic Edges: Annotating Your Designs
 
 These are visual aids that help you document and explain your design. They are useful for:
+
 - Adding explanatory notes
 - Showing conceptual relationships
 - Highlighting important connections
@@ -42,6 +44,7 @@ Kanvas ignores these edges during deployment as they are purely for documentatio
 To help you quickly understand your designs, Kanvas uses specific default styles for each type of edge:
 
 **For Semantic Edges**:
+
 - Style: Dotted line with an arrowhead
 - Color: Grey/Blue
 - Use: For all real infrastructure connections
@@ -49,6 +52,7 @@ To help you quickly understand your designs, Kanvas uses specific default styles
 {{< meshery-design-embed src="../understanding-edges/images/embedded-design-untitled-design.js" id="embedded-design-d0a031d0-b4d7-4d60-be17-c4b5d2480ee6" size="half" >}}
 
 **For Non-semantic Edges**:
+
 - Style: Solid line with an arrowhead
 - Color: Green
 - Use: For all visual annotations and notes
@@ -60,6 +64,7 @@ To help you quickly understand your designs, Kanvas uses specific default styles
 While the default styles are designed to be clear and consistent, Kanvas gives you the flexibility to customize any edge to better suit your needs. Simply click an edge to reveal the styling toolbar.
 
 #### Choosing a Line Type
+
 - Dashed Line: For proposed or optional connections
 - Wave Line: For asynchronous or non-continuous connections
 - Zigzag Line: For disrupted or unreliable connections
@@ -68,6 +73,7 @@ While the default styles are designed to be clear and consistent, Kanvas gives y
 - Bezier Curve: For non-linear or indirect connections
 
 #### Defining Connection Points
+
 - Arrow Head (Default): Shows general direction or flow
 - Filled Diamond: For "whole-part" relationships (aggregation)
 - Filled Square: For strong ownership relationships (composition)
@@ -81,16 +87,19 @@ While the default styles are designed to be clear and consistent, Kanvas gives y
 Colors help you create a visual language in your designs. While Kanvas has default colors, you can use any color to convey meaning:
 
 **Default Colors**
+
 - Green: For non-semantic annotations
 - Grey/Blue: For semantic relationships
 
 **Suggested Color Meanings**
+
 - Yellow: For connections that need review
 - Red: For issues or breaking changes
 
 #### Adding Labels
 
 You can add text directly to edges to provide more information. This is especially useful for:
+
 - Describing traffic flow (e.g., "User Traffic → API Gateway")
 - Adding process steps (e.g., "Requires Manual Review")
 - Noting important details (e.g., "Backup Route (Low Priority)")
@@ -99,6 +108,7 @@ You can add text directly to edges to provide more information. This is especial
 #### Applying Visual Effects
 
 The "Marching-ants" animation effect can be added to any edge to:
+
 - Highlight specific connections in team reviews
 - Emphasize critical paths
 

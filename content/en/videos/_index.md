@@ -1,36 +1,35 @@
 ---
-title:  From Whiteboard to Workload
+title: From Whiteboard to Workload
 description: >
   Give your brain a break from YAML. Watch Layer5 tools in-action.
 linkTitle: Videos
 type: video
-cascade: 
-    type: video
+cascade:
+  type: video
 weight: 2
 featured_video: true
 featured_image: /images/kanvas/layer5-kanvas-designer.webp
-layout: "video"
+layout: 'video'
 videoId: 034nVaQUyME
 ---
 
-
 1. “Because Reading Docs Is So 2022”
-Subtitle: Watch Layer5 tools in action while your brain thanks you for the break from scrolling YAML.
+   Subtitle: Watch Layer5 tools in action while your brain thanks you for the break from scrolling YAML.
 
 2. “Now in Moving Pictures”
-Subtitle: Same mind-melting infrastructure concepts, fewer headaches. Bring popcorn.
+   Subtitle: Same mind-melting infrastructure concepts, fewer headaches. Bring popcorn.
 
 3. “Watch, Learn, Pretend It Was Obvious”
-Subtitle: Video walkthroughs so good, you’ll forget you were ever confused.
+   Subtitle: Video walkthroughs so good, you’ll forget you were ever confused.
 
 4. “Click ▶️ Before You Cry”
-Subtitle: When kubectl feels like a threat, let us walk you through it — literally.
+   Subtitle: When kubectl feels like a threat, let us walk you through it — literally.
 
 5. “Streaming Sanity for Cloud Chaos”
-Subtitle: Kanvas, Meshery, and all the things you wish someone explained… in fewer than 10 minutes.
+   Subtitle: Kanvas, Meshery, and all the things you wish someone explained… in fewer than 10 minutes.
 
 6. “DevOps Explained (With Fewer Acronyms)”
-Subtitle: Because reading RFCs isn’t your idea of a good time either.
+   Subtitle: Because reading RFCs isn’t your idea of a good time either.
 
 ### For Site Reliability Engineers (SREs):
 

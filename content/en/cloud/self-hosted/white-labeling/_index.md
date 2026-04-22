@@ -3,7 +3,7 @@ title: White-labeling (Rebranding)
 weight: 1
 categories: [Self-Hosted]
 description: >
-  Customize the appearance and branding of your engineering platform powered by Layer5 Cloud. 
+  Customize the appearance and branding of your engineering platform powered by Layer5 Cloud.
 ---
 
 You can change the logo, color scheme, domain name, and other aspects of the user interface to match your own identity and preferences. White-labeling enables you to offer a seamless and consistent experience to your customers, partners, or internal users who access your service mesh platform. White-labeling also helps you to differentiate your platform from other Layer5 Cloud users and competitors, and to enhance your brand recognition and loyalty.
@@ -53,9 +53,11 @@ If you use a mobile device, the logo mark will be visible.
 #### Logo Image Requirements
 
 Logo images must be either in SVG, PNG or GIF format. GIF images can be animated, but are not recommended given their distraction to users. The maximum file size for each image is 500 KB.
+
 <pre>
 Horizontal logo: 389 width x 32 height pixels
 </pre>
+
 If you upload a smaller or larger image, the image is resized to exactly 389 x 32 pixels. If the aspect ratio does not match, then the image will be distorted. For example, a 132 x 132 pixel image expands to 389 x 32 pixels, causing distortion.
 
 <pre>
@@ -97,7 +99,7 @@ Layer5 Cloud supports customizing dashboard layouts on a per organization basis.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O07szEL5LSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*To customize your organization's dashboard, follow the steps in this video or the steps outlined in the screenshots below.*
+_To customize your organization's dashboard, follow the steps in this video or the steps outlined in the screenshots below._
 
 {{< cardpane >}}
 {{% card header="Edit your Org's Dashboard" footer="<i>Click 'Edit' to enter into customization mode.</i>" %}}
@@ -176,7 +178,7 @@ $ dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd
 > meshery.layer5.io .        22    IN      A       192.0.2.1
 </pre>
 
-<!-- FUTURE: SUPPORT FOR HTTPS 
+<!-- FUTURE: SUPPORT FOR HTTPS
 Optionally, to enforce HTTPS encryption for your site, select Enforce HTTPS. It can take up to 24 hours before this option is available. -->
 
 ## Frequently asked questions about white labeling

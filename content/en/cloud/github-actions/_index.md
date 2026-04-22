@@ -5,6 +5,7 @@ weight: 20
 categories: [Workspaces]
 tags: [gitops, github-actions, kanvas]
 ---
+
 Kanvas GitHub Actions enhance your operational workflow by integrating git version control and the management of your infrastructure. Kanvas GitHub Actions are design to integrate into your existing pipelines.
 
 ## Kanvas Github Actions
@@ -41,7 +42,6 @@ To integrate Snapshots into your GitHub pull requests, confirm that your user ac
 
 {{%pageinfo%}}
 The Kanvas GitHub App requires authorization to interact with your repositories. If you would like to use your GitHub user's personal access token, instead, [please let us know](https://cloud.layer5.io/support). {{%/pageinfo%}}
-
 
 ## Customizing Snapshot Workflow Triggers in Kanvas Snapshot
 

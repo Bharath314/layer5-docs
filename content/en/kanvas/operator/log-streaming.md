@@ -1,7 +1,7 @@
 ---
 title: Log Streaming
 description: >
-  Learn about Log Streaming in Operator mode 
+  Learn about Log Streaming in Operator mode
 categories: [Operator]
 ---
 
@@ -13,10 +13,10 @@ Kanvas Log Streaming is part of the **Operator** mode (Visualizer). It establish
 
 ### Key Features
 
-* **Real-time Tailing:** Watch log generation instantly as events occur in your cluster.
-* **Multi-Pod Streaming:** Stream logs from a single specific pod or multiplex logs from several pods at once to correlate events across different services.
-* **Keyword Filtering:** Apply search filters to the log stream to isolate specific error codes, transaction IDs, or warning messages.
-* **Playback Controls:** Interactive controls to **Play**, **Pause**, **Stop**, and **Clear** the stream, giving you control over the flow of information during high-volume events.
+- **Real-time Tailing:** Watch log generation instantly as events occur in your cluster.
+- **Multi-Pod Streaming:** Stream logs from a single specific pod or multiplex logs from several pods at once to correlate events across different services.
+- **Keyword Filtering:** Apply search filters to the log stream to isolate specific error codes, transaction IDs, or warning messages.
+- **Playback Controls:** Interactive controls to **Play**, **Pause**, **Stop**, and **Clear** the stream, giving you control over the flow of information during high-volume events.
 
 ## How to Access Log Streaming
 
@@ -25,16 +25,16 @@ To utilize the Log Streamer, ensure you are in **Operator Mode** and have a conn
 1. **Navigate to Visualizer:** Open Kanvas and toggle to **Operator** mode (Visualizer) to view your running cluster topology.
 2. **Select a Resource:** Click on a **Pod** or **Deployment** node within your design.
 3. **Open the Log Stream:**
-    * **Via Context Menu:** Right-click the node and select **Stream Logs** from the context menu.
-    * **Via Details Panel:** With the node selected, expand the bottom panel or the **Details** drawer. Locate the **Log Stream** tab next to the Terminal and Performance tabs.
+   - **Via Context Menu:** Right-click the node and select **Stream Logs** from the context menu.
+   - **Via Details Panel:** With the node selected, expand the bottom panel or the **Details** drawer. Locate the **Log Stream** tab next to the Terminal and Performance tabs.
 
 ## Using the Interface
 
 Once the stream is active, the Log Streamer panel will display the output.
 
-* **Search/Filter:** Use the search bar within the panel to highlight or filter lines containing specific strings (e.g., `Error`, `Exception`, or specific request IDs).
-* **Pause/Resume:** Use the playback toggle to pause the live feed to inspect a specific log line without losing your place, then resume to catch up with the live tail.
-* **Copy Logs:** Use the copy function to capture the current log buffer to your clipboard for external analysis or ticket submission.
+- **Search/Filter:** Use the search bar within the panel to highlight or filter lines containing specific strings (e.g., `Error`, `Exception`, or specific request IDs).
+- **Pause/Resume:** Use the playback toggle to pause the live feed to inspect a specific log line without losing your place, then resume to catch up with the live tail.
+- **Copy Logs:** Use the copy function to capture the current log buffer to your clipboard for external analysis or ticket submission.
 
 ## Use Cases and Examples
 
@@ -62,9 +62,9 @@ The Log Streamer utilizes a robust architecture where the **Meshery Operator** s
 
 ![log-stream-sequence-diagram](/images/log-stream-sequence-diagram.svg)
 
-***
+---
 
 ### See Also
 
-* **[Interactive Terminal](/kanvas/terminal):** Learn how to establish an interactive shell session with your containers.
-* **[Performance Management](/kanvas/performance):** Run ad-hoc performance tests alongside your log monitoring.
+- **[Interactive Terminal](/kanvas/terminal):** Learn how to establish an interactive shell session with your containers.
+- **[Performance Management](/kanvas/performance):** Run ad-hoc performance tests alongside your log monitoring.

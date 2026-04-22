@@ -28,6 +28,7 @@ Each item in the catalog comes with an associated level of visibility.
 - Private: View and edit permissions only for design owner.
 
 ### Content Types
+
 - Deployment
 - Traffic Management
 - Security
@@ -39,11 +40,12 @@ Each item in the catalog comes with an associated level of visibility.
 ### Content Categories
 
 Catalog content is categorized in a number of ways:
+
 - **Patterns**: Cloud native patterns enable the business function in simple language.
 - **Filters**: Embedded in the data plane of a service mesh, WebAssembly filters offer fine-grained control over service requests.
 - **Programs**: Embedded in the data plane of a service mesh, eBPF programs performant, fine-grained control over service requests.
 - **Policies**: Applied across the cloud native infrastructure under management, policies may be applied broadly and specifically.
- 
+
 <!-- List design metadata and descriptions here -->
 
 ### Publishing from Kanvas 🔗

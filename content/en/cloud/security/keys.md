@@ -29,14 +29,12 @@ Generally, there are four types of keys:
 
 There are also some special types of keys which don't fall into the standard CRUD (CREATE, READ, UPDATE, DELETE) category. For example, the `Approve Catalog Request` key allows you to approve a catalog request to publish a cloud native design to [Cloud Catalog](/cloud/catalog) or `Connect Github Account to Workspace` key enables you to connect your GitHub Account to your [workspace](/cloud/workspaces) in context of any organization.
 
-
 ### Keys Enforcement
 
 The primary purpose of key enforcement is to ensure that you can only perform actions for which you have the necessary permissions within the context of your selected/available organization. This is achieved by disabling or hiding the UI elements associated with actions for which you lack the required permissions. This approach not only provides clarity regarding what actions you are authorized to perform but also prevents you from attempting actions that you do not have authorization to execute.
 For more information on managing permissions within an organization and use of organization context switcher, see [Organizations](/cloud/identity/organizations).
 
 Each key is enforced at specific UI elements. For instance, the `Create Organization` key is enforced at the **Create Organization** button in the **Organizations** page. This implies that the button is disabled if you don't have the `Create Organization` assigned to a keychain, which, in turn, is assigned to a role that's associated with your user account for a given organization.
-
 
 ### Keys Management
 
@@ -78,4 +76,3 @@ If you don't have permission to perform any of the above operations, consider sw
 ### Keys Lifecycle
 
 Layer5 Cloud ships with 103 default keys, each designed to enforce permissions across the platform. All the keys shipped with the system are immutable and cannot be deleted or modified. Each key is uniquely identified in the form of a UUID. The UUID is used to reference the key in the system.
-
