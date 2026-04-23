@@ -7,18 +7,16 @@ categories: [Security]
 tags: [user, roles]
 ---
 
-{{< cardpane >}}
-{{% card header="Default User Role" %}}
+{{< cardpane >}} {{% card header="Default User Role" %}}
 <img src="/cloud/security/images/user-role.svg" link="images/user-role.svg"  width="100%" alt="User Role" />
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}
 
-{{< cardpane >}}
-{{% card header="## User" %}}
+{{< cardpane >}} {{% card header="## User" %}}
 
 **What is the purpose of this role?**
 
-- To grant Organization members access to basic features and resources within the context of that Organization.
+- To grant Organization members access to basic features and resources within
+  the context of that Organization.
 
 **Who can assign this role?**
 
@@ -40,5 +38,4 @@ tags: [user, roles]
 
 - Check [Permissions Reference](/cloud/reference/default-permissions/)
 
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}

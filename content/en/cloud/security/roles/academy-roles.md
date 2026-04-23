@@ -1,17 +1,16 @@
 ---
 title: Default Academy Roles
 description: >
-  By default, Academy has two roles available: Academy Administrator and Learner.
+  By default, Academy has two roles available: Academy Administrator and
+  Learner.
 weight: 4
 categories: [Security]
 tags: [academy, roles]
 ---
 
-{{< cardpane >}}
-{{% card header="Academy Administrator" %}}
+{{< cardpane >}} {{% card header="Academy Administrator" %}}
 <img src="/cloud/security/images/academy-admin.svg" link="images/academy-admin.svg"  width="100%" alt="Academy Administrator Roles" />
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}
 
 {{< cardpane >}}
 
@@ -19,7 +18,8 @@ tags: [academy, roles]
 
 **What is the purpose of this role?**
 
-- Management of an organization's academy, learner management, and access to academy instructor console.
+- Management of an organization's academy, learner management, and access to
+  academy instructor console.
 
 **Who can assign this role?**
 
@@ -41,18 +41,17 @@ tags: [academy, roles]
 
 - Check [Permissions Reference](/cloud/reference/default-permissions/)
 
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}
 
-{{< cardpane >}}
-{{% card header="Learner" %}}
-Learner = A [User](../roles/user-role.md) who has registered for academy content.
+{{< cardpane >}} {{% card header="Learner" %}} Learner = A
+[User](../roles/user-role.md) who has registered for academy content.
 <img src="/cloud/security/images/learner.svg" link="images/learner.svg"  width="100%" alt="Learner Roles" />
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}
 
-{{< alert title="Managing Learner Costs" color="info" >}}
-While the maximum number of instances is unlimited, the available seats for Learners is determined by your organization's subscription plan. Please be mindful of your subscription to manage costs effectively.
+{{< alert title="Managing Learner Costs" color="info" >}} While the maximum
+number of instances is unlimited, the available seats for Learners is determined
+by your organization's subscription plan. Please be mindful of your subscription
+to manage costs effectively.
 
 {{< /alert >}}
 
@@ -87,14 +86,14 @@ While the maximum number of instances is unlimited, the available seats for Lear
 
 **Status as a Learner**
 
-Each individual academy content item (learning path, certification, or challenge) that a learner enrolls in tracks one of the following 4 status types:
+Each individual academy content item (learning path, certification, or
+challenge) that a learner enrolls in tracks one of the following 4 status types:
 
-| Status      | What it means |
-|-------------|-------------|
-| registered (enrolled)  | They signed up but haven't started |
-| completed   | They finished the course |
-| failed      | They didn't pass |
-| withdrawn   | They left the course |
+| Status                | What it means                      |
+| --------------------- | ---------------------------------- |
+| registered (enrolled) | They signed up but haven't started |
+| completed             | They finished the course           |
+| failed                | They didn't pass                   |
+| withdrawn             | They left the course               |
 
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}
