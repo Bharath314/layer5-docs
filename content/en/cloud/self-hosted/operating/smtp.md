@@ -2,7 +2,7 @@
 title: Email / SMTP Troubleshooting
 categories: [Self-Hosted]
 description: >
-  This guide explains how to diagnose email sending issues in Layer5 Cloud deployments using the enhanced debug logging and testing features.
+  This guide explains how to diagnose email sending issues in Layer5 Cloud deployments using the enhanced debug logging and testing features. 
 ---
 
 # Email Debugging Guide for Layer5 Cloud
@@ -33,7 +33,6 @@ curl -X GET "https://your-domain.com/api/system/email/test"
 ```
 
 **Expected Response (Success):**
-
 ```json
 {
   "status": "success",
@@ -46,7 +45,6 @@ curl -X GET "https://your-domain.com/api/system/email/test"
 ```
 
 **Expected Response (Error):**
-
 ```json
 {
   "error": "Email configuration test failed: SMTP_HOST environment variable is not set"
@@ -68,7 +66,6 @@ curl -X POST "https://cloud.layer5.io/api/system/email/test" \
 ```
 
 **Request Body:**
-
 ```json
 {
   "to": "test@example.com",
@@ -77,7 +74,6 @@ curl -X POST "https://cloud.layer5.io/api/system/email/test" \
 ```
 
 **Expected Response (Success):**
-
 ```json
 {
   "status": "success",
@@ -88,7 +84,6 @@ curl -X POST "https://cloud.layer5.io/api/system/email/test" \
 ```
 
 **Expected Response (Error - Unauthorized):**
-
 ```json
 {
   "error": "Unauthorized: provider admin role required"
@@ -96,7 +91,6 @@ curl -X POST "https://cloud.layer5.io/api/system/email/test" \
 ```
 
 **Expected Response (Error - Invalid Email):**
-
 ```json
 {
   "error": "Invalid email address format"
@@ -104,7 +98,6 @@ curl -X POST "https://cloud.layer5.io/api/system/email/test" \
 ```
 
 **Expected Response (Error - Email Configuration):**
-
 ```json
 {
   "error": "Email configuration validation failed: SMTP authentication failed"
@@ -177,8 +170,7 @@ Flow emails (registration, password recovery, etc.) use a separate logging mecha
 
 **Issue:** `SMTP configuration error: SMTP_HOST is empty`
 
-**Solution:**
-
+**Solution:** 
 - Verify all SMTP environment variables are set
 - Check that environment variables are properly loaded in your deployment
 - Use the test endpoint to validate configuration
@@ -188,7 +180,6 @@ Flow emails (registration, password recovery, etc.) use a separate logging mecha
 **Issue:** `SMTP authentication failed for user 'sender@domain.com'`
 
 **Solution:**
-
 - Verify SMTP username and password are correct
 - For Gmail, use App Passwords instead of regular passwords
 - Check if 2FA is enabled and properly configured
@@ -198,7 +189,6 @@ Flow emails (registration, password recovery, etc.) use a separate logging mecha
 **Issue:** `Email template missing or inaccessible`
 
 **Solution:**
-
 - Verify email template files exist in `config/email-templates/`
 - Check file permissions
 - Validate template syntax and required variables
@@ -208,7 +198,6 @@ Flow emails (registration, password recovery, etc.) use a separate logging mecha
 **Issue:** `Email recipient validation failed`
 
 **Solution:**
-
 - Verify email addresses are valid and properly formatted
 - Check for empty recipient lists
 - Validate email addresses contain `@` symbol
@@ -218,7 +207,6 @@ Flow emails (registration, password recovery, etc.) use a separate logging mecha
 **Issue:** `dial tcp: lookup smtp.gmail.com: no such host`
 
 **Solution:**
-
 - Check network connectivity to SMTP server
 - Verify firewall rules allow SMTP traffic
 - Test DNS resolution for SMTP host
@@ -233,14 +221,14 @@ INFO Development mode - Email details recipients=user@example.com subject="Test 
 
 ## Error Codes Reference
 
-| Error Code         | Description                       | Common Causes                    |
-| ------------------ | --------------------------------- | -------------------------------- |
-| meshery_cloud-1092 | Failed to send email              | Network issues, SMTP server down |
-| meshery_cloud-1144 | SMTP authentication failed        | Invalid credentials              |
-| meshery_cloud-1145 | SMTP send mail error              | Server rejection, quota exceeded |
-| meshery_cloud-1146 | SMTP configuration error          | Missing environment variables    |
-| meshery_cloud-1147 | Email template missing            | Template files not found         |
-| meshery_cloud-1148 | Email recipient validation failed | Invalid email addresses          |
+| Error Code | Description | Common Causes |
+|------------|-------------|---------------|
+| meshery_cloud-1092 | Failed to send email | Network issues, SMTP server down |
+| meshery_cloud-1144 | SMTP authentication failed | Invalid credentials |
+| meshery_cloud-1145 | SMTP send mail error | Server rejection, quota exceeded |
+| meshery_cloud-1146 | SMTP configuration error | Missing environment variables |
+| meshery_cloud-1147 | Email template missing | Template files not found |
+| meshery_cloud-1148 | Email recipient validation failed | Invalid email addresses |
 
 ## Monitoring and Alerting
 

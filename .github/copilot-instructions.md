@@ -21,21 +21,18 @@ The Layer5 Docs website is a Hugo-based documentation site that serves as the pr
 ## Core Principles
 
 ### 1. Minimal, Surgical Changes
-
 - Make the **smallest possible changes** to accomplish the goal
 - Never delete or modify working code unless absolutely necessary
 - Focus on precise, targeted modifications rather than wholesale rewrites
 - Preserve existing patterns and conventions unless explicitly changing them
 
 ### 2. Code Quality Standards
-
 - Follow the existing code style and patterns in the repository
 - Ensure proper indentation and formatting in templates and content
 - Write clean, readable, self-documenting code with minimal comments unless necessary for complex logic
 - Maintain accessibility standards (WCAG 2.1)
 
 ### 3. Testing and Validation
-
 - Always validate changes work before considering them complete
 - Build the site and verify rendered content: `make build` or `hugo`
 - Run the site locally: `make site` or `hugo server -D -F`
@@ -73,7 +70,6 @@ docs/
 1. Don't mark your pull request as draft.
 
 ### Setup
-
 ```bash
 # Install dependencies (required for fresh clone)
 make setup
@@ -82,7 +78,6 @@ npm install
 ```
 
 ### Development
-
 ```bash
 # Start development server with drafts and future content
 make site
@@ -91,7 +86,6 @@ hugo server -D -F
 ```
 
 ### Building
-
 ```bash
 # Build for production
 make build
@@ -103,7 +97,6 @@ make clean
 ```
 
 ### Docker Development
-
 ```bash
 # Run with Docker (requires Docker Desktop 4.24+ or Docker Compose 2.22+)
 make docker
@@ -112,28 +105,25 @@ make docker
 ## Content Guidelines
 
 ### Tone and Style
-
 - Use a **professional yet approachable** tone
 - Content should be clear, concise, and welcoming to both technical and non-technical audiences
 - Align with Layer5's mission of empowering engineers to "expect more from their infrastructure"
 - Use American English spelling and grammar
 
 ### Markdown Content
-
 - All documentation content is written in Markdown
 - Place content files in appropriate directories under `content/en/`
 - Include proper frontmatter with metadata:
 
 ```yaml
 ---
-title: 'Page Title'
-description: 'Short description for SEO (150-160 chars)'
-weight: 10 # Optional: controls ordering in navigation
+title: "Page Title"
+description: "Short description for SEO (150-160 chars)"
+weight: 10  # Optional: controls ordering in navigation
 ---
 ```
 
 ### Hugo Shortcodes
-
 Use the project's custom shortcodes for enhanced content:
 
 ```markdown
@@ -141,7 +131,6 @@ Use the project's custom shortcodes for enhanced content:
 ```
 
 Alert types:
-
 - `type="danger"`: Critical alerts (security-related or breaking changes)
 - `type="info"`: General informational content
 - `type="warning"`: Important warnings that need attention
@@ -149,14 +138,12 @@ Alert types:
 - `type="success"`: Positive outcomes or confirmations
 
 ### Image Guidelines
-
 - Use the following syntax: `![alt text](/path/to/image.svg)` or `<img src="" alt="" />`
 - Always provide complete image paths for subpages
 - Add `data-modal="false"` to prevent images from opening in a modal
 - Always include descriptive alt text for accessibility and SEO
 
 ### Content Restrictions
-
 - **No external images**: Use local assets only
 - **No placeholder text**: Provide complete, production-ready content
 - **No sensitive data**: Never include API keys, credentials, or personal information
@@ -165,14 +152,12 @@ Alert types:
 ## Template Guidelines
 
 ### Hugo Templates
-
 - Follow Go template syntax conventions
 - Use partials for reusable template components
 - Maintain consistent indentation in templates
 - Use Hugo's built-in functions when possible
 
 ### Styling
-
 - SCSS files are located in `assets/`
 - Follow existing CSS class naming conventions
 - Ensure responsive design is maintained
@@ -191,7 +176,6 @@ Alert types:
 ## Git Workflow
 
 ### Commit Messages
-
 Follow Conventional Commits format:
 
 ```
@@ -199,7 +183,6 @@ Follow Conventional Commits format:
 ```
 
 **Types**:
-
 - `feat`: New feature or content
 - `fix`: Bug fix or correction
 - `docs`: Documentation changes
@@ -208,7 +191,6 @@ Follow Conventional Commits format:
 - `chore`: Build process, tooling, dependencies
 
 **Examples**:
-
 ```
 feat(cloud): add workspace documentation
 fix(kanvas): correct broken link in navigation
@@ -216,16 +198,13 @@ docs(contributing): update setup instructions
 ```
 
 ### Pull Requests
-
 - Submit all changes as PRs to the `master` branch
 - Reference related issues in PR description
 - Ensure CI checks pass before requesting review
 - Sign-off commits with `git commit -s`
 
 ### Branch Naming
-
 Use descriptive, kebab-case names:
-
 - `feat/add-cloud-security-docs`
 - `fix/navigation-broken-link`
 - `docs/update-contributing-guide`
@@ -233,20 +212,17 @@ Use descriptive, kebab-case names:
 ## Troubleshooting
 
 ### Build Errors
-
 - Check `hugo.toml` for configuration issues
 - Clear cache: `hugo --cleanDestinationDir`
 - Reinstall dependencies: `rm -rf node_modules && npm install`
 - Verify Hugo extended version is installed
 
 ### Content Issues
-
 - Validate Markdown syntax and frontmatter
 - Check for unclosed shortcodes
 - Verify file paths are correct and case-sensitive
 
 ### Development Server Issues
-
 - Ensure Go is installed (required): `go version`
 - Check Node.js version matches `.nvmrc`
 - Verify Hugo extended version is installed
@@ -261,19 +237,16 @@ Use descriptive, kebab-case names:
 ## Community and Resources
 
 ### Documentation
-
 - Layer5 Community Handbook: https://layer5.io/community/handbook
 - Layer5 Documentation: https://docs.layer5.io
 - Hugo Documentation: https://gohugo.io/documentation/
 
 ### Getting Help
-
 - Layer5 Slack: https://slack.layer5.io
 - Discussion Forum: https://discuss.layer5.io
 - GitHub Issues: https://github.com/layer5io/docs/issues
 
 ### Code of Conduct
-
 All contributions must adhere to the [Layer5 Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Summary Checklist for Contributions
@@ -281,7 +254,6 @@ All contributions must adhere to the [Layer5 Code of Conduct](CODE_OF_CONDUCT.md
 Before submitting a PR, verify:
 
 ### Content Quality
-
 - [ ] Content is clear, accurate, and complete
 - [ ] Proper frontmatter is included
 - [ ] Images have descriptive alt text
@@ -290,7 +262,6 @@ Before submitting a PR, verify:
 - [ ] American English spelling and grammar
 
 ### Technical Quality
-
 - [ ] Build completes successfully (`make build`)
 - [ ] Site renders correctly locally (`make site`)
 - [ ] Changes are minimal and surgical
@@ -298,14 +269,12 @@ Before submitting a PR, verify:
 - [ ] Responsive design is maintained
 
 ### Accessibility
-
 - [ ] All images have alt text
 - [ ] Proper heading hierarchy
 - [ ] Keyboard navigation works
 - [ ] Color contrast meets WCAG standards
 
 ### Git
-
 - [ ] Commit messages follow Conventional Commits
 - [ ] Commits are signed off (`git commit -s`)
 - [ ] PR references related issues
@@ -314,8 +283,8 @@ Before submitting a PR, verify:
 
 ```markdown
 ---
-title: 'Getting Started with Layer5 Cloud'
-description: 'Learn how to set up your Layer5 Cloud account and start managing your cloud native infrastructure with ease.'
+title: "Getting Started with Layer5 Cloud"
+description: "Learn how to set up your Layer5 Cloud account and start managing your cloud native infrastructure with ease."
 weight: 1
 ---
 
@@ -326,7 +295,6 @@ This guide walks you through setting up your Layer5 Cloud account and exploring 
 ## Prerequisites
 
 Before you begin, ensure you have:
-
 - A GitHub or Google account for authentication
 - Basic familiarity with cloud native concepts
 

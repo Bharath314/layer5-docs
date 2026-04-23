@@ -17,12 +17,12 @@ The successful completion of a Certification results in an official, shareable *
 
 To understand its unique role, here is a comparison with other content types in the Academy. Use this table to decide if a Certification is the right format for your content.
 
-| Feature      | Learning Path                                                    | Challenge                                                              | Certification                                                        |
-| :----------- | :--------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------- |
-| Primary Goal | To teach and guide through a comprehensive curriculum.           | To solve a specific, hands-on problem in a competitive scenario.       | To validate and prove existing knowledge through formal examination. |
-| Structure    | Hierarchical (Path → Courses → Modules).                         | Typically a single, scenario-based task.                               | Flat; a collection of one or more exams.                             |
-| Main Content | Lessons, informational pages, labs, and progressive assessments. | A set of instructions for a practical task and a validation mechanism. | A series of exams, potentially with a brief study guide.             |
-| Outcome      | Acquired knowledge and skills.                                   | A score, rank status.                                                  | An optional, paid official certificate and a verifiable badge.       |
+| Feature | Learning Path | Challenge | Certification |
+| :--- | :--- | :--- | :--- |
+| Primary Goal | To teach and guide through a comprehensive curriculum. | To solve a specific, hands-on problem in a competitive scenario. | To validate and prove existing knowledge through formal examination. |
+| Structure | Hierarchical (Path → Courses → Modules). | Typically a single, scenario-based task. | Flat; a collection of one or more exams. |
+| Main Content | Lessons, informational pages, labs, and progressive assessments. | A set of instructions for a practical task and a validation mechanism. | A series of exams, potentially with a brief study guide. |
+| Outcome | Acquired knowledge and skills. | A score, rank status. | An optional, paid official certificate and a verifiable badge.|
 
 {{< alert type="info" title="Certification: Focus on Assessment, Not Instruction" >}}
 A Certification is ideal when the main objective is to test, not teach. It assumes learners have prior knowledge and are ready to prove their expertise.
@@ -41,7 +41,6 @@ Throughout this guide, you'll see references to `<your-organization-uuid>` and `
 Each certification is tied to a specific organization and secured by a unique identifier (UUID). This is a system-generated ID that ensures your content is scoped only to your organization.
 
 You'll need two types of UUIDs:
-
 - **Certification ID**: A unique identifier for your specific certification that gets added to the front matter of your certification's index file
 - **Organization ID**: Your organization's UUID that's used in directory paths
 
@@ -74,7 +73,6 @@ content/certifications/<your-organization-uuid>
 ```
 
 **Key Files:**
-
 - **`_index.md`**: The entry point for your certification containing all metadata (title, description, banner, etc.)
 - **Exam Files (`*.md`)**: Individual Markdown files containing the exams. Order and optional status are controlled by frontmatter, not filename.
 
@@ -86,46 +84,46 @@ Here's a complete example of the YAML frontmatter for a certification's `_index.
 
 ```yaml
 ---
-type: 'certification'
-id: '<your-certification-uuid>'
-title: 'Layer5 Network Certification'
-description: 'Validate your expertise in Layer5 networking technologies through comprehensive assessment'
-banner: 'images/layer5-icon.svg'
+type: "certification"
+id: "<your-certification-uuid>"
+title: "Layer5 Network Certification"
+description: "Validate your expertise in Layer5 networking technologies through comprehensive assessment"
+banner: "images/layer5-icon.svg"
 weight: 1
 tags: [layer5, cloud, infrastructure]
-level: 'beginner'
-categories: 'platform'
-badge:
-  png: 'https://images.credly.com/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/twitter_thumb_201604_KCNA_badge.png'
-  svg: 'https://images.credly.com/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/twitter_thumb_201604_KCNA_badge.png'
-  title: 'Layer5 Certified'
-  description: 'Earn the Certification badge to showcase your expertise in Layer5 cloud services.'
+level: "beginner"
+categories: "platform"
+badge: 
+    png: "https://images.credly.com/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/twitter_thumb_201604_KCNA_badge.png"
+    svg: "https://images.credly.com/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/twitter_thumb_201604_KCNA_badge.png"
+    title: "Layer5 Certified"
+    description: "Earn the Certification badge to showcase your expertise in Layer5 cloud services."
 ---
 ```
 
 #### Frontmatter Fields Reference
 
-> In this table, fields marked with ✅ are required, while those marked with – are optional.
+> In this table, fields marked with ✅  are required, while those marked with – are optional.
 
-| Field         | Required | Description                                                                                                                                                              |
-| :------------ | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `type`        | ✅       | Must be set to `"certification"` to identify this content correctly.                                                                                                     |
-| `id`          | ✅       | **Crucial.** A stable UUID for tracking progress. **Do not change.**                                                                                                     |
-| `title`       | ✅       | The human-readable title that will be displayed to users.                                                                                                                |
-| `description` | ✅       | A comprehensive summary of the certification's scope and objectives.                                                                                                     |
-| `weight`      | -        | Controls the display order (lower numbers appear first). Items are sorted alphabetically by title if not specified.                                                      |
-| `banner`      | -        | Path to a banner image located in the same folder (Page Bundle).                                                                                                         |
-| `tags`        | -        | Keywords for content discovery. Multiple tags can be selected.                                                                                                           |
-| `level`       | -        | A string for the intended difficulty (`beginner`, `intermediate`, `advanced`). Default: `beginner`.                                                                      |
-| `categories`  | -        | A string that assigns the certification to a specific category.                                                                                                          |
-| `badge`       | -        | Defines the awarded digital badge. The png and svg fields accept either a full remote URL or a local file path for an image in the same folder (e.g., layer5-badge.svg). |
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| `type` | ✅  | Must be set to `"certification"` to identify this content correctly. |
+| `id` | ✅  | **Crucial.** A stable UUID for tracking progress. **Do not change.** |
+| `title` | ✅  | The human-readable title that will be displayed to users. |
+| `description` | ✅  | A comprehensive summary of the certification's scope and objectives. |
+| `weight` | - | Controls the display order (lower numbers appear first). Items are sorted alphabetically by title if not specified.|
+| `banner` | - | Path to a banner image located in the same folder (Page Bundle).  |
+| `tags` | - | Keywords for content discovery. Multiple tags can be selected. |
+| `level` | - | A string for the intended difficulty (`beginner`, `intermediate`, `advanced`). Default: `beginner`. |
+| `categories` | - | A string that assigns the certification to a specific category. |
+| `badge` | - | Defines the awarded digital badge. The png and svg fields accept either a full remote URL or a local file path for an image in the same folder (e.g., layer5-badge.svg).|
 
 ### 3. Add Content and Exams
 
 A certification is primarily composed of exams. However, you can also include standard content pages to provide context.
 
-- **Exams:** The core assessable components. A certification can contain one or multiple exams.
-- **Informational Pages:** Standard Markdown pages that can serve as an introduction, a study guide, or a list of helpful resources.
+  - **Exams:** The core assessable components. A certification can contain one or multiple exams.
+  - **Informational Pages:** Standard Markdown pages that can serve as an introduction, a study guide, or a list of helpful resources.
 
 {{< alert type="info" title="How to Create and Configure Exams" >}}
 Every "Exam" file within a certification follows the unified Academy assessment standard.
@@ -139,8 +137,8 @@ A **test** can include more questions than those presented to users in a single 
 
 This behavior is controlled by the `number_of_questions` property in the front matter.
 
-- If `number_of_questions` is **not defined**, all questions in the test are used in every attempt.
-- If it **is defined**, the test is automatically divided into multiple sets, each containing the specified number of questions.
+* If `number_of_questions` is **not defined**, all questions in the test are used in every attempt.
+* If it **is defined**, the test is automatically divided into multiple sets, each containing the specified number of questions.
 
 To ensure even division, the **total number of questions** must be a **multiple** of `number_of_questions`.
 
@@ -150,6 +148,9 @@ By default, the **number of retries** is set to the number of generated sets. Ho
 For certifications containing multiple exams, each exam may have its own test bank, question count, and retry settings.  
 These configurations are defined per test and may differ across exams within the same certification.
 {{< /alert >}}
+
+
+
 
 ## Learner Outcomes: Badges and Certificates
 
@@ -168,6 +169,7 @@ See a live example on a [user's profile](https://cloud.layer5.io/user/a5eb9e0a-c
 The ultimate outcome of a certification is an **official Certificate of Completion**.
 
 A key feature unique to the Certification content type is that while the learning materials and exams are offered for free, the **issuance of the official certificate is a paid feature**. This model allows anyone to learn and validate their skills at no cost, with the option to purchase the formal certificate to document their accomplishment.
+
 
 ## Frequently Asked Questions
 

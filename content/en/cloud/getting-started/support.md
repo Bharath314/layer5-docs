@@ -31,3 +31,4 @@ If you've forgotten your Layer5 Cloud account password, don't worry. You can eas
 6. After successfully resetting your password, you can now login to your Layer5 Cloud account using your new password.
 
 ![Account Recovery](/cloud/getting-started/images/Slide49.svg)
+

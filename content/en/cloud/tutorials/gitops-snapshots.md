@@ -22,9 +22,11 @@ View the Layer5 GitHub App in the [GitHub Marketplace](https://github.com/market
 1. Once you have authorized Layer5 to access your GitHub repositories, you will be redirected back to Layer5 Cloud. You should see a success message.
 1. Identify the path to either one or more Designs, Helm Charts, Kubernetes Manifests, or Docker Compose files.
 1. You will establish a secret for the Layer5 GitHub app and a new workflow to be invoked when a new snapshot is needed.
-   1. Customize the workflow on event trigger to match your needs.
+    1. Customize the workflow on event trigger to match your needs.
 
 You can always return to the [GitHub connection](https://cloud.layer5.io/connect/github) to update the connection or to add additional repositories.
+
+
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
 

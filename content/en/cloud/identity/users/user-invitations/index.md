@@ -1,7 +1,7 @@
 ---
 title: User Invitations
 description: >
-  Learn how to create custom, secure, and flexible invitations for new members.
+ Learn how to create custom, secure, and flexible invitations for new members.
 weight: 3
 categories: [Identity]
 tags: [users]
@@ -16,9 +16,7 @@ You can create highly customized invitations for any scenario, from onboarding s
 The invitation system provides three main areas of control to help you manage access effectively.
 
 #### Create custom invitations for any audience
-
 Tailor each invitation to your specific needs with three flexible modes:
-
 - Precise invitation: Target a single user by specifying their full email address.
 - Domain-wide invitation: Onboard an entire organization at once by allowing any email from a specific domain (e.g., `*@layer5.io`).
 - Public invitation: Leave the email field blank to create an open link for public events (e.g., Academy Challenge invitations).
@@ -28,9 +26,7 @@ Patterns like `*@company.com` allow anyone with that domain. Verify ownership an
 {{< /alert >}}
 
 #### Control the invitation lifecycle
-
 Manage access with settings that put you in control:
-
 - Expiration date: Set a specific date and time for an invitation to automatically become invalid.
 - Usage quota: Limit the number of times an invitation can be used.
 
@@ -39,7 +35,6 @@ If `expiresAt` is not set, the invitation never expires. If `quota` is not set, 
 {{< /alert >}}
 
 #### Manage invitations dynamically
-
 Instantly revoke access by switching an invitation's status between enabled and disabled at any time.
 
 ### How to create an invitation
@@ -52,18 +47,19 @@ After the invitation is created, the invitee will receive an email with the invi
 
 <img src="./images/invitation-email.png" alt="Invitation Email" style="width:50%; height:auto;" />
 
+
 #### Invitation properties explained
 
-| Property      | Description                                                                                                   |
-| :------------ | :------------------------------------------------------------------------------------------------------------ |
-| `emails`      | List of email addresses or domain patterns allowed to use the invitation. If empty, the invitation is public. |
-| `roles`       | List of roles automatically assigned to new members upon accepting the invitation.                            |
-| `teams`       | List of teams new members are automatically added to upon accepting the invitation.                           |
-| `quota`       | Number that limits how many users can accept the invitation. If not set, there's no usage limit.              |
-| `expiresAt`   | Date when the invitation becomes invalid. If not set, it never expires.                                       |
-| `status`      | Invitation status: enabled = active/usable; disabled = inactive (can be re-enabled later).                    |
-| `name`        | A name used to identify the invitation.                                                                       |
-| `description` | Additional information about the invitation's purpose.                                                        |
+| Property | Description |
+| :--- |  :--- |
+| `emails` | List of email addresses or domain patterns allowed to use the invitation. If empty, the invitation is public. |
+| `roles` | List of roles automatically assigned to new members upon accepting the invitation. |
+| `teams` | List of teams new members are automatically added to upon accepting the invitation. |
+| `quota` | Number that limits how many users can accept the invitation. If not set, there's no usage limit. |
+| `expiresAt` | Date when the invitation becomes invalid. If not set, it never expires. |
+| `status` | Invitation status: enabled = active/usable; disabled = inactive (can be re-enabled later). |
+| `name` | A name used to identify the invitation. |
+| `description` | Additional information about the invitation's purpose. |
 
 ### Managing existing invitations
 
@@ -73,9 +69,9 @@ All existing invitations are displayed in a table that shows key invitation info
 
 From this overview table, you can perform several management actions:
 
-- **Copy Link**: Click the copy icon to copy the invitation URL for sharing.
-- **Edit Invitation**: Click the pencil icon to open the edit dialog and modify invitation properties.
-- **Delete Invitation**: Click the trash icon to delete the invitation.
+* **Copy Link**: Click the copy icon to copy the invitation URL for sharing.
+* **Edit Invitation**: Click the pencil icon to open the edit dialog and modify invitation properties.
+* **Delete Invitation**: Click the trash icon to delete the invitation.
 
 ### Use cases and examples
 

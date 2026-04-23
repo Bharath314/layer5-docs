@@ -18,6 +18,7 @@ For instance, consider a system shipped default keychain `Team Management`, whic
 
 {{< /alert >}}
 
+
 ### Keychains Types
 
 Layer5 Cloud ships with the following 10 default keychains
@@ -35,16 +36,19 @@ Layer5 Cloud ships with the following 10 default keychains
 9. **Team Management** - This keychain is a collection of keys that allows you to manage teams. For instance, this keychain permits you to CRUD operations on teams of your organization.
 10. **Events Management** - This keychain is a collection of keys that allows you to manage events. For instance, this keychain permits you to view events of all users of the Layer5 Cloud.
 
+
 ### Keychains Management
 
 #### Create Keychains
 
 Create a new keychain by navigating to the [Keychains](https://cloud.layer5.io/security/keychains) page and clicking the **Create Keychain** button. Provide a name and choose the one more keys from the list of available keys. Then click the **Create Keychain** button to create the keychain.
 
+
 {{< alert title="Note" >}}
 
 If you don't have permission to create keychains for your selected organization, you will see a disabled Keychains tab. In that case, consider switching to a different organization for which you have permission to view keychains, or contact your organization admin to assign you access to the keychains page.
 {{< /alert >}}
+
 
 #### View Keychains
 
@@ -70,6 +74,7 @@ If you don't have permission to perform any of the above operations, consider sw
 
 {{< /alert >}}
 
+
 {{< alert title="Permission Assignment at Teams, Organization and Provider Levels" >}}
 
 1. You need to have the default `Team Admin` role (or a custom role with `Edit User` key assigned) to assign permissions to users in your team.
@@ -77,6 +82,7 @@ If you don't have permission to perform any of the above operations, consider sw
 3. You need to have default `Provider Admin` role (or a custom role with `Update Profile` key assigned) to assign permissions to users across any organization or teams.
 
 {{< /alert >}}
+
 
 ### Keychains Lifecycle
 

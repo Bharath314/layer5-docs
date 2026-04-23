@@ -1,7 +1,7 @@
 ---
 title: Deploying Designs
 description: >
-  Each Meshery design is deployable to one or more Kubernetes clusters.
+    Each Meshery design is deployable to one or more Kubernetes clusters.
 weight: 4
 categories: [Designer]
 tags: [designs]
@@ -43,6 +43,7 @@ If you encounter persistent issues consider consulting the [Meshery Community fo
 
 ![error-code](/kanvas/getting-started/images/deploy-designs/error-code.png)
 
+
 ### Using the Notification Center for Troubleshooting
 
 The Notification Center in Meshery helps manage events during the deployment process. It provides real-time updates and alerts on the status of the deployment. This feature can be particularly useful for troubleshooting, as it:
@@ -52,7 +53,7 @@ The Notification Center in Meshery helps manage events during the deployment pro
 1. Offers links to detailed documentation and guides for resolving common problems.
 1. Keeps a log of past notifications, allowing you to track and review previous errors and their resolutions.
 
-![notification](/kanvas/getting-started/images/deploy-designs/notification.png)
+![notification](/kanvas/getting-started/images/deploy-designs/notification.png) 
 
 ![notification-center](/kanvas/getting-started/images/deploy-designs/notification-center.png)
 

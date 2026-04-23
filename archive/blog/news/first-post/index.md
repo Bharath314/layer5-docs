@@ -7,10 +7,10 @@ description: >
   not on reinventing a website infrastructure from scratch
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
-  - src: '**.{png,jpg}'
-    title: 'Image #:counter'
+  - src: "**.{png,jpg}"
+    title: "Image #:counter"
     params:
-      byline: 'Photo: Riona MacNamara / CC-BY-CA'
+      byline: "Photo: Riona MacNamara / CC-BY-CA"
 ---
 
 **This is a typical blog post that includes images.**
@@ -44,3 +44,5 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 ```
 
 The image will be rendered at the size and byline specified in the front matter.
+
+

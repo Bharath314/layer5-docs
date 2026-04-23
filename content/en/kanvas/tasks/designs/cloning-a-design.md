@@ -25,10 +25,12 @@ This will create a copy of the catalog item to a new design, now owned by you.
 
 ![Copy of a Design](/kanvas/getting-started/images/deploy-designs/my-designs.gif)
 
-You are now free to deploy it as it is or modify it further.
+You are now free to deploy it as it is or modify it further. 
+
 
 {{< alert title="Learn about Designs" >}}Learn more about what a [Design](https://docs.meshery.io/concepts/logical/designs) is and how it fits into Meshery's approach to cloud native management.
 {{< /alert >}}
+
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
 

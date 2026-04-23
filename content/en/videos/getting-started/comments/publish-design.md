@@ -1,11 +1,11 @@
 ---
-title: 'Publishing Designs'
+title: "Publishing Designs"
 description: >
-  How to publish your designs to the Cloud Catalog.
-videoId: 'UCKS4eSB7AY'
-videoType: youtube # or "local"
-muted: true # optional
-autoplay: true # optional
+   How to publish your designs to the Cloud Catalog.
+videoId: "UCKS4eSB7AY"
+videoType: youtube  # or "local"
+muted: true  # optional
+autoplay: true  # optional
 loop: true #optional
 categories: [Designer]
 formats: [video]

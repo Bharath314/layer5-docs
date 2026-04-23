@@ -1,7 +1,7 @@
 ---
 title: Render Modes
 description: >
-  Control rendering fidelity and performance in Kanvas with four render modes and an intelligent Adaptive mode that automatically optimizes the experience.
+    Control rendering fidelity and performance in Kanvas with four render modes and an intelligent Adaptive mode that automatically optimizes the experience.
 weight: 3
 categories: [Designer, Operator]
 tags: [performance, rendering]
@@ -15,12 +15,12 @@ The Adaptive mode acts like an automatic transmission -- it monitors render perf
 
 Kanvas provides four render modes, each offering a different balance of visual fidelity and performance:
 
-| Mode                | Fidelity | Description                                                       |
-| ------------------- | -------- | ----------------------------------------------------------------- |
-| Full                | Highest  | Complete rendering with all details, badges, TagSets, animations  |
-| Medium (Style-Only) | High     | Full component styles but no badges, TagSets, or animations       |
-| Wireframe           | Low      | Simple outlines and straight-line connections, no SVGs or styling |
-| View Only           | Lowest   | Static wireframe snapshot with no interactivity                   |
+| Mode | Fidelity | Description |
+|------|----------|-------------|
+| Full | Highest | Complete rendering with all details, badges, TagSets, animations |
+| Medium (Style-Only) | High | Full component styles but no badges, TagSets, or animations |
+| Wireframe | Low | Simple outlines and straight-line connections, no SVGs or styling |
+| View Only | Lowest | Static wireframe snapshot with no interactivity |
 
 ### Full Mode
 

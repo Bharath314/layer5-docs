@@ -1,10 +1,8 @@
 # Security Policy
-
 We are very grateful to the security researchers and users who report
 Layer5 project security vulnerabilities. We investigate every report thoroughly.
 
 ## Reporting a vulnerability
-
 To make a report, send an email to the private
 [security-vulns-reports@layer5.io](mailto:security-vulns-reports@layer5.io)
 mailing list with the vulnerability details. For normal product bugs
@@ -18,7 +16,7 @@ Send us a report whenever you:
 - Think Layer5 projects have a potential security vulnerability.
 - Are unsure whether or how a vulnerability affects Layer5 projects.
 - Think a vulnerability is present in another project that Layer5 projects
-  depend on (Docker, for example).
+depend on (Docker, for example).
 
 ### When not to report a security vulnerability?
 
@@ -46,8 +44,8 @@ premature disclosure of the vulnerability.
 
 ## Early disclosure
 
-The Layer5 team maintains a mailing list for private early disclosure of security vulnerabilities.
-The list is used to provide actionable information to trusted Layer5 partners. The list is not intended
+The Layer5 team maintains a mailing list for private early disclosure of security vulnerabilities. 
+The list is used to provide actionable information to trusted Layer5 partners. The list is not intended 
 for individuals to find out about security issues.
 
 ## Public disclosure
@@ -55,7 +53,7 @@ for individuals to find out about security issues.
 On the day chosen for public disclosure, a sequence of activities takes place as quickly as possible:
 
 - Changes are merged from the private GitHub repository holding the fix into the appropriate set of public
-  branches.
+branches.
 - The Layer5 team ensures all necessary binaries are promptly built and published.
 - Once the binaries are available, an announcement is sent out on the following channels:
   - The [Layer5 blog](https://layer5.io/blog/)

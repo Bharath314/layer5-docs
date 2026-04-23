@@ -6,21 +6,21 @@ description: >
 categories: [Academy]
 tags: [Academy]
 aliases:
-  - /cloud/academy/creating-your-learning-path/
-  - /cloud/academy/creating-academy-content/
-  - /cloud/academy/creating-content-for-the-academy/
-  - /cloud/academy/creating-content-for-academy/
+- /cloud/academy/creating-your-learning-path/
+- /cloud/academy/creating-academy-content/
+- /cloud/academy/creating-content-for-the-academy/
+- /cloud/academy/creating-content-for-academy/
 ---
 
 This guide provides a step-by-step walkthrough for creating and organizing new content in the [Layer5 Academy](https://cloud.layer5.io/academy). You'll learn how to set up your content repository, structure your content, add assets, preview your work, and publish it for your organization.
 
 ### Prerequisites
 
-Before you dive into creating your first Academy content, it's helpful to be familiar with the core technologies and concepts used by the Academy platform.
+Before you dive into creating your first Academy content, it's helpful to be familiar with the core technologies and concepts used by the Academy platform. 
 
 - **Git and GitHub**: All learning content is managed in a Git repository.
-- **Markdown**: All content is written in standard Markdown.
-- **Hugo**: The entire Academy platform is built on the [Hugo](https://gohugo.io/) static site generator.
+- **Markdown**: All content is written in standard Markdown. 
+- **Hugo**: The entire Academy platform is built on the [Hugo](https://gohugo.io/) static site generator. 
 - **Academy Template & Theme**: We provide an `academy-example` repository that serves as a pre-configured template. [Layer5 Academy theme](https://github.com/layer5io/academy-theme) to ensure your content is styled correctly right out of the box.
 - **A Layer5 Cloud Account**: Required to obtain your Organization ID and Personal Access Token for publishing.
 
@@ -35,7 +35,7 @@ Start by preparing a dedicated Git repository for your learning content. Using o
 
 ### 2. Clone Your Fork Locally
 
-- Use the `git clone` command to download your forked repository.
+- Use the `git clone` command to download your forked repository. 
 - Example:
   ```bash
   # Replace `<your-username>` with your actual GitHub username
@@ -47,18 +47,14 @@ Start by preparing a dedicated Git repository for your learning content. Using o
 ### 3. Update the Go Module Path
 
 1. Open the `go.mod` file located at the root of your `academy-example` project.
-2. The first line will be:
-
-```go
-module github.com/layer5io/academy-example
-```
-
-3. Change this line to match your fork's path:
-
-```go
-module github.com/<your-username>/<your-repo-name>
-```
-
+2. The first line will be: 
+  ```go
+  module github.com/layer5io/academy-example
+  ```
+3. Change this line to match your fork's path: 
+  ```go
+  module github.com/<your-username>/<your-repo-name>
+  ```
 4. Save the file, then commit and push this change to your repository.
 
 {{< alert type="info" title="Critical Step" >}}
@@ -69,12 +65,12 @@ This step is essential. It updates your repository's "identity card" (`go.mod`) 
 
 The Academy supports three distinct content types, each designed for specific educational goals. Use this table to determine which format best suits your objectives.
 
-| Feature      | Learning Path                                                    | Challenge                                                              | Certification                                                        |
-| :----------- | :--------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------- |
-| Primary Goal | To teach and guide through a comprehensive curriculum.           | To solve a specific, hands-on problem in a competitive scenario.       | To validate and prove existing knowledge through formal examination. |
-| Structure    | Hierarchical (Learning Path → Courses → Modules).                | Typically a single, scenario-based task.                               | Flat; a collection of one or more exams.                             |
-| Main Content | Lessons, informational pages, labs, and progressive assessments. | A set of instructions for a practical task and a validation mechanism. | A series of exams, potentially with a brief study guide.             |
-| Outcome      | Acquired knowledge and skills.                                   | A score, rank status.                                                  | An optional, paid official certificate and a verifiable badge.       |
+| Feature | Learning Path | Challenge | Certification |
+| :--- | :--- | :--- | :--- |
+| Primary Goal | To teach and guide through a comprehensive curriculum. | To solve a specific, hands-on problem in a competitive scenario. | To validate and prove existing knowledge through formal examination. |
+| Structure | Hierarchical (Learning Path → Courses → Modules). | Typically a single, scenario-based task. | Flat; a collection of one or more exams. |
+| Main Content | Lessons, informational pages, labs, and progressive assessments. | A set of instructions for a practical task and a validation mechanism. | A series of exams, potentially with a brief study guide. |
+| Outcome | Acquired knowledge and skills. | A score, rank status. | An optional, paid official certificate and a verifiable badge.|
 
 ## 3. Structure Your Content
 
@@ -89,7 +85,6 @@ Throughout this guide, you'll see references to `<your-organization-uuid>` and `
 Each piece of Academy content is tied to a specific organization and secured by a unique identifier (UUID). This is a system-generated ID that ensures your content is scoped only to your organization.
 
 You'll need two types of UUIDs:
-
 - **Content ID**: A unique identifier for your specific content (learning path, certification, or challenge) that gets added to the front matter of your content's index file
 - **Organization ID**: Your organization's UUID that's used in directory paths
 
@@ -109,63 +104,60 @@ The easiest way to get the correct IDs is by using the content creation tool.
 Now, inside your academy repository, you should see the following top-level folders.
 
 1. `content/<content-type>/<your-organization-uuid>/`
-   This `content` directory is where all your written material lives. Replace `<content-type>` with either `learning-paths`, `certifications`, or `challenges`. The folder hierarchy you create here directly defines the navigation and organization of your content.
+  This `content` directory is where all your written material lives. Replace `<content-type>` with either `learning-paths`, `certifications`, or `challenges`. The folder hierarchy you create here directly defines the navigation and organization of your content.
 2. `layouts/shortcodes/<your-organization-uuid>/`
-   This `layouts` directory is for advanced use. You can place custom **Hugo Shortcodes** here if you need special reusable components.
+  This `layouts` directory is for advanced use. You can place custom **Hugo Shortcodes** here if you need special reusable components.
 
 ### Build the Content Hierarchy
 
 The content structure varies by type:
 
 #### Learning Path Structure
-
 A **Learning Path** contains **Courses**. A **Course** is primarily broken down into **Modules**, but can also conclude with a final **Test** that serves as a course exam. Finally, a **Module** consists of individual **Pages** and **Labs**.
 
 A high-level view of the learning path structure looks like this:
 
-```text
-learning-paths/<your-organization-uuid>
-└── {learning-path-name}/
-    ├── _index.md
-    ├── course-1/
-    │   └── _index.md
-    └── course-2/
-        ├── _index.md
-        ├── course-exam.md
-        └── module-1/
-            ├── _index.md
-            ├── page-1/
-            │   └── _index.md
-            ├── test.md
-```
+ ```text
+ learning-paths/<your-organization-uuid>
+ └── {learning-path-name}/ 
+     ├── _index.md                            
+     ├── course-1/
+     │   └── _index.md                        
+     └── course-2/  
+         ├── _index.md   
+         ├── course-exam.md  
+         └── module-1/ 
+             ├── _index.md                    
+             ├── page-1/
+             │   └── _index.md 
+             ├── test.md 
+ ```
 
 #### Certification Structure
-
 A **Certification** typically contains one or more **Exams** and optional study materials.
 
 ```text
 certifications/<your-organization-uuid>
 └── {certification-name}/
-    ├── _index.md
+    ├── _index.md  
     ├── exam/
-    │   ├── _index.md
+    │   ├── _index.md  
     ├── test-1/
     ├── test-2/
     └── test-3/
 ```
 
 #### Challenge Structure
-
 A **Challenge** is typically a single scenario-based task with lab and exam components.
 
 ```text
 challenges/<your-organization-uuid>
 └── {challenge-name}/
-    ├── _index.md
+    ├── _index.md 
     ├── lab/
-    │   ├── _index.md
+    │   ├── _index.md 
     ├── exam/
-    │   ├── _index.md
+    │   ├── _index.md 
     └── content/
         ├── description/
         ├── getting-started/
@@ -189,84 +181,87 @@ All `_index.md` files use the same frontmatter structure. Only the `type` field 
 
 ```yaml
 ---
-type: 'learning-path' # or "certification", "challenge", "course"
-title: 'Cloud Fundamentals'
-description: 'A learning path focused on providing the technical knowledge required for advanced topics.'
+type: "learning-path"  # or "certification", "challenge", "course"
+title: "Cloud Fundamentals"
+description: "A learning path focused on providing the technical knowledge required for advanced topics."
 weight: 5
-banner: 'kubernetes-icon.svg'
-id: '<your-content-uuid>'
+banner: "kubernetes-icon.svg"
+id: "<your-content-uuid>"
 tags: [kubernetes, infrastructure]
-categories: 'cloud'
-level: 'beginner'
+categories: "cloud"
+level: "beginner"
 
 # Table of content covered in the test
 # Each domain can have a weightage (percentage) and subdomains (items)
 # Weightage should sum up to 100 across all domains ( not strictly enforced, but recommended )
 competencies:
-  - title: 'Domain 1'
+  - title: "Domain 1"
     percentage: 10 # Weightage of this domain in the test
-    items:
-      - 'Subdomain 1'
-      - 'Subdomain 2'
+    items: 
+       -  "Subdomain 1"
+       -  "Subdomain 2"
 
-  - title: 'Domain 2'
+  - title: "Domain 2"
     percentage: 30
     items:
-      - 'Subdomain 1'
-      - 'Subdomain 2'
+      - "Subdomain 1"
+      - "Subdomain 2"
 
-  - title: 'Domain 3'
+  - title: "Domain 3"
     percentage: 60
     items:
-      - 'Subdomain 1'
-      - 'Subdomain 2'
+      - "Subdomain 1"
+      - "Subdomain 2"
+
+
 
 # List of resource that are recommended to complete before taking the test
 # Not strictly enforced, but recommended
 prerequisite_knowledge:
-  - title: 'Learning Path: Cloud Computing Basics'
-    link: 'https://academy-domain.com/learning-paths/cloud-computing-basics'
-  - title: 'Basic Certification: Networking Basics'
-    link: 'https://academy-domain.com/certifications/networking-basics'
-  - title: 'Basic knowledge of Linux command line'
-    link: 'https://linuxcommand.org/'
+  - title: "Learning Path: Cloud Computing Basics"
+    link: "https://academy-domain.com/learning-paths/cloud-computing-basics"
+  - title: "Basic Certification: Networking Basics"
+    link: "https://academy-domain.com/certifications/networking-basics"
+  - title: "Basic knowledge of Linux command line"
+    link: "https://linuxcommand.org/"
 
-# List of additional resources for further reading
+# List of additional resources for further reading 
 related_resources:
-  - title: 'Documentation'
-    link: 'https://docs.example.com/'
-  - title: 'Instructions'
-    link: 'https://instructions.example.com/'
-  - title: 'YouTube Channel'
-    link: 'https://www.youtube.com/c/example'
+  - title: "Documentation"
+    link: "https://docs.example.com/"
+  - title: "Instructions"
+    link: "https://instructions.example.com/"
+  - title: "YouTube Channel"
+    link: "https://www.youtube.com/c/example" 
 
 # Additional attributes about the test
-additional_attributes:
-  - title: 'Retake Policy'
-    description: 'One Retake allowed after 30 days'
-  - title: 'Labs'
-    description: 'Hands-on labs included'
+additional_attributes: 
+  - title: "Retake Policy"
+    description: "One Retake allowed after 30 days"
+  - title: "Labs"
+    description: "Hands-on labs included"
 
 ---
 ```
+ 
+ **Summary of Required Fields**
 
-**Summary of Required Fields**
+ > In this table, fields marked with ✅ are required, while those marked with – are optional.
 
-> In this table, fields marked with ✅ are required, while those marked with – are optional.
+| Applicable To                 | Field         | Required | Notes                                                                                                         |
+| ----------------------------- | ------------- | :------: | ------------------------------------------------------------------------------------------------------------- |
+| All                           | `title`       |    ✅     | The main display title.                                                                                       |
+| All                           | `description` |    ✅     | A brief summary of the content.                                                                               |
+| All                           | `weight`      |    -    | Controls the display order (lower numbers appear first). Items are sorted alphabetically by title if not specified.|
+| All                           | `draft`       |    -    | If `true`, the page will not be published.                                                                    |
+| **Learning Path**, **Certification**, **Challenge** | `type`        |    ✅     | Defines the content's role. Values: `challenge`, `learning-path`, `certification` |
+| **Learning Path**, **Certification**, **Challenge** | `id`          |    ✅     | **Crucial.** A stable UUID for tracking progress. **Do not change.**                                    |
+| **Learning Path**, **Certification**, **Challenge** | `badge` | - | Defines the awarded digital badge. The png and svg fields accept either a full remote URL or a local file path for an image in the same folder (e.g., meshery-contributor-badge.svg).|
+| **Learning Path**, **Certification**, **Challenge** | `level`       |    -    | A string for the intended difficulty (`beginner`, `intermediate`, `advanced`). Default: `beginner`. |
+| **Learning Path**, **Certification**, **Challenge** | `banner`      |    -    | Path to a banner image located in the same folder (Page Bundle). |
+| All | `tags`        |    -    | Keywords for content discovery. Multiple tags can be selected.                                                |
+| All | `categories`  |    -    | The main categories for the content. Only one can be selected.                                                |
 
-| Applicable To                                       | Field         | Required | Notes                                                                                                                                                                                 |
-| --------------------------------------------------- | ------------- | :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| All                                                 | `title`       |    ✅    | The main display title.                                                                                                                                                               |
-| All                                                 | `description` |    ✅    | A brief summary of the content.                                                                                                                                                       |
-| All                                                 | `weight`      |    -     | Controls the display order (lower numbers appear first). Items are sorted alphabetically by title if not specified.                                                                   |
-| All                                                 | `draft`       |    -     | If `true`, the page will not be published.                                                                                                                                            |
-| **Learning Path**, **Certification**, **Challenge** | `type`        |    ✅    | Defines the content's role. Values: `challenge`, `learning-path`, `certification`                                                                                                     |
-| **Learning Path**, **Certification**, **Challenge** | `id`          |    ✅    | **Crucial.** A stable UUID for tracking progress. **Do not change.**                                                                                                                  |
-| **Learning Path**, **Certification**, **Challenge** | `badge`       |    -     | Defines the awarded digital badge. The png and svg fields accept either a full remote URL or a local file path for an image in the same folder (e.g., meshery-contributor-badge.svg). |
-| **Learning Path**, **Certification**, **Challenge** | `level`       |    -     | A string for the intended difficulty (`beginner`, `intermediate`, `advanced`). Default: `beginner`.                                                                                   |
-| **Learning Path**, **Certification**, **Challenge** | `banner`      |    -     | Path to a banner image located in the same folder (Page Bundle).                                                                                                                      |
-| All                                                 | `tags`        |    -     | Keywords for content discovery. Multiple tags can be selected.                                                                                                                        |
-| All                                                 | `categories`  |    -     | The main categories for the content. Only one can be selected.                                                                                                                        |
 
 > For a complete list of all predefined variables and advanced usage, please refer to the official [Hugo Front Matter documentation](https://gohugo.io/content-management/front-matter/).
 
@@ -283,17 +278,17 @@ For all assets, please use the Page Bundling method. It simplifies asset managem
 {{< /alert >}}
 
 ### Size Limits for Embedded Media
-
 While there's no hard-coded size limit, we enforce these practical constraints:
-| Media Type | Recommended Max Size | Impact Beyond Limit |
+| Media Type | Recommended Max Size | Impact Beyond Limit          |
 |------------|----------------------|------------------------------|
-| Video | 50 MB | Slow builds, CI failures |
-| Image | 5 MB | Hugo memory overflow |
-| PDF | 20 MB | Browser loading delays |
+| Video      | 50 MB                | Slow builds, CI failures     |
+| Image      | 5 MB                 | Hugo memory overflow         |
+| PDF        | 20 MB                | Browser loading delays       |
+
 
 ### How to Add an Image
 
-1.  Place your image file (e.g., `hugo-logo.png`) in the **same directory** as your Markdown file (e.g., `01-pods.md`).
+1.  Place your image file (e.g., `hugo-logo.png`) in the **same directory** as your Markdown file (e.g., `01-pods.md`). 
 
 2.  In your `01-pods.md` file, embed the image using a **standard Markdown link**. The path should just be the filename.
 
@@ -308,7 +303,6 @@ The `usestatic` shortcode is **deprecated** and should not be used!
 ### How to Add a Video
 
 **Page Bundling (Recommended)**
-
 ```markdown
 <video controls width="100%">
   <source src="video-demo.mp4" type="video/mp4">
@@ -316,11 +310,9 @@ The `usestatic` shortcode is **deprecated** and should not be used!
 ```
 
 **External Hosting (Large Files)**
-
 ```markdown
 {{</* card title="Video Tutorial" */>}}
 <video controls preload="metadata">
-
   <source src="https://cdn.yourcompany.com/video.mp4" type="video/mp4">
   Your browser doesn't support HTML5 video.
 </video>
@@ -328,21 +320,19 @@ The `usestatic` shortcode is **deprecated** and should not be used!
 ```
 
 #### External Hosting Recommendations
-
 For optimal performance, we recommend hosting large videos on dedicated platforms:
-
 - **YouTube** (Free, public/private options)
 - **AWS S3** (Requires bucket & CORS configuration)
 - **Cloudflare Stream** (Paid, enterprise-grade)
 - **Vimeo** (Paid, professional features)
 
-#### Critical Considerations
 
+#### Critical Considerations
 - Best practice: Page Bundling
 
 - Accessibility: Always include subtitle tracks (VTT format)
 
-- Thumbnails: Set custom posters with `poster="image.jpg"`
+- Thumbnails: Set custom posters with ```poster="image.jpg"```
 
 - Bandwidth: Self-hosted videos may incur significant costs
 
@@ -387,13 +377,12 @@ To allow your repository to securely communicate with the Academy's build system
 First, confirm the **exact secret names** required by the workflow.
 
 In your repository, open the workflow file at `.github/workflows/build-and-release.yml`. This confirms the workflow expects secrets named exactly `ACADEMY_ORG_ID` and `ACADEMY_TOKEN`.
-
-```yaml
-with:
-  orgId: ${{ secrets.ACADEMY_ORG_ID }}
-  token: ${{ secrets.ACADEMY_TOKEN }}
-  # ... and other parameters
-```
+  ```yaml
+  with:
+    orgId: ${{ secrets.ACADEMY_ORG_ID }}
+    token: ${{ secrets.ACADEMY_TOKEN }}
+    # ... and other parameters
+  ```
 
 #### 2. Set Up Repository Secrets
 
@@ -402,17 +391,17 @@ Now, create the two required secrets in your repository.
 1.  Navigate to your GitHub repository and go to `Settings` > `Secrets and variables` > `Actions`.
 2.  Ensure you are on the **Secrets** tab.
 3.  Click `New repository secret` to add the following two secrets:
-    1. **Name:** `ACADEMY_ORG_ID`
+    1. **Name:** `ACADEMY_ORG_ID` 
 
        **Value:** Paste your unique Organization ID string.
 
-    2. **Name:** `ACADEMY_TOKEN`
+    2. **Name:** `ACADEMY_TOKEN` 
 
        **Value:** Paste the personal access token generated from Layer5 Cloud by following the instructions below.
 
 {{< alert type="info" title="How to Correctly Copy Your Token" >}}
 When you generate a token from the [Layer5 Cloud Tokens page](https://cloud.layer5.io/security/tokens), you will get a JSON object like this:
-`{"meshery-provider":"Meshery","token":"eyj...your-long-token-string..."}` You must copy only the token string itself—the value inside the quotes for the `"token"` key.
+`{"meshery-provider":"Meshery","token":"eyj...your-long-token-string..."}` You must copy only the token string itself—the value inside the quotes for the `"token"` key. 
 
 Do NOT include the curly braces `{}`, the `"token":` key, or the surrounding quotes. The value you paste into the secret should begin with `eyj...`.
 {{< /alert >}}
@@ -449,18 +438,15 @@ This action will automatically trigger the workflow, and your content will be de
 Once your content is live, you may need to perform routine tasks to keep your local environment and dependencies up-to-date.
 
 ### Updating the Academy Theme
+The  [`academy-theme`](https://github.com/layer5io/academy-theme) provides the core layout, style, and features for your Academy content. Regularly updating it ensures you benefit from the latest improvements and bug fixes.
 
-The [`academy-theme`](https://github.com/layer5io/academy-theme) provides the core layout, style, and features for your Academy content. Regularly updating it ensures you benefit from the latest improvements and bug fixes.
-
-To upgrade to the latest theme version, run:
-
+To upgrade to the latest theme version, run: 
 ```bash
 make theme-update
 ```
 
 You will see output similar to this as Hugo fetches the new modules:
-
-```bash
+```bash 
 hugo mod get -u
 hugo: collected modules in 1707 ms
 go: downloading github.com/layer5io/academy-theme v0.1.6
@@ -476,7 +462,6 @@ It's a good practice to update the theme before creating a new release or when y
 
 If you encounter unexpected formatting issues or your content doesn't update correctly during local development, your build cache might be stale. Use the `make clean` command to resolve this.
 This command first deletes the local build cache (`public` directory) and then restarts the development server, ensuring you are previewing a fresh build of your content.
-
 ```bash
 make clean
 ```
@@ -511,7 +496,6 @@ The publishing process is designed to be safe. If your new content causes a buil
   <summary>5. How do I structure multiple courses under one learning path?</summary>
 
 The structure is defined by your folder hierarchy. A learning path is a directory, and each course is a sub-directory within that path. This folder structure in your <code>content</code> directory directly maps to the content structure presented to users. For certifications and challenges, the structure is typically flatter with exams or scenario-based tasks.
-
 </details>
 
 <details>
@@ -533,17 +517,15 @@ Use AWS S3 with signed URLs:
   <summary>8. How do I debug using Layer5 Cloud Events?</summary>
 
 If your content is not appearing in the Academy after a GitHub release, it may have failed to publish. You can troubleshoot these issues using the **Events** section in [Layer5 Cloud](https://cloud.layer5.io).
-
+ 
 To view publishing logs:
-
 1. Navigate to **Settings > Events**
 2. Switch to the **Audit** tab
 3. Apply a filter using the action type:
-   `AcademyUpserted`
-   This will show all attempts to upload content, including which ones failed and why.
+ `AcademyUpserted`
+This will show all attempts to upload content, including which ones failed and why.
 
 **Common Errors You Might See**
-
 - **Duplicate IDs**
   Two pieces of content using the same identifier. You can fix this by renaming or regenerating unique IDs.
 
@@ -554,10 +536,9 @@ To view publishing logs:
   - Use `type: "challenge"` not `type: "challenges"`
 
 - **Missing Required Fields**
-  Ensure that title, description, type, and id are included in the content's frontmatter.
+ Ensure that title, description, type, and id are included in the content's frontmatter.
 
-{{< alert type="info" title="Tip" >}}
-Use the event filter `AcademyRegisteredToContent` to track user activity, like who enrolled in which content.
-{{< /alert >}}
-
+ {{< alert type="info" title="Tip" >}}
+ Use the event filter `AcademyRegisteredToContent` to track user activity, like who enrolled in which content.
+ {{< /alert >}}
 </details>

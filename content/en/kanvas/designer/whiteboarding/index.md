@@ -32,7 +32,7 @@ If not already enabled, follow these steps to access the whiteboarding feature w
 ### Step 1: Accessing Preferences
 
 1. Navigate to canvas preferences and enable "Whiteboard Beta"
-   ![Canvas Preferences](./canvas-preferences.png)
+![Canvas Preferences](./canvas-preferences.png)
 1. **Toggle Whiteboard Feature**
    1. Inside the 'Preferences' menu, find the section related to 'Canvas Settings' or 'Features'.
    1. Look for the option labeled 'Whiteboard' or similar.
@@ -61,9 +61,11 @@ The Whiteboard (Beta) feature might undergo updates or improvements during its b
 ### Feature Highlights
 
 - **Diverse Drawing Capabilities**
+
   - Shapes, text, and annotation tools for expressive design enhancements.
 
 - **Effortless Collaboration**
+
   - Seamless real-time collaboration empowers teams to brainstorm and iterate designs collectively.
   - Identification of collaborators through avatars ensures clarity in collaborative sessions.
 

@@ -2,7 +2,7 @@
 title: Navigating Operator
 weight: 5
 description: >
-  Operator mode is for operating your Kubernetes clusters and cloud native infrastructure.
+  Operator mode is for operating your Kubernetes clusters and cloud native infrastructure. 
 categories: [Operator]
 aliases:
   - /meshmap/operator

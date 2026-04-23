@@ -28,77 +28,79 @@ You can commence the integration process from the "**Extensions Page in Meshery*
 1. Click on **Enable** for **GitHub Action: Kanvas Snapshot**.
 1. You will be redirected to the Integrations page.
 
-   ![Extensions](/cloud/getting-started/images/github/extensions.png)
+    ![Extensions](/cloud/getting-started/images/github/extensions.png)
 
 ### Navigate to the Integrations Page via the Layer5 Cloud Dashboard
 
 1. On [Layer5 Cloud](https://cloud.layer5.io/dashboard), click on the **menu icon** on the navigation bar to open the global navigation menu.
 
-   ![Dashboard](/cloud/getting-started/images/github/dashboard.png)
+    ![Dashboard](/cloud/getting-started/images/github/dashboard.png)
 
 1. From the **Spaces** drop down, select **Integrations**.
 
-   ![Spaces](/cloud/getting-started/images/github/spaces.png)
+    ![Spaces](/cloud/getting-started/images/github/spaces.png)
 
 1. You will be redirected to the Integrations page. Click **Connect** to begin the integration process.
 
-   ![Integrations](/cloud/getting-started/images/github/integrations.png)
+    ![Integrations](/cloud/getting-started/images/github/integrations.png)
 
 ### Connect GitHub and Import Designs
 
 Let’s go through the steps required to connect your GitHub account and import files from your repository.
 
 1. **Connect GitHub App**: This initiates the authorization process where you'll link your GitHub account with Meshery.
-   - Click **Connect**.
+    - Click **Connect**.
 
-     ![Connect GitHub](/cloud/getting-started/images/github/github.png)
+      ![Connect GitHub](/cloud/getting-started/images/github/github.png)
 
-   - You will be asked to sign in to your GitHub account if you are not already signed in.
-   - Once signed in, GitHub will prompt you to select the GitHub account where you want to install the Meshery GitHub App. This account could be your personal account or an organization account you can access.
+    - You will be asked to sign in to your GitHub account if you are not already signed in.
+    - Once signed in, GitHub will prompt you to select the GitHub account where you want to install the Meshery GitHub App. This account could be your personal account or an organization account you can access.
 
-     ![Install Meshery](/cloud/getting-started/images/github/install_meshery.png)
+      ![Install Meshery](/cloud/getting-started/images/github/install_meshery.png)
 
-   - After selecting the account, GitHub will prompt you to authorize the Meshery GitHub App so it can access your account.
-   - You can choose to allow access to all repositories or select specific ones.
-   - After making your selection, click **Install and Authorize** to complete the authorization process.
+    - After selecting the account, GitHub will prompt you to authorize the Meshery GitHub App so it can access your account.
+    - You can choose to allow access to all repositories or select specific ones.
+    - After making your selection, click **Install and Authorize** to complete the authorization process.
 
-     ![Install and Authorize](/cloud/getting-started/images/github/authorize.png)
+      ![Install and Authorize](/cloud/getting-started/images/github/authorize.png)
 
 > Note: When you install a GitHub App on your account or organization, you grant the app permission to access the organization and repository resources that it requested. You also specify which repositories the app can access.
 
 2. **Select Repositories**: After authorization, you will be redirected back to this page to select the GitHub repository you want to import files from.
-   - Select the repository or repositories you want, then click **Next**.
 
-     ![Select repository](/cloud/getting-started/images/github/select-repo.png)
+    - Select the repository or repositories you want, then click **Next**.
 
-   **Reconfigure Repository Selection**
+      ![Select repository](/cloud/getting-started/images/github/select-repo.png)
 
-   If you are reconfiguring your existing GitHub integration, you will see the **Add Repository** button. This takes you to the “Install Meshery” page where you can either:
-   1. Select a new repository you want to import files from.
-   1. Reconfigure repository access for GitHub accounts that already have the Meshery GitHub App installed or
-   1. Install the Meshery GitHub App on a new GitHub account to gain access to the repositories there.
+    **Reconfigure Repository Selection**
 
-      ![Add Repository](/cloud/getting-started/images/github/add_repo.png)
+    If you are reconfiguring your existing GitHub integration, you will see the **Add Repository** button. This takes you to the “Install Meshery” page where you can either:
+
+    1. Select a new repository you want to import files from.
+    1. Reconfigure repository access for GitHub accounts that already have the Meshery GitHub App installed or
+    1. Install the Meshery GitHub App on a new GitHub account to gain access to the repositories there.
+
+        ![Add Repository](/cloud/getting-started/images/github/add_repo.png)
 
 1. **Import Design Files**: The files in the repository are displayed for you to select the ones you want to import as designs.
-   - There is a checkbox that allows you to choose between displaying all file types or only the file types that are typically supported by Meshery for import.
 
-     ![Show all File Types](/cloud/getting-started/images/github/show_all_files.png)
+    - There is a checkbox that allows you to choose between displaying all file types or only the file types that are typically supported by Meshery for import.
 
-   - The file types supported for import are:
-     1. Helm charts
-     2. Docker Compose files
-     3. Kubernetes manifests
-     4. Designs
+      ![Show all File Types](/cloud/getting-started/images/github/show_all_files.png)
 
-   - Select the checkbox beside the directory name to import all the files in the directory, or individually select the files you want to import and click **Import**.
-   - If you want to go back and change your selection or choose a different repository, click **Back**.
+    - The file types supported for import are:
+      1. Helm charts
+      2. Docker Compose files
+      3. Kubernetes manifests
+      4. Designs
 
-     ![Select Files](/cloud/getting-started/images/github/select_file.png)
+    - Select the checkbox beside the directory name to import all the files in the directory, or individually select the files you want to import and click **Import**.
+    - If you want to go back and change your selection or choose a different repository, click **Back**.
 
-   - After the import, the files that were imported successfully and those that weren't will be indicated on the screen.
+      ![Select Files](/cloud/getting-started/images/github/select_file.png)
+    - After the import, the files that were imported successfully and those that weren't will be indicated on the screen.
 
-     <!-- ![After Import](/cloud/getting-started/images/github/png) -->
+      <!-- ![After Import](/cloud/getting-started/images/github/png) -->
 
 ### [Optional] Enabling Snapshots
 
@@ -106,32 +108,33 @@ These next steps are optional. By enabling snapshots, you can choose a design fr
 
 1. **Select Designs**: Select the design from the repository you want to enable snapshots for, then click **Next**.
 
-   ![Select Designs](/cloud/getting-started/images/github/select_design.png)
+    ![Select Designs](/cloud/getting-started/images/github/select_design.png)
 
-   **Warning: Workflow Already Exists**
+    **Warning: Workflow Already Exists**
 
-   If you attempt to add a workflow to a repository that already contains an existing workflow from this process, you will see a warning message. Proceeding to the next step after receiving this warning will overwrite the existing snapshot workflow in that repository.
+    If you attempt to add a workflow to a repository that already contains an existing workflow from this process, you will see a warning message. Proceeding to the next step after receiving this warning will overwrite the existing snapshot workflow in that repository.
 
-   ![Workflow Exists](/cloud/getting-started/images/github/workflow_exists.png)
+    ![Workflow Exists](/cloud/getting-started/images/github/workflow_exists.png)
 
 1. **Configure Secrets**:
-   - Copy the **API TOKEN** and add it to the secrets page of your selected repository. To learn more about configuring secrets check out [Using secrets in GitHub Actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions).
-   - Tick the check box to confirm that you have added the token.
+    - Copy the **API TOKEN** and add it to the secrets page of your selected repository. To learn more about configuring secrets check out [Using secrets in GitHub Actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions).
+    - Tick the check box to confirm that you have added the token.
 
-     ![Configure Secrets](/cloud/getting-started/images/github/configure_secrets.png)
+      ![Configure Secrets](/cloud/getting-started/images/github/configure_secrets.png)
 
 1. **Add workflows**: Allowing Meshery to add this workflow ensures the smooth integration of Meshery Snapshot with your GitHub repository. The workflow:
-   - **Triggers on Pull Requests**: Automatically runs when a pull request is opened, synchronized, or reopened.
 
-   - **Assigns Permissions**: Provides necessary permissions for reading actions, writing content, handling security events, statuses, and pull requests.
+    - **Triggers on Pull Requests**: Automatically runs when a pull request is opened, synchronized, or reopened.
 
-   - **Captures Snapshots**: Uses the Kanvas-Snapshot action to capture snapshots of your infrastructure based on the specified application_type (e.g. Kubernetes Manifest, Docker Compose, Helm Chart).
+    - **Assigns Permissions**: Provides necessary permissions for reading actions, writing content, handling security events, statuses, and pull requests.
 
-   With the workflow active in your repository, you can now visualize changes to your infrastructure directly in your pull requests, making it easier to track and review updates on designs.
+    - **Captures Snapshots**: Uses the Kanvas-Snapshot action to capture snapshots of your infrastructure based on the specified application_type (e.g. Kubernetes Manifest, Docker Compose, Helm Chart).
 
-   ![Add workflow](/cloud/getting-started/images/github/add_workflows.png)
+    With the workflow active in your repository, you can now visualize changes to your infrastructure directly in your pull requests, making it easier to track and review updates on designs.
 
-   Click **Next** to finish setting up!
+    ![Add workflow](/cloud/getting-started/images/github/add_workflows.png)
+
+    Click **Next** to finish setting up!
 
 ### Finish Setup
 
@@ -141,7 +144,7 @@ You have successfully Integrated GitHub with Meshery! This page provides an over
 1. Click on the **View** icon to open the Meshery Catalog and see the design.
 1. If everything looks good, click **Finish**. If you need to make any updates, you can go **Back** to the previous steps.
 
-   ![Finish Set up](/cloud/getting-started/images/github/finish.png)
+    ![Finish Set up](/cloud/getting-started/images/github/finish.png)
 
 ## View Imported Designs
 
@@ -150,7 +153,7 @@ To view imported designs:
 1. Go to [Meshery Catalog](https://cloud.layer5.io/catalog).
 1. Click on **My Designs** on the navigation bar.
 
-   ![Catalog](/cloud/getting-started/images/github/catalog.png)
+    ![Catalog](/cloud/getting-started/images/github/catalog.png)
 
 ## View GitHub Integration Connection on Meshery Playground
 
@@ -164,16 +167,16 @@ You can delete the GitHub Integration Connection from the “**Connections page 
 
 On the Connections page in Meshery:
 
-1. Identify the connection and click on its checkbox.
-1. Click **Delete**.
+  1. Identify the connection and click on its checkbox.
+  1. Click **Delete**.
 
 On the [Integrations Page in Layer5 Cloud](https://cloud.layer5.io/spaces/integrations) page:
 
-1. Click on the GitHub Connection.
-   ![Select Connection](/cloud/getting-started/images/github/select_connection.png)
+  1. Click on the GitHub Connection.
+      ![Select Connection](/cloud/getting-started/images/github/select_connection.png)
 
-1. Tick the checkbox then **delete**.
-   ![Delete Connection](/cloud/getting-started/images/github/delete_connection.png)
+  1. Tick the checkbox then **delete**.
+      ![Delete Connection](/cloud/getting-started/images/github/delete_connection.png)
 
 ## Conclusion
 

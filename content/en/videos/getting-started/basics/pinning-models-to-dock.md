@@ -1,13 +1,13 @@
 ---
-title: 'Pinning Models to Dock'
+title: "Pinning Models to Dock"
 description: >
-  Pinning models to the dock allows you to quickly access your most used models. This is a great way to keep your workspace organized and efficient.
-videoId: '8lQ6ed_1Tss'
-videoType: youtube
+   Pinning models to the dock allows you to quickly access your most used models. This is a great way to keep your workspace organized and efficient.
+videoId: "8lQ6ed_1Tss"
+videoType: youtube 
 categories: [Designer]
 formats: [video]
 tags: [basics]
-duration: '0:57'
+duration: "0:57"
 ---
 
 {{< youtube id=8lQ6ed_1Tss class="yt-embed-container" >}}
@@ -24,5 +24,4 @@ When a model is pinned you can still browse all components or search for a speci
 When you no longer want a model pinned to the dock, you can remove the pin by revisiting the model in its original location and choosing to “remove from dock”.
 
 Related Docs:
-
 1. https://docs.layer5.io/kanvas/designer/understanding-tool-modes/

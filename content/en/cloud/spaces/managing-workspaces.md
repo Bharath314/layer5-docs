@@ -1,6 +1,6 @@
 ---
 title: Managing Workspaces
-description: 'Learn how to create, edit, delete, and configure your Workspaces.'
+description: "Learn how to create, edit, delete, and configure your Workspaces."
 weight: 7
 categories: [Spaces]
 ---
@@ -20,12 +20,10 @@ The [Workspaces page](https://cloud.layer5.io/spaces/workspaces) is where you ca
 > To suit different workflows, you can switch between two distinct layouts: a visual [grid view](#grid-view) and a detailed [table view](#table-view).
 
 #### Grid View
-
 The grid view offers a card-based layout, perfect for quickly identifying workspaces at a glance. Each card displays essential information, and you can flip it to reveal management options like editing or deleting and get audit history.
 ![Grid view of workspaces showing card-based layout](/cloud/spaces/images/grid-view.png)
 
 #### Table View
-
 The table view provides a dense, list-based format that is ideal for managing a large number of workspaces. This view allows for sorting and gives you more control over the specific details you see.
 
 To customize the information displayed, click the **View Columns** icon and select the attributes you want to see, such as Owner ID or Created Date.
@@ -67,10 +65,12 @@ You can modify a workspace's name and description at any time after it has been 
 You can delete a single workspace or multiple workspaces at once.
 
 - **To delete a single workspace:**
-  - From the **Grid View**, flip the workspace card, then click the **trash can icon**.
-  - From the **Table View**, click the **trash can icon** in the row of the workspace you wish to delete.
+
+    - From the **Grid View**, flip the workspace card, then click the **trash can icon**.
+    - From the **Table View**, click the **trash can icon** in the row of the workspace you wish to delete.
 
 - **To delete multiple workspaces (Grid View only):**
+
   1. Select the checkboxes on the cards of the workspaces you want to delete.
   2. Click the **Delete** button that appears at the top of the page.
 
@@ -94,7 +94,6 @@ When a Workspace is deleted:
 - Any associated Teams or Environments will be detached from the Workspace but will remain available for reassignment.
 
 ### Assign Teams to a Workspace
-
 Assigning teams is the way you grant users access to a workspace. Once a team is assigned, its members can access all of the Designs, Views, and Environments linked to that workspace.
 
 ![Animation showing team assignment process](/cloud/spaces/images/assign-teams.gif)
@@ -108,10 +107,10 @@ Inside the assignment Dialog, you will see two lists: **Available Teams** on the
 
 1. Select one or more teams from either list.
 2. Use the arrow buttons to move the selected teams between the lists:
-   - **>** Assigns a selected team.
-   - **<** Unassigns a selected team.
-   - **>>** Assigns all available teams.
-   - **<<** Unassigns all assigned teams.
+      - **>** Assigns a selected team.
+      - **<** Unassigns a selected team.
+      - **>>** Assigns all available teams.
+      - **<<** Unassigns all assigned teams.
 3. Click **Save** to apply your changes.
 
 {{< alert type="info" title="Team and Workspace Relationships" >}}
@@ -119,7 +118,6 @@ You can assign multiple teams to a single workspace, and a single team can also 
 {{< /alert >}}
 
 ### Link Environments to a Workspace
-
 When you link an [Environment](/cloud/spaces/environments/) to a Workspace, you make all the connections (like those to Kubernetes clusters or databases) grouped within that Environment available. This means any team members with access to that Workspace can then deploy their applications or configurations to the resources.
 
 The process of linking environments is almost the same as assigning teams.
@@ -155,7 +153,6 @@ Meshery keeps a detailed audit log for each workspace, allowing you to track all
 ![Workspace audit log showing recent activity](/cloud/spaces/images/security-audit.png)
 
 The activity log captures a variety of events, including:
-
 - The creation or deletion of the workspace.
 - Updates to the workspace's name or description.
 - The assignment or unassignment of Teams.
@@ -170,27 +167,26 @@ To see how managing a Workspace fits into a complete, end-to-end workflow, follo
 
 ### Common Workspace Usage Patterns
 
-There isn't a single "best" way to organize your workspaces, as structure depends heavily on team dynamics and project needs. Instead, we recommend a flexible, multi-layered approach to maximize workspace effectiveness. Below are common usage patterns:
+There isn't a single "best" way to organize your workspaces, as structure depends heavily on team dynamics and project needs. Instead, we recommend a flexible, multi-layered approach to maximize workspace effectiveness. Below are common usage patterns:  
 
-**1. The Project Hub**
+**1. The Project Hub** 
 
 Dedicate a shared workspace to each project. It becomes a central hub where your team can co-develop designs, share reusable components, and align with specific environments (e.g., staging or production). This keeps all your environments, history, and resources in one place
 
-**2. Your Personal "My Drive"**
+**2. Your Personal "My Drive"** 
 
 Think of a private workspace as your personal Google "My Drive." You can use it for anything—from important, confidential designs to just playing around with new ideas in a "sandbox." It's more than just a place for quick tests; it's also where you can build and polish your professional work before it's ready to be shared.
 
-**3. Template Library**
+**3. Template Library** 
 
-Create a separate, access-controlled Workspace to serve as your organization's internal, private template library. This is for storing non-public, organization-specific, or sensitive patterns.
-
+Create a separate, access-controlled Workspace to serve as your organization's internal, private template library. This is for storing non-public, organization-specific, or sensitive patterns. 
 > This practice complements the [public Catalog](/cloud/catalog/exploring-the-catalog/), which is used for sharing generic, non-sensitive designs with the community. A dedicated Organization Catalog feature is also planned for the future.
 
-**4. The Team Space**
+**4. The Team Space** 
 
 You can also organize long-term workspaces around specific teams, such as a "Developer Hub" or "QA Workspace." This simplifies resource management and makes it easy to monitor team-wide activity.
 
-**5. The Environment-Specific Space**
+**5. The Environment-Specific Space** 
 
 For teams requiring strict separation between environments, this pattern is essential. You can create dedicated workspaces like a "Production Workspace," which would exclusively contain designs approved for deployment and link only to production clusters. This approach builds a secure barrier between your development, staging, and production assets.
 
@@ -198,9 +194,9 @@ For teams requiring strict separation between environments, this pattern is esse
 
 #### 1. When a design is transferred from one Workspace to the next, is design ownership affected? Who has access? What if the Workspaces are in different orgs?
 
-- **Ownership**: A Design’s ownership is permanent. It always belongs to the user account that created it.
-- **Access**: Access to the Design is determined by the Teams assigned to its new Workspace.
-- **Cross-Organization Transfers**: You can move a Design you own into a Workspace in a different Organization, provided you have the necessary permissions in the target Organization.
+  - **Ownership**: A Design’s ownership is permanent. It always belongs to the user account that created it.
+  - **Access**: Access to the Design is determined by the Teams assigned to its new Workspace.
+  - **Cross-Organization Transfers**: You can move a Design you own into a Workspace in a different Organization, provided you have the necessary permissions in the target Organization. 
 
 > A key restriction is that a user, even with a [Workspace Admin](/cloud/security/roles/workspace-roles/) role, cannot manage a Design they **do not own**. This action requires [Organization Admin](/cloud/security/roles/organization-roles/) or Organization Owner permissions.
 

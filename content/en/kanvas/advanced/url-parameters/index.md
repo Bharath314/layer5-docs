@@ -1,7 +1,7 @@
 ---
 title: Design Render Quality
 description: >
-  Control the level of detail in Kanvas design rendering using advanced URL query parameters.
+    Control the level of detail in Kanvas design rendering using advanced URL query parameters.
 weight: 2
 categories: [Designer, Operator]
 tags: [performance]
@@ -37,9 +37,9 @@ This is an advanced feature primarily intended for power users, debugging scenar
 
 This capability is particularly valuable for:
 
-- **Detailed Inspection & Debugging:** When you need to meticulously review, debug, or verify all components, relationships, and intricate details within a design.
-- **Comprehensive Documentation:** For creating thorough screenshots or technical documentation that requires all visual elements to be accurately represented.
-- **System & Integration Testing:** During testing phases to ensure all parts of a design are processed and displayed by the rendering engine exactly as expected.
+* **Detailed Inspection & Debugging:** When you need to meticulously review, debug, or verify all components, relationships, and intricate details within a design.
+* **Comprehensive Documentation:** For creating thorough screenshots or technical documentation that requires all visual elements to be accurately represented.
+* **System & Integration Testing:** During testing phases to ensure all parts of a design are processed and displayed by the rendering engine exactly as expected.
 
 ## Best Practices
 

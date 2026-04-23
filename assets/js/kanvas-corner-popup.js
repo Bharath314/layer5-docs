@@ -1,15 +1,15 @@
 (function () {
-  'use strict';
+  "use strict";
 
   function attachBehavior(el) {
     if (!el) return;
 
-    var closeBtn = el.querySelector('.close-btn');
+    var closeBtn = el.querySelector(".close-btn");
     if (closeBtn) {
-      closeBtn.addEventListener('click', function () {
-        el.classList.add('kanvas-corner-popup--hiding');
+      closeBtn.addEventListener("click", function () {
+        el.classList.add("kanvas-corner-popup--hiding");
         el.addEventListener(
-          'transitionend',
+          "transitionend",
           function () {
             el.remove();
           },
@@ -18,21 +18,21 @@
       });
     }
 
-    if (typeof window.initKanvasTransition === 'function') {
-      var c = el.querySelector('.kanvas-transition-container');
+    if (typeof window.initKanvasTransition === "function") {
+      var c = el.querySelector(".kanvas-transition-container");
       if (c) window.initKanvasTransition(c);
     }
   }
 
   function show() {
-    var el = document.getElementById('kanvas-corner-popup');
+    var el = document.getElementById("kanvas-corner-popup");
     if (!el) return;
 
     attachBehavior(el);
 
     requestAnimationFrame(function () {
       requestAnimationFrame(function () {
-        el.classList.add('kanvas-corner-popup--visible');
+        el.classList.add("kanvas-corner-popup--visible");
       });
     });
   }
@@ -41,5 +41,7 @@
     setTimeout(show, 3000);
   }
 
-  document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
+  document.readyState === "loading"
+    ? document.addEventListener("DOMContentLoaded", init)
+    : init();
 })();

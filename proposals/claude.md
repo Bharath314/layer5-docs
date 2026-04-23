@@ -5,7 +5,6 @@
 **Documentation Framework:** Diátaxis (Tutorials, How-To Guides, Explanations, Reference)
 
 **Status Indicators:**
-
 - 🆕 **[NEW]** - Page needs to be created
 - ✏️ **[REVISION]** - Existing page needs significant improvement
 - ✅ **[EXISTING]** - Page exists and is adequate
@@ -15,10 +14,9 @@
 
 ## 1. Getting Started (Tutorials)
 
-_Purpose: Linear, hands-on lessons that guarantee success for newcomers_
+*Purpose: Linear, hands-on lessons that guarantee success for newcomers*
 
 ### 1.1 Introduction
-
 - **What is Layer5 Cloud?** ✅
   - Platform overview and value proposition
   - Cloud vs. Self-Hosted Meshery comparison
@@ -31,7 +29,6 @@ _Purpose: Linear, hands-on lessons that guarantee success for newcomers_
 ### 1.2 Quick Start Tutorials
 
 #### Tutorial 1: Your First Design
-
 - **Prerequisites** 🆕
 - **Step 1: Create Your Account** ✏️
 - **Step 2: Connect Your First Cluster** ✏️
@@ -40,7 +37,6 @@ _Purpose: Linear, hands-on lessons that guarantee success for newcomers_
 - **What You've Learned** 🆕
 
 #### Tutorial 2: Team Collaboration Basics
-
 - **Step 1: Create an Organization** ✏️
 - **Step 2: Set Up Your First Team** ✏️
 - **Step 3: Invite a Team Member** ✏️
@@ -48,7 +44,6 @@ _Purpose: Linear, hands-on lessons that guarantee success for newcomers_
 - **Step 5: Review Changes with Comments** 🆕
 
 #### Tutorial 3: From Design to Production
-
 - **Step 1: Create a Multi-Environment Workspace** 🆕
 - **Step 2: Set Up Development Environment** 🆕
 - **Step 3: Validate Your Design** 🆕
@@ -56,7 +51,6 @@ _Purpose: Linear, hands-on lessons that guarantee success for newcomers_
 - **Step 5: Deploy to Production** 🆕
 
 ### 1.3 Next Steps
-
 - **Explore the Academy** 🔗
   - Link to Learning Paths
   - Link to Challenges
@@ -67,12 +61,11 @@ _Purpose: Linear, hands-on lessons that guarantee success for newcomers_
 
 ## 2. How-To Guides (Task-Oriented)
 
-_Purpose: Step-by-step instructions to accomplish specific tasks_
+*Purpose: Step-by-step instructions to accomplish specific tasks*
 
 ### 2.1 Account & Profile Management
 
 #### Your Profile
-
 - **View and Edit Your Profile** ✏️
 - **Update Your Notification Preferences** ✅
 - **Connect Social Accounts (GitHub, Google)** ✅
@@ -81,7 +74,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Delete Your Account** ✅
 
 #### Billing & Subscriptions
-
 - **View Your Subscription Plan** ✅
 - **Upgrade or Downgrade Your Plan** ✅
 - **Compare Plan Features** ✅
@@ -92,7 +84,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.2 Organizations & Teams
 
 #### Organization Management
-
 - **Create an Organization** ✅
 - **Edit Organization Settings** ✏️
   - Organization name and description
@@ -111,7 +102,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Leave an Organization** ✏️
 
 #### Team Management
-
 - **Create a Team** ✅
 - **Edit Team Details** ✏️
 - **Invite Users to a Team** ✅
@@ -124,7 +114,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Leave a Team** 🆕
 
 #### User Management
-
 - **View All Users in Your Organization** 🆕
 - **Create User Accounts Directly** 🆕
 - **Edit User Profiles and Roles** 🆕
@@ -134,7 +123,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.3 Workspace & Environment Management
 
 #### Workspaces
-
 - **Create a Workspace** ✅
 - **Configure Workspace Settings** 🆕
 - **Assign Teams to Workspaces** ✅
@@ -144,7 +132,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Delete a Workspace** ✅
 
 #### Environments
-
 - **Create an Environment** ✏️
 - **Assign Connections to an Environment** 🆕
 - **Remove Connections from an Environment** 🆕
@@ -152,7 +139,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Delete an Environment** ✅
 
 #### Connections
-
 - **Connect a Kubernetes Cluster** 🆕
 - **View All Connections** 🆕
 - **Change Connection State** 🆕
@@ -164,7 +150,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.4 Designing with Kanvas
 
 #### Creating and Managing Designs
-
 - **Create a New Design** ✅
 - **Import a Design** ✅
   - From Kubernetes Manifest
@@ -180,7 +165,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Clone a Design from the Catalog** ✅
 
 #### Visual Design Tools
-
 - **Using the Drag-and-Drop Designer** ✅
 - **Working with Components** ✅
   - Add components from the catalog
@@ -209,7 +193,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
   - View help center
 
 #### Design Collaboration
-
 - **Collaborate in Real-Time** 🆕
 - **Add and Manage Comments** ✅
   - Add inline comments
@@ -227,7 +210,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
   - Set collaborator permissions
 
 #### Exporting and Publishing
-
 - **Export a Design** ✅
   - As Design (YAML)
   - As Design (OCI Image)
@@ -241,7 +223,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.5 Catalog Management
 
 #### Browsing the Catalog
-
 - **Explore the Catalog** ✅
 - **View Public Designs** ✅
 - **View Published Designs** ✅
@@ -249,14 +230,12 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Filter and Search Catalog Content** 🆕
 
 #### Catalog Operations
-
 - **Clone a Design from the Catalog** ✅
 - **Open a Design in Playground** ✅
 - **Share a Catalog Design** ✅
 - **Deploy a Catalog Design** ✅
 
 #### Catalog Administration (Enterprise)
-
 - **View Catalog Publication Requests** ✅
 - **Approve Catalog Requests** ✅
 - **Deny Catalog Requests** ✅
@@ -268,7 +247,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.6 Operations & Lifecycle Management
 
 #### Deployment Operations
-
 - **Validate a Design** ✅
 - **Run a Dry-Run Deployment** 🆕
 - **Deploy a Design to Kubernetes** ✅
@@ -276,7 +254,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Monitor Deployment Status** 🆕
 
 #### Viewing and Managing Infrastructure
-
 - **View Cluster Resources in Operator** ✅
 - **Create and Manage Views** ✅
   - Create a new view
@@ -295,7 +272,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.7 Performance & Testing
 
 #### Performance Testing
-
 - **Create a Performance Profile** 🆕
 - **Run a Performance Test** 🆕
 - **View Test Results** 🆕
@@ -306,18 +282,15 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Compare Test Results Over Time** 🆕
 
 #### Conformance Testing
-
 - **Run Service Mesh Conformance Tests** 🆕
 - **View Conformance Results** 🆕
 
 ### 2.8 Security & Access Control
 
 #### Security Overview
-
 - **View Security Dashboard** ✅
 
 #### Sessions & Authentication
-
 - **View Active Sessions** ✅
 - **Logout from a Session** ✅
 - **Configure OAuth Authentication** ✅
@@ -327,7 +300,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
   - Azure AD integration
 
 #### Tokens & API Keys
-
 - **Create API Tokens** ✅
 - **View and Manage Tokens** ✅
 - **Download Tokens** ✅
@@ -335,14 +307,12 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Manage API Keys** 🆕
 
 #### Credentials Management
-
 - **View Stored Credentials** 🆕
 - **Add New Credentials** 🆕
 - **Edit Credentials** 🆕
 - **Delete Credentials** 🆕
 
 #### Keychains & Permissions
-
 - **Understanding Default Keychains** ✅
   - User View
   - User Management
@@ -357,7 +327,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Delete Custom Keychains** 🆕
 
 #### Roles & Access Requests
-
 - **View and Assign Built-in Roles** ✅
 - **Create Custom Roles (Enterprise)** 🆕
 - **Update Custom Roles (Enterprise)** 🆕
@@ -371,33 +340,28 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.9 GitOps & CI/CD Integration
 
 #### GitHub Integration
-
 - **Install the Layer5 GitHub App** 🆕
 - **Configure Snapshot Generation** ✅
 - **View Snapshots in Pull Requests** ✅
 - **Trigger GitHub Actions** 🆕
 
 #### Other Git Providers
-
 - **Set Up GitLab Integration** 🆕
 - **Set Up Bitbucket Integration** 🆕
 
 #### Continuous Delivery
-
 - **Integrate with Argo CD** 🆕
 - **Integrate with Flux** 🆕
 
 ### 2.10 Observability & Monitoring
 
 #### Metrics & Dashboards
-
 - **Connect Prometheus** 🆕
 - **Connect Grafana** 🆕
 - **View Service Metrics** 🆕
 - **Create Custom Dashboards** 🆕
 
 #### Events & Notifications
-
 - **View the Notification Center** ✅
 - **Configure Notification Preferences** ✅
 - **Set Up Event Webhooks** 🆕
@@ -405,7 +369,6 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 - **Configure Email Alerts** 🆕
 
 #### Incident Management
-
 - **View Event Statistics** 🆕
 - **View Event Summary** 🆕
 - **Access Audit Logs (Enterprise)** 🆕
@@ -415,14 +378,12 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.11 Academy (Enterprise)
 
 #### For Learners
-
 - **Browse Learning Paths** 🆕
 - **Take Challenges** 🆕
 - **Earn Certifications** 🆕
 - **Track Your Progress** 🆕
 
 #### For Instructors & Content Creators
-
 - **Access the Instructor Console** 🆕
 - **Create a Learning Path** 🆕
 - **Create a Challenge** 🆕
@@ -435,21 +396,18 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 ### 2.12 Self-Hosted & Enterprise Deployment
 
 #### Installation & Setup
-
 - **Deploy Layer5 Cloud with Helm** ✅
 - **Configure PostgreSQL** ✅
 - **Configure Hydra** ✅
 - **Set Up Custom Domain** ✅
 
 #### White Labeling
-
 - **Customize Branding** ✅
 - **Configure Custom Logos** 🆕
 - **Set Custom Colors and Themes** 🆕
 - **Manage Organization Recognition Badges** 🆕
 
 #### Administration
-
 - **Manage Self-Hosted Invitations** 🆕
 - **Configure Webhooks** 🆕
 - **Reset the Database** 🆕
@@ -459,7 +417,7 @@ _Purpose: Step-by-step instructions to accomplish specific tasks_
 
 ## 3. Explanations (Concept-Oriented)
 
-_Purpose: Deepen understanding of the "why" and "what"_
+*Purpose: Deepen understanding of the "why" and "what"*
 
 ### 3.1 Platform Architecture
 
@@ -593,7 +551,7 @@ _Purpose: Deepen understanding of the "why" and "what"_
 
 ## 4. Reference (Information-Oriented)
 
-_Purpose: Dry, factual information for lookup_
+*Purpose: Dry, factual information for lookup*
 
 ### 4.1 Feature Availability
 
@@ -776,7 +734,6 @@ _Purpose: Dry, factual information for lookup_
 ### Cross-Cutting Concerns
 
 Each major section should include relevant information about:
-
 - **Plan Availability:** Clearly indicate which features require Team, TeamDesigner, TeamOperator, or Enterprise
 - **Permissions:** Note required roles/permissions where applicable
 - **Related Topics:** Link to concept explanations from how-tos and vice versa
@@ -784,7 +741,6 @@ Each major section should include relevant information about:
 ### Navigation Structure
 
 **Primary Navigation:**
-
 1. Getting Started
 2. How-To Guides (with collapsible subsections)
 3. Explanations
@@ -793,7 +749,6 @@ Each major section should include relevant information about:
 6. What's New
 
 **Secondary Navigation:**
-
 - Search (prominent)
 - Plan Comparison (quick link)
 - API Docs (quick link)

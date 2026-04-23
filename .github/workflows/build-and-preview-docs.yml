@@ -55,18 +55,18 @@ jobs:
         if: github.event.action != 'closed'
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         if: github.event.action != 'closed'
-        run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Build PR preview
         if: github.event.action != 'closed'
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          HUGO_PREVIEW: 'true'
+          HUGO_PREVIEW: "true"
         run: |
           hugo \
             --gc \

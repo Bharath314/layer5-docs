@@ -18,7 +18,7 @@ A team is simply a group that an administrator can create in the Google Admin co
 
 Below the top-level organization, you can add as many teams as you want - at the same level. Hierarchal teams are not currently supported. When you change a setting at the higher level organization, the settings for all child teams that inherit that setting also change. Custom settings at the team level, however, remain unchanged.
 
-> Learn more about the [organizational structure](/cloud/identity).
+>Learn more about the [organizational structure](/cloud/identity). 
 
 {{< alert type="info" title="Team Ownership">}}
 If you are the current team owner, you can’t remove yourself from the team until you transfer ownership to another team administrator.
@@ -43,10 +43,10 @@ If your goal is to invite users only to a specific organization (and not directl
 ### How it Works
 
 1. **Copy Team Invite Link:** Click the **copy** button to get the "Team Invite Link".[^1]
-2. **User Onboarding with Team Invite Link:** When a user clicks the "Team Invite Link," the system handles their onboarding as follows:
-   - **If the user has no system account:** They are guided through the account registration process. Upon successful registration, they are automatically added to **both** the relevant organization and the specific team.
-   - **If the user has a system account but is not in the target organization:** Upon using the link, they are added to **both** the organization and the specific team.
-   - **If the user is already in the organization (and has an account):** Upon using the link, they are added to the specific team.
-3. **Manual Alternative:** As an alternative, administrators can always manually add existing organization members to a team.
+2.  **User Onboarding with Team Invite Link:** When a user clicks the "Team Invite Link," the system handles their onboarding as follows:
+    * **If the user has no system account:** They are guided through the account registration process. Upon successful registration, they are automatically added to **both** the relevant organization and the specific team.
+    * **If the user has a system account but is not in the target organization:** Upon using the link, they are added to **both** the organization and the specific team.
+    * **If the user is already in the organization (and has an account):** Upon using the link, they are added to the specific team.
+3.  **Manual Alternative:** As an alternative, administrators can always manually add existing organization members to a team.
 
 [^1]: If the direct way to copy this link isn't fully visible or working correctly in the current version, this is a known issue that we plan to fix in an upcoming update.

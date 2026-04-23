@@ -47,6 +47,7 @@ A common validation error is:
 
 ![Validation Error](/kanvas/getting-started/images/validating-designs/validation-error.png)
 
+
 To troubleshoot and remediate validation issues:
 
 1. Click on the error on the modal.

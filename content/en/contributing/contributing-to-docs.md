@@ -32,7 +32,7 @@ Here's a quick guide to updating the docs:
 
 7. When you're ready for a review, add a comment to the PR, remove any holds or "WIP" markers, and assign a reviewer/approver. See the [Layer5 contributor guide](https://layer5.io/community/handbook/contribution).
 
-If you need more help with the GitHub workflow, follow this [guide to a standard GitHub workflow](https://github.com/layer5io/docs/blob/master/CONTRIBUTING-gitflow.md).
+If you need more help with the GitHub workflow, follow  this [guide to a standard GitHub workflow](https://github.com/layer5io/docs/blob/master/CONTRIBUTING-gitflow.md).
 
 ## Local development
 
@@ -70,39 +70,39 @@ Follow the usual GitHub workflow of forking the repository on GitHub and then cl
 
 2. Clone your fork locally:
 
-   ```bash
-   git clone git@github.com:<your-github-username>/docs.git
-   cd website/
-   ```
+    ```bash
+    git clone git@github.com:<your-github-username>/docs.git
+    cd website/
+    ```
 
 3. Initialize the Docsy submodule:
 
-   ```bash
-   git submodule update --init --recursive
-   ```
+    ```bash
+    git submodule update --init --recursive
+    ```
 
 4. Install Docsy dependencies:
 
-   ```bash
-   # NOTE: ensure you have node 18 installed
-   (cd themes/docsy/ && npm install)
-   ```
+    ```bash
+    # NOTE: ensure you have node 18 installed
+    (cd themes/docsy/ && npm install)
+    ```
 
 5. Start your local Hugo server:
 
-   ```bash
-   hugo server -D
-   ```
+    ```bash
+    hugo server -D
+    ```
 
 6. You can access your website at [http://localhost:1313/](http://localhost:1313/)
 
 ### Useful docs
 
-- [User guide for the Docsy theme](https://www.docsy.dev/docs/getting-started/)
-- [Hugo installation guide](https://gohugo.io/getting-started/installing/)
-- [Hugo basic usage](https://gohugo.io/getting-started/usage/)
-- [Hugo site directory structure](https://gohugo.io/getting-started/directory-structure/)
-- [hugo server reference](https://gohugo.io/commands/hugo_server/)
+* [User guide for the Docsy theme](https://www.docsy.dev/docs/getting-started/)
+* [Hugo installation guide](https://gohugo.io/getting-started/installing/)
+* [Hugo basic usage](https://gohugo.io/getting-started/usage/)
+* [Hugo site directory structure](https://gohugo.io/getting-started/directory-structure/)
+* [hugo server reference](https://gohugo.io/commands/hugo_server/)
 
 ## Menu structure
 
@@ -153,17 +153,17 @@ The theme holds its styles in the [`assets/scss` directory](https://github.com/l
 
 You can override the default styles and add new ones:
 
-- In general, put your files in the project directory structure under `website` rather than in the theme directory.
+* In general, put your files in the project directory structure under `website` rather than in the theme directory.
   Use the same file name as the theme does, and put the file in the same relative position.
   Hugo looks first at the file in the main project directories, if present, then at the files under the theme directory.
-
+  
   For example, the Layer5 website's [`layouts/partials/navbar.html`](https://github.com/layer5io/docs/blob/master/layouts/partials/navbar.html) overrides the theme's `layouts/partials/navbar.html`
 
-- You can update the Layer5 website's project variables in the [`_variables_project.scss` file](https://github.com/layer5io/docs/blob/master/assets/scss/_variables_project.scss).
+* You can update the Layer5 website's project variables in the [`_variables_project.scss` file](https://github.com/layer5io/docs/blob/master/assets/scss/_variables_project.scss).
   Values in that file override the [Docsy variables](https://github.com/google/docsy/blob/main/assets/scss/_variables.scss).
   You can also use `_variables_project.scss` to specify your own values for any of the default [Bootstrap 4 variables](https://getbootstrap.com/docs/4.0/getting-started/theming/).
 
-- For adding custom CSS rules, use the `_styles_project.scss` file in the same `assets/scss/` directory.
+* For adding custom CSS rules, use the `_styles_project.scss` file in the same `assets/scss/` directory.
 
 ### Image styling
 
@@ -174,19 +174,14 @@ By default, Markdown images are written like this:
 ```
 
 These are rendered with:
-
-- `max-width: 70%` of the viewport
-- `max-height: 80vh` of the viewport height
-- centered block layout
+* `max-width: 70%` of the viewport
+* `max-height: 80vh` of the viewport height
+* centered block layout
 
 This default styling works well for most landscape (horizontal) images. However, if an image is very tall, narrow, or otherwise looks awkward, you can override the default by embedding raw HTML and specifying a custom size:
 
 ```html
-<img
-  src="./images/example.png"
-  alt="Example description"
-  style="max-width: 40vw; max-height: 60vh; display: block; margin: 1rem auto;"
-/>
+<img src="./images/example.png" alt="Example description" style="max-width: 40vw; max-height: 60vh; display: block; margin: 1rem auto;" />
 ```
 
 If you want your image to include a caption for explanation or accessibility, you can use the `<figure>` element:
@@ -194,9 +189,7 @@ If you want your image to include a caption for explanation or accessibility, yo
 ```html
 <figure>
   <img src="./images/example.png" alt="Example description" />
-  <figcaption>
-    Example: Control which layers of your design are visible using the Layers panel.
-  </figcaption>
+  <figcaption>Example: Control which layers of your design are visible using the Layers panel.</figcaption>
 </figure>
 ```
 
@@ -204,10 +197,10 @@ Using `<figure>` allows you to pair an image with a caption while preserving sem
 
 ### Additional resources
 
-- **Bootstrap image utilities:**  
-  <https://getbootstrap.com/docs/4.0/content/images/>
-- **Bootstrap utilities (borders, floats, etc.):**  
-  <https://getbootstrap.com/docs/4.0/utilities/>
+* **Bootstrap image utilities:**  
+  <https://getbootstrap.com/docs/4.0/content/images/>  
+* **Bootstrap utilities (borders, floats, etc.):**  
+  <https://getbootstrap.com/docs/4.0/utilities/>  
 
 ## Using Hugo shortcodes
 
@@ -236,19 +229,19 @@ The shortcode name is the file name minus the `.html` file extension.
 
 **Example:** The following shortcode defines the minimum required version of Kubernetes:
 
-- File name of the shortcode:
+* File name of the shortcode:
 
   ```
   kubernetes-min-version.html
   ```
 
-- Content of the shortcode:
+* Content of the shortcode:
 
   ```
   1.8
   ```
 
-- Usage in a document:
+* Usage in a document:
 
   ```
   You need Kubernetes version 1.28 or later.
@@ -256,7 +249,7 @@ The shortcode name is the file name minus the `.html` file extension.
 
 The following shortcode defines the minimum required version of Kubernetes:
 
-- File name of the shortcode:
+* File name of the shortcode:
 
   ```
   kubernetes-min-version.html
@@ -264,8 +257,8 @@ The following shortcode defines the minimum required version of Kubernetes:
 
 Useful Hugo docs:
 
-- [Shortcode templates](https://gohugo.io/templates/shortcode-templates/)
-- [Shortcodes](https://gohugo.io/content-management/shortcodes/)
+* [Shortcode templates](https://gohugo.io/templates/shortcode-templates/)
+* [Shortcodes](https://gohugo.io/content-management/shortcodes/)
 
 Whenever any documents reference any source code, you should use the version shortcode in the links, like so:
 
@@ -321,9 +314,9 @@ Next level leggings before they sold out, PBR&B church-key shaman echo park. Kal
 
 #### Header 4
 
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-- This is an unordered list following a header.
+* This is an unordered list following a header.
+* This is an unordered list following a header.
+* This is an unordered list following a header.
 
 ##### Header 5
 
@@ -333,23 +326,23 @@ Next level leggings before they sold out, PBR&B church-key shaman echo park. Kal
 
 ###### Header 6
 
-| What    | Follows  |
-| ------- | -------- |
-| A table | A header |
-| A table | A header |
-| A table | A header |
+| What      | Follows         |
+|-----------|-----------------|
+| A table   | A header        |
+| A table   | A header        |
+| A table   | A header        |
 
----
+----------------
 
 There's a horizontal rule above and below this.
 
----
+----------------
 
 Here is an unordered list:
 
-- Liverpool F.C.
-- Chelsea F.C.
-- Manchester United F.C.
+* Liverpool F.C.
+* Chelsea F.C.
+* Manchester United F.C.
 
 And an ordered list:
 
@@ -359,29 +352,29 @@ And an ordered list:
 
 And an unordered task list:
 
-- [x] Create a Hugo theme
-- [x] Add task lists to it
-- [ ] Take a vacation
+* [x] Create a Hugo theme
+* [x] Add task lists to it
+* [ ] Take a vacation
 
 And a "mixed" task list:
 
-- [ ] Pack bags
-- Don’t forget your passport!
-- [ ] Travel!
+* [ ] Pack bags
+* Don’t forget your passport!
+* [ ] Travel!
 
 And a nested list:
 
-- Jackson 5
-  - Michael
-  - Tito
-  - Jackie
-  - Marlon
-  - Jermaine
-- TMNT
-  - Leonardo
-  - Michelangelo
-  - Donatello
-  - Raphael
+* Jackson 5
+  * Michael
+  * Tito
+  * Jackie
+  * Marlon
+  * Jermaine
+* TMNT
+  * Leonardo
+  * Michelangelo
+  * Donatello
+  * Raphael
 
 Definition lists can be used with Markdown syntax. Definition headers are bold.
 
@@ -397,25 +390,25 @@ Birthplace
 Color
 : Green
 
----
+----------------
 
 Tables should have bold headings and alternating shaded rows.
 
-| Artist          | Album          | Year |
-| --------------- | -------------- | ---- |
-| Michael Jackson | Thriller       | 1982 |
-| Prince          | Purple Rain    | 1984 |
-| Beastie Boys    | License to Ill | 1986 |
+| Artist            | Album           | Year |
+|-------------------|-----------------|------|
+| Michael Jackson   | Thriller        | 1982 |
+| Prince            | Purple Rain     | 1984 |
+| Beastie Boys      | License to Ill  | 1986 |
 
 If a table is too wide, it should scroll horizontally.
 
-| Artist          | Album          | Year | Label                   | Awards                                                                                                                                                                                                                                                                          | Songs                                                                                                                                                                                                                     |
-| --------------- | -------------- | ---- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Michael Jackson | Thriller       | 1982 | Epic Records            | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical                                                | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life                                                               |
-| Prince          | Purple Rain    | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain                                                                           |
-| Beastie Boys    | License to Ill | 1986 | Mercury Records         | No awards, but this table cell is wide                                                                                                                                                                                                                                          | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
+| Artist            | Album           | Year | Label       | Awards   | Songs     |
+|-------------------|-----------------|------|-------------|----------|-----------|
+| Michael Jackson   | Thriller        | 1982 | Epic Records | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life |
+| Prince            | Purple Rain     | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain |
+| Beastie Boys      | License to Ill  | 1986 | Mercury Records | No awards, but this table cell is wide | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
 
----
+----------------
 
 Code snippets like `var foo = "bar";` can be shown inline.
 
@@ -452,12 +445,12 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 Inline code inside table cells should still be distinguishable.
 
-| Language   | Code               |
-| ---------- | ------------------ |
-| Javascript | `var foo = "bar";` |
-| Ruby       | `foo = "bar"{`     |
+| Language    | Code               |
+|-------------|--------------------|
+| Javascript  | `var foo = "bar";` |
+| Ruby        | `foo = "bar"{`      |
 
----
+----------------
 
 Small images should be shown at their actual size.
 

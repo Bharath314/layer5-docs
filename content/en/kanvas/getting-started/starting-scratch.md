@@ -1,13 +1,14 @@
 ---
 title: Starting from scratch
 description: >
-  Welcome to Kanvas, your comprehensive tool for creating and managing cloud native deployment designs. This documentation will guide you through the steps, emphasizing the underlying system behavior for each action you take.
+ Welcome to Kanvas, your comprehensive tool for creating and managing cloud native deployment designs. This documentation will guide you through the steps, emphasizing the underlying system behavior for each action you take.
 weight: 2
 categories: [Designer]
 tags: [designs]
 aliases:
   - /meshmap/getting-started/starting-scratch
 ---
+
 
 ## Step 1: Accessing Designer Mode
 
@@ -68,6 +69,9 @@ Merging designs is like integrating features from different app versions. You br
 Congratulations! You've successfully navigated the Designer mode in Kanvas, orchestrating a robust and tailored cloud native deployment. Continue exploring Kanvas's features to optimize and manage your designs effectively.
 
 Happy designing!
+
+
+
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
 

@@ -5,7 +5,6 @@ description: |
 aliases:
   - /meshmap/reference/keyboard-shortcuts
 ---
-
 <!-- set of custom keyboard button classes -->
 <link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css" />
 
@@ -17,7 +16,7 @@ As a designer in Kanvas, you can take advantage of various keyboard shortcuts to
 
 - <button class="kbc-button kbc-button-xs">M</button>: Add a comment to the selected node.
 - <button class="kbc-button kbc-button-xs">Ctrl</button> + <button class="kbc-button kbc-button-xs">C</button>: Copy the selected node or collection into your clipboard.
-- <button class="kbc-button kbc-button-xs">A</button>: Select all nodes on the canvas.<a
+- <button class="kbc-button kbc-button-xs">A</button>: Select all nodes on the canvas.<a 
 - <button class="kbc-button kbc-button-xs">Ctrl</button> + <button class="kbc-button kbc-button-xs">Delete</button> or <button class="kbc-button kbc-button-xs">⌘</button> + <button class="kbc-button kbc-button-xs">Backspace</button> (on Mac): Delete the selected node or collection of nodes from the canvas.
 - <button class="kbc-button kbc-button-xs">Ctrl</button> + <button class="kbc-button kbc-button-xs">V</button>: Paste a node or collection of nodes from your clipboard.
 - <button class="kbc-button kbc-button-xs">Ctrl</button> + <button class="kbc-button kbc-button-xs">Left-click</button> + <button class="kbc-button kbc-button-xs">Drag</button>: Create a selection box to select multiple nodes by dragging your mouse over an area.
@@ -48,11 +47,18 @@ These operator shortcuts are designed to streamline your interactions with the v
 
 Kanvas offers a powerful search feature that allows you to find specific components based on various criteria, such as object name, kinds, and namespaces. Here are the steps to effectively search for components in your Kanvas environment:
 
+
 1. Start typing your search query, such as the object name, kinds, or namespaces you're interested in. As you type, Kanvas will dynamically filter and display components that match your criteria.
 
 2. By clicking on a keyword or component in the search results, you can further filter out the components to focus on specific items.
 
 This search functionality makes it easy to quickly locate and access the components you need in your Kanvas environment.
+
+
+
+
+
+
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
 

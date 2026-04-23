@@ -1,10 +1,10 @@
 ---
-title: 'Birth of Kanvas Logo'
-description: 'A visually transformation of the Meshery logo into the Kanvas logo.'
-videoId: '4WcofErPTx4'
-videoType: youtube # or "local"
-muted: true # optional
-autoplay: true # optional
+title: "Birth of Kanvas Logo"
+description: "A visually transformation of the Meshery logo into the Kanvas logo."
+videoId: "4WcofErPTx4"
+videoType: youtube  # or "local"
+muted: true  # optional
+autoplay: true  # optional
 loop: true #optional
 ---
 

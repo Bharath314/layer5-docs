@@ -1,7 +1,7 @@
 ---
 title: Exploring the Catalog
 weight: 3
-description: 'Discover how to browse, find, and interact with designs in the Catalog.'
+description: "Discover how to browse, find, and interact with designs in the Catalog."
 categories: [Catalog]
 tags: [Designer]
 ---
@@ -138,11 +138,11 @@ Some properties of a published design are immutable and cannot be changed:
 
 - **Name:** The original name of the published design cannot be modified.
 - **Visibility:** You cannot change a published design's visibility directly. To remove it from the catalog, you must **Unpublish** it instead.
-  {{< /alert >}}
+{{< /alert >}}
 
 ### Unpublish
 
-If you no longer want a design to be published in the catalog, you can use the **Unpublish** button. This action will remove the design from Meshery Catalog but does **not delete** it. The design will remain as a private design in your account.
+If you no longer want a design to be published in the catalog, you can use the **Unpublish** button. This action will remove the design from  Meshery Catalog but does **not delete** it. The design will remain as a private design in your account.
 
 {{< alert type="info" title="Permissions Required" >}}
 Editing/Unpublish published designs requires specific user roles and permissions. Learn more: [Default Permissions documentation](/cloud/reference/default-permissions/).

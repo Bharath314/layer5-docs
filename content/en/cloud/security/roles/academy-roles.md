@@ -89,12 +89,12 @@ While the maximum number of instances is unlimited, the available seats for Lear
 
 Each individual academy content item (learning path, certification, or challenge) that a learner enrolls in tracks one of the following 4 status types:
 
-| Status                | What it means                      |
-| --------------------- | ---------------------------------- |
-| registered (enrolled) | They signed up but haven't started |
-| completed             | They finished the course           |
-| failed                | They didn't pass                   |
-| withdrawn             | They left the course               |
+| Status      | What it means |
+|-------------|-------------|
+| registered (enrolled)  | They signed up but haven't started |
+| completed   | They finished the course |
+| failed      | They didn't pass |
+| withdrawn   | They left the course |
 
 {{% /card %}}
 {{< /cardpane >}}

@@ -5,9 +5,9 @@ description: >
   Learn how to navigate the Layer5 Academy platform, understand its features, and maximize your learning experience.
 categories: [Academy]
 tags: [Academy]
-aliases:
-  - /cloud/academy/learner-guide/
-  - /cloud/academy/using-the-academy/
+aliases: 
+- /cloud/academy/learner-guide/
+- /cloud/academy/using-the-academy/
 ---
 
 This guide is designed to be your friendly companion, helping you navigate the platform, understand its features, and make the most of your learning experience.
@@ -15,7 +15,7 @@ This guide is designed to be your friendly companion, helping you navigate the p
 Here, you can achieve:
 
 - A systematic understanding of complex topics
-- Hands-on experience by solving real-world problems
+- Hands-on experience by solving real-world problems  
 - Verifiable badges to showcase your skills
 - Official certificates to formally recognize your expertise
 
@@ -66,7 +66,7 @@ We've designed it to be simple and intuitive. Think of it in three parts:
 2. **Your Study Area (Center Panel)**: This is where the core content—text, images, and videos—is displayed.
 
 3. **Discover More (Right Sidebar)**: Here, you can find tags and categories across all the content, helping you discover other relevant content in the Academy. You can click to see all related content.
-
+   
 {{< alert type="info" title="Discover More" >}}
 After finishing a course, check out the **Tags** and **Categories** on the right. They are a great way to discover other related topics that might interest you.
 {{< /alert >}}
@@ -79,7 +79,7 @@ Assessments are an integral part of the learning process, designed to reinforce 
 
 By default, assessments in a Learning Path are mandatory. This creates a structured progression where you must pass the assessment for one section (like a Course) before unlocking the next. Passing an assessment marks that section as complete.
 
-Some assessments may be marked as **Optional**. You can take these for extra practice, but you are not required to pass them to advance.
+Some assessments may be marked as **Optional**. You can take these for extra practice, but you are not required to pass them to advance. 
 
 ### Answering Questions and Scoring
 
@@ -119,6 +119,7 @@ If you're ever unsure about a concept, you can always use the Back button to rev
 
 If you don’t pass an assessment on your first try, don’t worry you may be able to retake it. Depending on the certification, you may have unlimited retries, a limited number of retries, or in some cases, no retries at all.
 
+
 ## Your Achievements
 
 Completing content in the Academy earns you valuable credentials that you can share with your professional network.
@@ -141,28 +142,24 @@ Completing content in the Academy earns you valuable credentials that you can sh
 <summary>Will my learning progress be saved if I leave and come back later?</summary>
 
 Yes, as long as you are enrolled in a content, your progress is saved automatically. You can always return and continue from your last completed course.
-
 </details>
 
 <details>
 <summary>Can I skip courses and jump directly to the exam?</summary>
 
 You can navigate to any course at any time using the sidebar. However, for a Learning Path to be marked as complete, you typically need to pass all required quizzes and the final test in sequence.
-
 </details>
 
 <details>
 <summary>Can I download content materials for offline study?</summary>
 
 Currently, all content is designed to be accessed online through the Academy platform. Offline or downloadable materials are not available at this time.
-
 </details>
 
 <details>
 <summary>Where can I ask questions or discuss the content material?</summary>
 
 Learning is often better together. If you have questions about the content or want to discuss topics with other learners and instructors, we encourage you to open new or participate in existing topics in the community [discussion forum](https://discuss.layer5.io). We also warmly welcome you to join the [Layer5 Community Slack](https://slack.layer5.io).
-
 </details>
 
 </details>
@@ -172,23 +169,22 @@ Learning is often better together. If you have questions about the content or wa
 <details>
 <summary><strong>Certification and Assessment</strong></summary>
 
+
 <details>
 <summary>If I fail an assessment, can I retake it?</summary>
 
 It depends on the certification. Some certifications allow multiple attempts, while others do not offer retries. Please refer to the specific certification’s guidelines to confirm whether retakes are permitted.
-
 </details>
 
 <details>
 <summary>Does my certificate expire?</summary>
 
 Yes. Meshery Academy certifications may have an expiration date. Please check the specific certification details for validity duration.
-
 </details>
 
 <details>
 <summary>How can I showcase my credential?</summary>
 
 Upon successful completion, you’ll receive a verifiable digital certificate. You can share your achievement by adding it to your professional profiles (for example, on LinkedIn) or including it on your resume. A shareable verification link is available within your certification dashboard, which you can use to confirm your credential publicly.
-
 </details>
+

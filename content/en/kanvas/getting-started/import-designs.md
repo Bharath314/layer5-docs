@@ -42,7 +42,6 @@ Navigate to the [My Designs](https://cloud.layer5.io/catalog/content/my-designs)
 {{% tab header="Via GitHub Integration" lang="en" %}}
 
 For a more advanced, repository-based workflow, you can establish a persistent connection between your GitHub account and Meshery. This allows you to browse your repositories and import multiple designs directly.
-
 > Learn more about [GitHub integration](/cloud/getting-started/github-integration/).
 
 {{< /tab >}}
@@ -102,8 +101,8 @@ This import method provides a convenient bridge for developers looking to migrat
 This is Meshery's native format and provides a lossless way to save and import your designs. It preserves all of an application's component configurations as well as the visual layout, annotations, and metadata from the Kanvas designer.
 
 - **Supported Packaging Formats:**
-  - **YAML File (`.yml`):** The standard, human-readable file generated when you export a design.
-  - **OCI Artifact:** Designs can also be packaged as OCI artifacts, allowing them to be versioned and distributed via container registries.
+    - **YAML File (`.yml`):** The standard, human-readable file generated when you export a design.
+    - **OCI Artifact:** Designs can also be packaged as OCI artifacts, allowing them to be versioned and distributed via container registries.
 
 {{< /tab >}}
 
@@ -131,6 +130,7 @@ No. When a file is imported, it is converted into a native Design. The original 
 
 </details>
 
+
 <details>
   <summary>When I import from a Kubernetes manifest, Helm chart, or other type, and choose to merge this file into an existing design, can I download my original file?</summary>
   
@@ -143,7 +143,6 @@ When you choose to **merge** a new design into an existing one, Meshery first cr
 Yes. File Upload and URL Import are simple, one-time actions for importing a single design. In contrast, the **GitHub Integration** creates a deep, persistent connection to your GitHub account.
 
 It requires you to authorize the Meshery GitHub App, which then allows you to browse your repositories and select designs directly from the Meshery UI. Most importantly, this integration can enable a GitOps workflow by adding a GitHub Action to your repository that provides visual snapshots of design changes in your pull requests.
-
 </details>
 
 <details>
@@ -152,7 +151,5 @@ It requires you to authorize the Meshery GitHub App, which then allows you to br
 There is no strict limit on the file size itself (e.g., in MB). However, there are limits on the number of **components** a design can contain, which is determined by your current subscription plan. Free accounts are limited to 100 components.
 
 If you attempt to import a design that contains more components than your plan allows, the import will fail with a message stating that the component limit has been exceeded.
-
 > Learn more about [plans](https://layer5.io/pricing).
-
 </details>
