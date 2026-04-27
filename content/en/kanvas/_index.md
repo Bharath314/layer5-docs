@@ -1,14 +1,17 @@
 ---
 title: Kanvas Documentation
-description: Kanvas delivers a collaborative experience for engineers similar to how Google Workplace transforms the digital work environment and how Figma democratizes UX design tooling. 
+description:
+  Kanvas delivers a collaborative experience for engineers similar to how Google
+  Workplace transforms the digital work environment and how Figma democratizes
+  UX design tooling.
 linkTitle: Kanvas
 type: docs
-menu: {main: {weight: 3}}
+menu: { main: { weight: 3 } }
 weight: 1
-cascade: 
-    type: docs
+cascade:
+  type: docs
 aliases:
-    - /meshmap/
+  - /meshmap/
 ---
 
 <!-- {{% pageinfo %}}
@@ -53,7 +56,8 @@ aliases:
     .hidden-highlight-box:focus ~ .highlight-box {
       box-shadow: none;
     }
-</style>  
+</style>
+
 ## Understanding the Layer5 Ecosystem
 
 <a href="/cloud">
@@ -64,7 +68,6 @@ aliases:
 </div>
 </div>
 </a>
-
 
 <a href="/kanvas">
 <div class="highlight-box" style="display:flex; gap: .5rem;">
@@ -80,7 +83,15 @@ aliases:
 
 <p style="display:flex;text-align:center;margin:1rem auto;color:white;"><i>Kanvas is like Google Workspace for DevOps, as it allows you to create, test, and deploy cloud native architectures collaboratively and easily.</i></p>
 
-Kanvas is a web-based application that allows you to create and share orchestratable diagrams of cloud native infrastructure for Kubernetes and public cloud services. You can draw shapes, lines, text, and icons to represent your infrastructure components and their relationships. Kanvas also supports freestyle design, meaning that you can customize the appearance and layout of your diagrams without any constraints. Kanvas enables real-time collaboration, meaning that you can invite others to join your sessions and edit the diagrams together. Kanvas is a simple and intuitive tool for designing and communicating cloud native infrastructure for Kubernetes and multi-cloud services.
+Kanvas is a web-based application that allows you to create and share
+orchestratable diagrams of cloud native infrastructure for Kubernetes and public
+cloud services. You can draw shapes, lines, text, and icons to represent your
+infrastructure components and their relationships. Kanvas also supports
+freestyle design, meaning that you can customize the appearance and layout of
+your diagrams without any constraints. Kanvas enables real-time collaboration,
+meaning that you can invite others to join your sessions and edit the diagrams
+together. Kanvas is a simple and intuitive tool for designing and communicating
+cloud native infrastructure for Kubernetes and multi-cloud services.
 
 ### Choose your mode
 
@@ -104,7 +115,6 @@ Choose your mode of operation for Kanvas.
   </a>
 {{< /cardpane >}}
 </div>
-
 
 <!-- ## What is Kanvas?
 

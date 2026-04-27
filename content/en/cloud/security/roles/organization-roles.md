@@ -1,17 +1,16 @@
 ---
 title: Default Organization Roles
 description: >
-  By default, Organizations have two roles available: Organization Administrator and Organization Billing Manager.
+  By default, Organizations have two roles available: Organization Administrator
+  and Organization Billing Manager.
 weight: 2
 categories: [Security]
 tags: [orgs, roles]
 ---
 
-{{< cardpane >}}
-{{% card header="Default Organization Roles" %}}
+{{< cardpane >}} {{% card header="Default Organization Roles" %}}
 <img src="/cloud/security/images/organization-roles.svg" link="images/organization-roles.svg"  width="100%" alt="Organization Roles" />
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}
 
 {{< cardpane >}}
 
@@ -19,7 +18,8 @@ tags: [orgs, roles]
 
 **What is the purpose of this role?**
 
-- Administration of an organization (for each organization for which the user has this role assigned)
+- Administration of an organization (for each organization for which the user
+  has this role assigned)
 
 **Who can assign this role?**
 
@@ -32,7 +32,8 @@ tags: [orgs, roles]
 **How many instances of these roles?**
 
 - Min: 1, Max: many (based on plan)
-- By default, the first Organization Admin is the owner (the creator of the organization).
+- By default, the first Organization Admin is the owner (the creator of the
+  organization).
 
 **Who can remove assignment of this role?**
 
@@ -42,15 +43,14 @@ tags: [orgs, roles]
 
 - Check [Permissions Reference](/cloud/reference/default-permissions/)
 
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}
 
-{{< cardpane >}}
-{{% card header="## Organization Billing Managers" %}}
+{{< cardpane >}} {{% card header="## Organization Billing Managers" %}}
 
 **What is the purpose of this role?**
 
-- Administration of subscriptions, plans, payments, billing methods and information, spending limits, invoice mgmt etc.
+- Administration of subscriptions, plans, payments, billing methods and
+  information, spending limits, invoice mgmt etc.
 
 **Who can assign this role?**
 
@@ -72,5 +72,4 @@ tags: [orgs, roles]
 
 - Check [Permissions Reference](/cloud/reference/default-permissions/)
 
-{{% /card %}}
-{{< /cardpane >}}
+{{% /card %}} {{< /cardpane >}}

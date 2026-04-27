@@ -23,7 +23,12 @@
 
 # About Layer5
 
-[Layer5](https://layer5.io)'s cloud native application and infrastructure management software enables engineers to expect more from their infrastructure. We embrace _developer_-defined infrastructure. We empower developers to change how they write applications, support _operators_ in rethinking how they run modern infrastructure, and enable _product owners_ to regain full-control over their product portfolio.
+[Layer5](https://layer5.io)'s cloud native application and infrastructure
+management software enables engineers to expect more from their infrastructure.
+We embrace _developer_-defined infrastructure. We empower developers to change
+how they write applications, support _operators_ in rethinking how they run
+modern infrastructure, and enable _product owners_ to regain full-control over
+their product portfolio.
 
 ## Contributions Welcome
 
@@ -39,11 +44,16 @@
 </div>
 Explore tutorials and documentation by product in the https://docs.layer5.io website; documentation and developer resources of Layer5 products.
 
-If you find a typo or you feel like you can improve the HTML, CSS, or JavaScript, we welcome contributions. Feel free to open issues or pull requests like any normal GitHub project, and we'll merge it in 🚀
+If you find a typo or you feel like you can improve the HTML, CSS, or
+JavaScript, we welcome contributions. Feel free to open issues or pull requests
+like any normal GitHub project, and we'll merge it in 🚀
 
 ### With Golang
 
-If your local development environment has a supported version (v1.21.0+) of Golang installed, next you'll need to install extended Hugo version as it has necessary SCSS/SASS support. Find all the Hugo packages here: <https://github.com/gohugoio/hugo/releases/tag/v0.120.4>
+If your local development environment has a supported version (v1.21.0+) of
+Golang installed, next you'll need to install extended Hugo version as it has
+necessary SCSS/SASS support. Find all the Hugo packages here:
+<https://github.com/gohugoio/hugo/releases/tag/v0.120.4>
 
 Now to setup and run the site locally run:
 
@@ -51,34 +61,46 @@ Now to setup and run the site locally run:
 
 ...and then visit <http://localhost:1313>.
 
-If you pull down new code from GitHub, you will occasionally need to run `make setup` again. Otherwise, there's no need to re-run `make setup` each time the site is run, you can just run `make site` to get it going and have it automatically reload as you make and save site edits.
+If you pull down new code from GitHub, you will occasionally need to run
+`make setup` again. Otherwise, there's no need to re-run `make setup` each time
+the site is run, you can just run `make site` to get it going and have it
+automatically reload as you make and save site edits.
 
 ### With Docker
 
-Running the site locally is simple. Provided you have Docker installed, clone this repo, run `make docker`, and then visit <http://localhost:1313>.
+Running the site locally is simple. Provided you have Docker installed, clone
+this repo, run `make docker`, and then visit <http://localhost:1313>.
 
 > [!IMPORTANT]  
-> This requires Docker Desktop version **4.24** or later, or Docker Engine with Docker
-> Compose version [**2.22**](https://docs.docker.com/compose/file-watch/) or later.
+> This requires Docker Desktop version **4.24** or later, or Docker Engine with
+> Docker Compose version [**2.22**](https://docs.docker.com/compose/file-watch/)
+> or later.
 
 ## Layer5 Documentation Structure
 
 ## High-Level Outline & Information Architecture for Layer5 Documentation
 
-**Goal:** Offer comprehensive, organized, and accessible documentation for diverse audiences, from new users to expert contributors.
+**Goal:** Offer comprehensive, organized, and accessible documentation for
+diverse audiences, from new users to expert contributors.
 
 **Target Audience:**
 
-- **Personas:** Beginners, developers, admins, operators, security specialists, contributors, users of all experience levels.
-- **Needs:** Varied - learning fundamentals, managing tasks, understanding advanced concepts, contributing code.
+- **Personas:** Beginners, developers, admins, operators, security specialists,
+  contributors, users of all experience levels.
+- **Needs:** Varied - learning fundamentals, managing tasks, understanding
+  advanced concepts, contributing code.
 
 <details>
   <summary><h2>Cloud Docs</h2></summary>
 
 ### Getting Started
 
-- **Setting up Layer5 Account:** With a personal account on Layer5 Cloud, you can import or create infrastructural designs, collaborate with others through workspaces and teams, manage your organizations and more.
-- **Creating a Design from Layer5 Cloud Catalog Templates:** With this guide, you can create amazing cloud native designs for your infrastructure from already available templates in the catalog.
+- **Setting up Layer5 Account:** With a personal account on Layer5 Cloud, you
+  can import or create infrastructural designs, collaborate with others through
+  workspaces and teams, manage your organizations and more.
+- **Creating a Design from Layer5 Cloud Catalog Templates:** With this guide,
+  you can create amazing cloud native designs for your infrastructure from
+  already available templates in the catalog.
 
 ### Concepts
 
@@ -99,7 +121,8 @@ An overview of Layer5 Cloud concepts and their relationships to one another.
 
 ### Catalog
 
-The Cloud Catalog is a web-based, public catalog to facilitate easy sharing and discovery of common cloud native architectures and design patterns.
+The Cloud Catalog is a web-based, public catalog to facilitate easy sharing and
+discovery of common cloud native architectures and design patterns.
 
 ### Workspaces
 
@@ -107,13 +130,17 @@ Workspaces serve as a virtual space for your team-based work.
 
 ### Tutorials
 
-- **Kanvas Snapshots**: Connect Kanvas to your GitHub repo and see changes pull request-to-pull request.
-- **Sharing a Workspace**: Learn how to control access to workspaces and their resources.
-- **Recognizing User and Contributor Milestones**: Showcasing user and contributor achievements
+- **Kanvas Snapshots**: Connect Kanvas to your GitHub repo and see changes pull
+  request-to-pull request.
+- **Sharing a Workspace**: Learn how to control access to workspaces and their
+  resources.
+- **Recognizing User and Contributor Milestones**: Showcasing user and
+  contributor achievements
 
 ### Self-Hosted
 
-Keep your Kanvas designs internal to your workplace. Get remote support from Layer5 when you need it.
+Keep your Kanvas designs internal to your workplace. Get remote support from
+Layer5 when you need it.
 
 ### Reference
 
@@ -125,47 +152,62 @@ Low-level ReST API reference for extending Layer5 Cloud.
 
 ### Getting Started with Designs
 
-- **Starting from a pattern:** A Pattern is an entity that augments the operational behavior of a deployed instance of a Design.
-- **Creating Relationships:** Relationships identify and facilitate genealogy between Components.
-- **Working with Components:** Components represent entities in the ecosystem, exposing capabilities of the underlying platform.
-- **Starting from scratch:** Emphasize the underlying system behavior for each action you take.
+- **Starting from a pattern:** A Pattern is an entity that augments the
+  operational behavior of a deployed instance of a Design.
+- **Creating Relationships:** Relationships identify and facilitate genealogy
+  between Components.
+- **Working with Components:** Components represent entities in the ecosystem,
+  exposing capabilities of the underlying platform.
+- **Starting from scratch:** Emphasize the underlying system behavior for each
+  action you take.
 
 ### Exploring Designer
 
-- **Reviewing Designs:** Learn how to leverage comments in Kanvas’s Designer Mode to enhance collaboration and streamline design reviews.
+- **Reviewing Designs:** Learn how to leverage comments in Kanvas’s Designer
+  Mode to enhance collaboration and streamline design reviews.
 - **Whiteboarding:** Whiteboarding and Freestyle Drawing inside Kanvas
-- **Export Designs:** How to export your designs for backup, sharing or offline use.
+- **Export Designs:** How to export your designs for backup, sharing or offline
+  use.
 
 ### Working with Components
 
-Designs are descriptive, declarative characterizations of how your Kubernetes infrastructure should be configured
+Designs are descriptive, declarative characterizations of how your Kubernetes
+infrastructure should be configured
 
 ### Navigating Operator
 
-Operator mode is for operating your Kubernetes clusters and cloud native infrastructure.
+Operator mode is for operating your Kubernetes clusters and cloud native
+infrastructure.
 
 ### Core Tasks
 
-- **Whiteboarding:** Kanvas Designer supports freestyle design, meaning that you can customize the appearance and layout of your diagrams without any constraints.
-- **Deploying Designs:** Validating Designs, Undeploying Designs, Deploying Designs, Cloning a Design
+- **Whiteboarding:** Kanvas Designer supports freestyle design, meaning that you
+  can customize the appearance and layout of your diagrams without any
+  constraints.
+- **Deploying Designs:** Validating Designs, Undeploying Designs, Deploying
+  Designs, Cloning a Design
 
 ### Reference
 
-- **Keyboard Shortcuts:** Learn the keyboard shortcuts for Kanvas to enhance your designing experience.
+- **Keyboard Shortcuts:** Learn the keyboard shortcuts for Kanvas to enhance
+  your designing experience.
 - **Troubleshooting Kanvas:** Learn to Troubleshoot the Kanvas
 
 </details>
 
 ### Contribution Guidelines
 
-A detailed contribution guide for Layer5 Docs.
-Contributing to the docs.layer5.io
+A detailed contribution guide for Layer5 Docs. Contributing to the
+docs.layer5.io
 
 ### Editing Markdown Content
 
-Documentation content is written in Markdown and you'll find all files listed under the /content directory.
+Documentation content is written in Markdown and you'll find all files listed
+under the /content directory.
 
-To create a new page with Markdown, create a file ending in `.md` in a `site/<subdirectory>`. The path in the content directory will be the URL route. For example, `site/docs/hello.md` will be served from the `/docs/hello` URL.
+To create a new page with Markdown, create a file ending in `.md` in a
+`site/<subdirectory>`. The path in the content directory will be the URL route.
+For example, `site/docs/hello.md` will be served from the `/docs/hello` URL.
 
 ```yaml
 ---
@@ -176,22 +218,27 @@ description: "A thorough, yet succinct description of the page's contents"
 
 The significant keys in the YAML frontmatter are:
 
-`title` (string) - This is the title of the page that will be set in the HTML title.
-`description` (string) - This is a description of the page that will be set in the HTML description.
-`permalink` (string - relative file path) - canonical location of the page
-`category` (string) - section to which the page belongs.
-`redirect_from` (string - relative file path) - in case the page was previously available elsewhere
+`title` (string) - This is the title of the page that will be set in the HTML
+title. `description` (string) - This is a description of the page that will be
+set in the HTML description. `permalink` (string - relative file path) -
+canonical location of the page `category` (string) - section to which the page
+belongs. `redirect_from` (string - relative file path) - in case the page was
+previously available elsewhere
 
 <div>&nbsp;</div>
 
 ### Uploading Images to the site
 
-To display images in a pop-up modal, use the following syntax: `![alt text](/path/to/image.svg)` or `<img src="" alt="" />`.
+To display images in a pop-up modal, use the following syntax:
+`![alt text](/path/to/image.svg)` or `<img src="" alt="" />`.
 
 **Note:**
 
-- For images to show correctly on subpages, always provide the complete image path.
-- When using the `<img />` tag, add `data-modal="false"` to prevent the image from opening in a modal e.g. a [logo](https://github.com/layer5io/docs/blob/0bef5a9a05214a9dda10d8a68431e41f5a36676d/layouts/partials/footer.html#L9).
+- For images to show correctly on subpages, always provide the complete image
+  path.
+- When using the `<img />` tag, add `data-modal="false"` to prevent the image
+  from opening in a modal e.g. a
+  [logo](https://github.com/layer5io/docs/blob/0bef5a9a05214a9dda10d8a68431e41f5a36676d/layouts/partials/footer.html#L9).
 
 ### Adding Alert to the site
 
@@ -204,14 +251,19 @@ Use the following Syntax to add an Alert:
 - `type="note"`: Alert used to indicate a neutral information.
 - `type="success"`: Alert used to indicate a positive information.
 
-By default, if you don't specify a `title="Your Title"`, the title will be the same as the type name.
+By default, if you don't specify a `title="Your Title"`, the title will be the
+same as the type name.
 
-**Note-> Using an invalid alert type will lead to the default alert being used (i.e. success).**
+**Note-> Using an invalid alert type will lead to the default alert being used
+(i.e. success).**
 
 <hr/>
 
-<a name="contributing"></a><a name="community"></a>
-Our projects are community-driven and open to collaboration. 👍 Be sure to see the <a href="https://layer5.io/community/newcomers">Layer5 Community Welcome Guide</a> for a tour of resources available to you. You can also join our <a href="http://slack.layer5.io">Slack</a> to get involved.
+<a name="contributing"></a><a name="community"></a> Our projects are
+community-driven and open to collaboration. 👍 Be sure to see the
+<a href="https://layer5.io/community/newcomers">Layer5 Community Welcome
+Guide</a> for a tour of resources available to you. You can also join our
+<a href="http://slack.layer5.io">Slack</a> to get involved.
 
 <p style="clear:both;">
 <a href ="https://layer5.io/community/meshmates"><img alt="MeshMates" src=".github/readme/images/layer5-community-sign.png" style="margin-right:10px; margin-bottom:15px;" width="28%" align="left"/></a>
@@ -222,8 +274,9 @@ Our projects are community-driven and open to collaboration. 👍 Be sure to see
   Become a <b>Meshtee</b> today!
 </p>
 
-Find out more on the <a href="https://layer5.io/community">Layer5 community</a>. <br />
-<br /><br /><br /><br />
+Find out more on the <a href="https://layer5.io/community">Layer5 community</a>.
+<br /> <br /><br /><br /><br />
+
 </p>
 
 <div>&nbsp;</div>
