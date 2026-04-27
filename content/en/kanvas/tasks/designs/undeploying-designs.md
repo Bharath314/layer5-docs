@@ -1,8 +1,7 @@
 ---
 title: Undeploying Designs
 description: >
-  Undeploy a design in order to rollback a deployment from one or more
-  Kubernetes clusters.
+  Undeploy a design in order to rollback a deployment from one or more Kubernetes clusters.
 weight: 3
 categories: [Designer]
 tags: [designs]

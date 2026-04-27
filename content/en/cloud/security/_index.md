@@ -6,4 +6,5 @@ categories: [Security]
 tags: [permissions]
 ---
 
-![permission](/cloud/security/images/permissions.svg 'image-center-shadow')
+
+![permission](/cloud/security/images/permissions.svg "image-center-shadow")

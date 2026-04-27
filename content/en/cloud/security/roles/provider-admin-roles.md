@@ -8,8 +8,10 @@ tags: [permissions]
 draft: true
 ---
 
-{{< cardpane >}} {{% card %}}
-<img src="/cloud/security/images/role-provider-admin.svg" /> {{% /card %}}
+{{< cardpane >}}
+{{% card %}}
+<img src="/cloud/security/images/role-provider-admin.svg" />
+{{% /card %}}
 {{% card header="## Provider Administrator" %}}
 
 **What is the purpose of this role?**
@@ -38,4 +40,5 @@ draft: true
 
 - Can perform CRUD on all resources
 
-{{% /card %}} {{< /cardpane >}}
+{{% /card %}}
+{{< /cardpane >}}
