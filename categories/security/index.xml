@@ -84,7 +84,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[258 385 353 99 109 342]" src="../../cloud/security/images/roles-overview.svg" onclick="openModal(this.id)" alt="roles" 
+ &lt;img id="[207 455 29 265 386 215]" src="../../cloud/security/images/roles-overview.svg" onclick="openModal(this.id)" alt="roles" 
  class="md-image-responsive image-center-no-shadow" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -107,7 +107,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[400 258 103 134 492 48]" src="../../cloud/security/images/role-provider-admin.svg" onclick="openModal(this.id)" alt="role-provider" 
+ &lt;img id="[119 103 394 57 430 452]" src="../../cloud/security/images/role-provider-admin.svg" onclick="openModal(this.id)" alt="role-provider" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/p&gt;
@@ -259,6 +259,6 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[417 368 356 298 348 468]" src="../../cloud/security/images/permissions.svg" onclick="openModal(this.id)" alt="permission" 
+ &lt;img id="[472 88 321 61 96 64]" src="../../cloud/security/images/permissions.svg" onclick="openModal(this.id)" alt="permission" 
  class="md-image-responsive image-center-shadow" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item></channel></rss>
