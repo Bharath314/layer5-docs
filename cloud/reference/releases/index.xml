@@ -1,4 +1,374 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.146</title><link>/cloud/reference/releases/v1.0.146/</link><pubDate>Mon, 22 Jun 2026 09:33:21 +0000</pubDate><guid>/cloud/reference/releases/v1.0.146/</guid><description>&lt;h2 id="-academy" class="heading-link"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.173</title><link>/cloud/reference/releases/v1.0.173/</link><pubDate>Mon, 06 Jul 2026 05:05:12 +0000</pubDate><guid>/cloud/reference/releases/v1.0.173/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(db): clean resource_access_mappings in anonymous-user cleanup @arjunmehta-git (#5663)&lt;/li&gt;
+&lt;li&gt;docs(plan): consolidation execution status + post-deploy checklist @leecalcote (#5662)&lt;/li&gt;
+&lt;li&gt;fix(cmd): backfill-external-id must surface its startup errors, not exit silently @leecalcote (#5661)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.172</title><link>/cloud/reference/releases/v1.0.172/</link><pubDate>Mon, 06 Jul 2026 03:20:11 +0000</pubDate><guid>/cloud/reference/releases/v1.0.172/</guid><description>&lt;ul&gt;
+&lt;li&gt;[identity] Account consolidation: identity anchor, resolution funnel, multi-email, one-time merge (#5410) @leecalcote (#5652)&lt;/li&gt;
+&lt;li&gt;chore(dev): server frees its own port; drop dead pg-version yaml parsing; trim key comments @leecalcote (#5660)&lt;/li&gt;
+&lt;li&gt;[server] Fix DAO tests: FK-ordered cleanup, shared-DB residue, pattern_file opt-in @hortison (#5657)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @leecalcote, @pontusringblom and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.171</title><link>/cloud/reference/releases/v1.0.171/</link><pubDate>Sat, 04 Jul 2026 20:05:02 +0000</pubDate><guid>/cloud/reference/releases/v1.0.171/</guid><description>&lt;ul&gt;
+&lt;li&gt;swap staging-cloud name @miacycle (#5656)&lt;/li&gt;
+&lt;li&gt;[ci] Fix meshery-qa-planner skill symlink (breaks claude-review on all PRs) @leecalcote (#5655)&lt;/li&gt;
+&lt;li&gt;docs: progressive-disclosure refactor of AGENTS.md; align ecosystem engineering directives @leecalcote (#5644)&lt;/li&gt;
+&lt;li&gt;[docs] Add multi-email-per-account gap to fragmentation plan @leecalcote (#5642)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote, @meshery-ci, @miacycle and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.170</title><link>/cloud/reference/releases/v1.0.170/</link><pubDate>Fri, 03 Jul 2026 05:19:08 +0000</pubDate><guid>/cloud/reference/releases/v1.0.170/</guid><description>&lt;ul&gt;
+&lt;li&gt;[server] Correct EventSummary user_id db tag; audit ownership-consolidation constructs (#5615) @ritzorama (#5640)&lt;/li&gt;
+&lt;li&gt;[UI] Update Account Link Cards Layout @NSTKrishna (#5641)&lt;/li&gt;
+&lt;li&gt;Fix: Prevent role-fetching crashes from interfering with password resets @NSTKrishna (#5635)&lt;/li&gt;
+&lt;li&gt;refactor(filters): migrate off homegrown UniversalFilter onto Sistent @alexquincy (#5638)&lt;/li&gt;
+&lt;li&gt;Add claude GitHub actions 1783029322939 @ritzorama (#5639)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.30 @l5io (#5633)&lt;/li&gt;
+&lt;li&gt;[UI] Fix stretched background layout on Account Profile link @NSTKrishna (#5636)&lt;/li&gt;
+&lt;li&gt;[UI] Migrate data-table filters to the shared @sistent/sistent UniversalFilter @claude (#5634)&lt;/li&gt;
+&lt;li&gt;[UI] Use the shared UniversalFilter for the catalog leaderboard @claude (#5632)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-dependencies" class="heading-link"&gt;
+ ⬆️ Dependencies
+ &lt;a href="#-dependencies" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(deps): Bump github.com/ozontech/allure-go/pkg/framework from 0.6.32 to 0.8.2 @dependabot (#5607)&lt;/li&gt;
+&lt;li&gt;chore(deps): Bump github.com/bradleyfalzon/ghinstallation/v2 from 2.17.0 to 2.19.0 @dependabot (#5602)&lt;/li&gt;
+&lt;li&gt;chore(deps): Bump go.opentelemetry.io/otel/trace from 1.43.0 to 1.44.0 @dependabot (#5604)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @alexquincy, @arjunmehta-git, @claude, @dependabot, @l5io, @leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.169</title><link>/cloud/reference/releases/v1.0.169/</link><pubDate>Thu, 02 Jul 2026 15:26:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.169/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): resolve infinite scroll-reset loop on subscriptions page @rishiraj38 (#5630)&lt;/li&gt;
+&lt;li&gt;Fix Connections modal layout padding and scroll overlap @rishiraj38 (#5631)&lt;/li&gt;
+&lt;li&gt;[UI] Hide author data columns and add leaderboard filter @claude (#5626)&lt;/li&gt;
+&lt;li&gt;[server] Retire local connection/design/roles models onto @meshery/schemas (plan 3.1 resource group) @leecalcote (#5629)&lt;/li&gt;
+&lt;li&gt;[server/models] Retire local Team onto schemas team.Team (plan 3.1 org group) @leecalcote (#5628)&lt;/li&gt;
+&lt;li&gt;[Server/UI] Consume schemas v1.3.22 pagination envelopes; collapse totalCount dual-reads @leecalcote (#5625)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@claude, @leecalcote and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.168</title><link>/cloud/reference/releases/v1.0.168/</link><pubDate>Wed, 01 Jul 2026 23:33:51 +0000</pubDate><guid>/cloud/reference/releases/v1.0.168/</guid><description>&lt;ul&gt;
+&lt;li&gt;Add full and full-release modes for iterate-pr @miacycle (#5623)&lt;/li&gt;
+&lt;li&gt;[Server] Consume schemas team.TeamPayload; retire local model_team_payload.go @leecalcote (#5622)&lt;/li&gt;
+&lt;li&gt;chore(db): refresh cloud-schema.sql from prod (owner-consolidation) + uniformity remediation plan @leecalcote (#5620)&lt;/li&gt;
+&lt;li&gt;fix(ui): read totalCount for team/credential/view/keychain counts @leecalcote (#5619)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git, @leecalcote and @miacycle&lt;/p&gt;</description></item><item><title>v1.0.166</title><link>/cloud/reference/releases/v1.0.166/</link><pubDate>Wed, 01 Jul 2026 17:25:57 +0000</pubDate><guid>/cloud/reference/releases/v1.0.166/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.26 @l5io (#5614)&lt;/li&gt;
+&lt;li&gt;Database: Refresh schema on change of DDL @leecalcote (#5612)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-cloud-ui" class="heading-link"&gt;
+ 🖥 Cloud UI
+ &lt;a href="#-cloud-ui" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(identity): BYOC social buttons, All-Orgs identity views, invitations scope @leecalcote (#5613)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(identity): BYOC social buttons, All-Orgs identity views, invitations scope @leecalcote (#5613)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.165</title><link>/cloud/reference/releases/v1.0.165/</link><pubDate>Tue, 30 Jun 2026 20:38:55 +0000</pubDate><guid>/cloud/reference/releases/v1.0.165/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(flow-emails): custom-domain signup verification links use the org host, not cloud.layer5.io @leecalcote (#5597)&lt;/li&gt;
+&lt;li&gt;style: customize scrollbar in widget picker drawer @rishiraj38 (#5601)&lt;/li&gt;
+&lt;li&gt;[server] Fix hidden 2042-2044 error-code collision; add collision guard @hortison (#5599)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @hortison, @jamieplu, @leecalcote and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.164</title><link>/cloud/reference/releases/v1.0.164/</link><pubDate>Tue, 30 Jun 2026 16:27:54 +0000</pubDate><guid>/cloud/reference/releases/v1.0.164/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(profile): route profile updates through the Kratos admin API, not self-service @leecalcote (#5600)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.163</title><link>/cloud/reference/releases/v1.0.163/</link><pubDate>Tue, 30 Jun 2026 12:47:20 +0000</pubDate><guid>/cloud/reference/releases/v1.0.163/</guid><description>&lt;ul&gt;
+&lt;li&gt;test(domain_routing): deflake concurrent evict-vs-refresh cache test @leecalcote (#5596)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-server" class="heading-link"&gt;
+ 💻 Server
+ &lt;a href="#-server" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(migrations): renumber colliding oidc_pending_states migration + version-collision CI guard @leecalcote (#5598)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(migrations): renumber colliding oidc_pending_states migration + version-collision CI guard @leecalcote (#5598)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.162</title><link>/cloud/reference/releases/v1.0.162/</link><pubDate>Tue, 30 Jun 2026 01:59:46 +0000</pubDate><guid>/cloud/reference/releases/v1.0.162/</guid><description>&lt;ul&gt;
+&lt;li&gt;[DAO] Guard organization-scoped queries against empty org scope (supersedes #5559) @leecalcote (#5587)&lt;/li&gt;
+&lt;li&gt;feat(idp): create/tear down Identity Providers Environment on-behalf @leecalcote (#5593)&lt;/li&gt;
+&lt;li&gt;fix(ui): Identity Providers tab shows default state (not an error) for orgs without BYOC @leecalcote (#5588)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.161</title><link>/cloud/reference/releases/v1.0.161/</link><pubDate>Tue, 30 Jun 2026 01:45:00 +0000</pubDate><guid>/cloud/reference/releases/v1.0.161/</guid><description>&lt;h2 id="-features" class="heading-link"&gt;
+ 🚀 Features
+ &lt;a href="#-features" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-cloud-ui" class="heading-link"&gt;
+ 🖥 Cloud UI
+ &lt;a href="#-cloud-ui" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-server" class="heading-link"&gt;
+ 💻 Server
+ &lt;a href="#-server" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-infrastructure" class="heading-link"&gt;
+ 🦴 Infrastructure
+ &lt;a href="#-infrastructure" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-documentation" class="heading-link"&gt;
+ 📖 Documentation
+ &lt;a href="#-documentation" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.160</title><link>/cloud/reference/releases/v1.0.160/</link><pubDate>Tue, 30 Jun 2026 01:22:26 +0000</pubDate><guid>/cloud/reference/releases/v1.0.160/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(webhook): configure GITHUB_WEBHOOK_SECRET and surface misconfig once at startup @leecalcote (#5594)&lt;/li&gt;
+&lt;li&gt;[chore] add MeshKit-error PreToolUse guard for the Go backend @leecalcote (#5592)&lt;/li&gt;
+&lt;li&gt;[chore] register no-ai-attribution PreToolUse hook in settings @leecalcote (#5591)&lt;/li&gt;
+&lt;li&gt;[server] fix: catalog Technology dropdown shows full model registry (honor camelCase pageSize) @leecalcote (#5589)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.159</title><link>/cloud/reference/releases/v1.0.159/</link><pubDate>Mon, 29 Jun 2026 22:02:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.159/</guid><description>&lt;ul&gt;
+&lt;li&gt;[docs] Plan: rename built-in roles (admin -&amp;gt; provider admin, Anonymous User -&amp;gt; anonymous user) @leecalcote (#5586)&lt;/li&gt;
+&lt;li&gt;docs: resolve TP-003 test-ID collision and sweep em-dashes @leecalcote (#5585)&lt;/li&gt;
+&lt;li&gt;docs: reorganize and consolidate internal documentation @leecalcote (#5584)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.158</title><link>/cloud/reference/releases/v1.0.158/</link><pubDate>Thu, 25 Jun 2026 21:12:44 +0000</pubDate><guid>/cloud/reference/releases/v1.0.158/</guid><description>&lt;ul&gt;
+&lt;li&gt;update cloud connections table @aabidsofi19 (#5583)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@aabidsofi19&lt;/p&gt;</description></item><item><title>v1.0.157</title><link>/cloud/reference/releases/v1.0.157/</link><pubDate>Thu, 25 Jun 2026 19:21:32 +0000</pubDate><guid>/cloud/reference/releases/v1.0.157/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(connections): authorize credential access via connection access @leecalcote (#5582)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.156</title><link>/cloud/reference/releases/v1.0.156/</link><pubDate>Thu, 25 Jun 2026 04:16:13 +0000</pubDate><guid>/cloud/reference/releases/v1.0.156/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(connections): bump github.com/meshery/schemas to v1.3.16 (resolves connection_definition_dbs 500) @leecalcote (#5581)&lt;/li&gt;
+&lt;li&gt;[UI] update the color for consistency @leecalcote (#5545)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.155</title><link>/cloud/reference/releases/v1.0.155/</link><pubDate>Wed, 24 Jun 2026 21:35:10 +0000</pubDate><guid>/cloud/reference/releases/v1.0.155/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(authz): Provider Admins can view org-scoped Academy in tenant orgs (org-context resolver) @leecalcote (#5579)&lt;/li&gt;
+&lt;li&gt;fix(cache): never pin immutable Cache-Control on a 404 in nextStaticCacheControl @leecalcote (#5580)&lt;/li&gt;
+&lt;li&gt;feat(cache): release-scoped CDN cache headers (no Cloudflare purge) @leecalcote (#5578)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.154</title><link>/cloud/reference/releases/v1.0.154/</link><pubDate>Wed, 24 Jun 2026 20:37:33 +0000</pubDate><guid>/cloud/reference/releases/v1.0.154/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.25 @l5io (#5577)&lt;/li&gt;
+&lt;li&gt;fix(academy): remove default underline from hyperlinks in course content @rishiraj38 (#5565)&lt;/li&gt;
+&lt;li&gt;style(verification): render Resend button as outlined secondary @hortison (#5574)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.24 @l5io (#5575)&lt;/li&gt;
+&lt;li&gt;feat(tables): URL-backed pagination/sort, persisted columns, row deep-links @leecalcote (#5576)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @l5io, @leecalcote, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.153</title><link>/cloud/reference/releases/v1.0.153/</link><pubDate>Wed, 24 Jun 2026 16:41:40 +0000</pubDate><guid>/cloud/reference/releases/v1.0.153/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(dashboard, authz): keep dashboard background end-to-end; unblock Provider Admins on org-scoped Academy @leecalcote (#5572)&lt;/li&gt;
+&lt;li&gt;fix(auth): honor relative return_to in GetRefURL so academy enroll returns to the learning path @leecalcote (#5573)&lt;/li&gt;
+&lt;li&gt;fix(ui): make user-profile Edit button open the edit modal reliably @leecalcote (#5571)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @suttonskate&lt;/p&gt;</description></item><item><title>v1.0.152</title><link>/cloud/reference/releases/v1.0.152/</link><pubDate>Wed, 24 Jun 2026 06:21:05 +0000</pubDate><guid>/cloud/reference/releases/v1.0.152/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(academy): make At a Glance section content- and context-aware @leecalcote (#5570)&lt;/li&gt;
+&lt;li&gt;docs: refactor CLAUDE.md/AGENTS.md into a progressive-disclosure index @leecalcote (#5569)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.151</title><link>/cloud/reference/releases/v1.0.151/</link><pubDate>Tue, 23 Jun 2026 22:04:07 +0000</pubDate><guid>/cloud/reference/releases/v1.0.151/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.23 @l5io (#5568)&lt;/li&gt;
+&lt;li&gt;refactor: adopt meshery/schemas#947 — schema-owned membership types + free-form roleNames @leecalcote (#5563)&lt;/li&gt;
+&lt;li&gt;docs(runbook): add \Cutting a Layer5 Cloud Release\ runbook @leecalcote (#5567)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.150</title><link>/cloud/reference/releases/v1.0.150/</link><pubDate>Tue, 23 Jun 2026 20:48:55 +0000</pubDate><guid>/cloud/reference/releases/v1.0.150/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): replace dead \Try Again\ with a Report Issue feedback flow @leecalcote (#5566)&lt;/li&gt;
+&lt;li&gt;fix(auth): apply open-org invitation for returning users on custom domains @leecalcote (#5544)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.149</title><link>/cloud/reference/releases/v1.0.149/</link><pubDate>Tue, 23 Jun 2026 19:18:49 +0000</pubDate><guid>/cloud/reference/releases/v1.0.149/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(academy): hide Organization filter on a host org&amp;rsquo;s Academy domain @leecalcote (#5562)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exoscale v0.6.39 content update @l5io (#5564)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.148</title><link>/cloud/reference/releases/v1.0.148/</link><pubDate>Tue, 23 Jun 2026 15:57:00 +0000</pubDate><guid>/cloud/reference/releases/v1.0.148/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): import useEffect in Academy content-unavailable page @leecalcote (#5561)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.147</title><link>/cloud/reference/releases/v1.0.147/</link><pubDate>Tue, 23 Jun 2026 15:11:05 +0000</pubDate><guid>/cloud/reference/releases/v1.0.147/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): informative, recoverable error states (academy broken links + bare error responses) @leecalcote (#5539)&lt;/li&gt;
+&lt;li&gt;docs: document email template systems and cross-reference between trees @leecalcote (#5537)&lt;/li&gt;
+&lt;li&gt;docs(sso): enterprise SSO + IdP role-to-authorization mapping design spec @leecalcote (#5543)&lt;/li&gt;
+&lt;li&gt;fix(auth): toggle brand-info panel via display, not visibility @hortison (#5535)&lt;/li&gt;
+&lt;li&gt;restructure: consolidate scripts, tools, and kratos-templates into canonical locations @leecalcote (#5530)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.146</title><link>/cloud/reference/releases/v1.0.146/</link><pubDate>Mon, 22 Jun 2026 09:33:21 +0000</pubDate><guid>/cloud/reference/releases/v1.0.146/</guid><description>&lt;h2 id="-academy" class="heading-link"&gt;
  📚 Academy
  &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
