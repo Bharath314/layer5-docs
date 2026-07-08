@@ -213,7 +213,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[291 129 1 297 74 161]" src="images/roles-overview.svg" onclick="openModal(this.id)" alt="roles" 
+ &lt;img id="[433 206 305 488 321 1]" src="images/roles-overview.svg" onclick="openModal(this.id)" alt="roles" 
  class="md-image-responsive image-center-no-shadow" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -236,7 +236,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[47 29 307 21 82 75]" src="images/role-provider-admin.svg" onclick="openModal(this.id)" alt="role-provider" 
+ &lt;img id="[408 388 461 100 468 40]" src="images/role-provider-admin.svg" onclick="openModal(this.id)" alt="role-provider" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/p&gt;

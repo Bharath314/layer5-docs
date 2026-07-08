@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.173</title><link>/cloud/reference/releases/v1.0.173/</link><pubDate>Mon, 06 Jul 2026 05:05:12 +0000</pubDate><guid>/cloud/reference/releases/v1.0.173/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.180</title><link>/cloud/reference/releases/v1.0.180/</link><pubDate>Tue, 07 Jul 2026 19:22:54 +0000</pubDate><guid>/cloud/reference/releases/v1.0.180/</guid><description>&lt;ul&gt;
+&lt;li&gt;[db] Materialized-view cleanup: retire pattern_metrics, fix summary_by_user owner anchor @hortison (#5688)&lt;/li&gt;
+&lt;li&gt;fix(dev): stop lsof port-kill hang on smbfs mounts; drop meshery_filters seeding @leecalcote (#5690)&lt;/li&gt;
+&lt;li&gt;fix(db): correct seed user first_name and per-user workspace scope @leecalcote (#5689)&lt;/li&gt;
+&lt;li&gt;fix(db): repoint seed scripts off dropped users.user_id column @leecalcote (#5687)&lt;/li&gt;
+&lt;li&gt;chore(deploy): bump MIN_MESHERY_VERSION to v1.0.55 for the v1beta3 cutover @leecalcote (#5685)&lt;/li&gt;
+&lt;li&gt;feat(users): Phase 4 hard cutover - drop users.user_id, re-key JWT sub to users.id (#5410) @leecalcote (#5683)&lt;/li&gt;
+&lt;li&gt;[docs] Add optional BYOC signup scenario matrix to TP-003 @hortison (#5684)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald, @hortison, @leecalcote and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.179</title><link>/cloud/reference/releases/v1.0.179/</link><pubDate>Tue, 07 Jul 2026 04:51:31 +0000</pubDate><guid>/cloud/reference/releases/v1.0.179/</guid><description>&lt;ul&gt;
+&lt;li&gt;[server] Type CheckNotificationPreference against models.UserPreference alias @hortison (#5682)&lt;/li&gt;
+&lt;li&gt;chore(errors): add ErrEmailAlreadyInUse (3211) to the error catalog @leecalcote (#5681)&lt;/li&gt;
+&lt;li&gt;[docs] Comprehensive make targets, agent-tooling index, and environment-connection runbook @ritzorama (#5679)&lt;/li&gt;
+&lt;li&gt;docs(consolidation): add reusable outcome report SQL @leecalcote (#5680)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @leecalcote, @ritzorama, @simihablo and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.178</title><link>/cloud/reference/releases/v1.0.178/</link><pubDate>Tue, 07 Jul 2026 00:33:16 +0000</pubDate><guid>/cloud/reference/releases/v1.0.178/</guid><description>&lt;ul&gt;
+&lt;li&gt;refactor(dao): single-source the canonical-user ORDER BY @leecalcote (#5678)&lt;/li&gt;
+&lt;li&gt;feat(users): graceful 409 on duplicate-email create @leecalcote (#5677)&lt;/li&gt;
+&lt;li&gt;fix(consolidation): retire a merged-away user&amp;rsquo;s email addresses on merge @leecalcote (#5675)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.177</title><link>/cloud/reference/releases/v1.0.177/</link><pubDate>Tue, 07 Jul 2026 00:23:43 +0000</pubDate><guid>/cloud/reference/releases/v1.0.177/</guid><description>&lt;ul&gt;
+&lt;li&gt;[server] Map env/workspace single-resource GET not-found to 404 instead of 500 @ritzorama (#5676)&lt;/li&gt;
+&lt;li&gt;feat(db): enforce email uniqueness (Phase 3, #5410 Gate B) @leecalcote (#5672)&lt;/li&gt;
+&lt;li&gt;Fix OIDC account linking parameter propagation @NSTKrishna (#5658)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @leecalcote, @pontusringblom and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.176</title><link>/cloud/reference/releases/v1.0.176/</link><pubDate>Mon, 06 Jul 2026 23:01:29 +0000</pubDate><guid>/cloud/reference/releases/v1.0.176/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(consolidation): &amp;ndash;by-email mode for no-identity residual clusters @leecalcote (#5671)&lt;/li&gt;
+&lt;li&gt;docs(consolidation): fix live-run commands (&amp;ndash;dry-run=false) + document post-merge residuals @leecalcote (#5667)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.175</title><link>/cloud/reference/releases/v1.0.175/</link><pubDate>Mon, 06 Jul 2026 18:17:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.175/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(cmd): backfill skips sibling-anchored identities instead of aborting @leecalcote (#5666)&lt;/li&gt;
+&lt;li&gt;chore(db): refresh cloud-schema snapshot post anonymous-cleanup (v1.0.174) @leecalcote (#5665)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.174</title><link>/cloud/reference/releases/v1.0.174/</link><pubDate>Mon, 06 Jul 2026 14:27:02 +0000</pubDate><guid>/cloud/reference/releases/v1.0.174/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(db): drop antiquated anonymous-user delete functions @leecalcote (#5664)&lt;/li&gt;
+&lt;li&gt;FIx: Tweak social layout spacing @NSTKrishna (#5659)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @leecalcote and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.173</title><link>/cloud/reference/releases/v1.0.173/</link><pubDate>Mon, 06 Jul 2026 05:05:12 +0000</pubDate><guid>/cloud/reference/releases/v1.0.173/</guid><description>&lt;ul&gt;
 &lt;li&gt;fix(db): clean resource_access_mappings in anonymous-user cleanup @arjunmehta-git (#5663)&lt;/li&gt;
 &lt;li&gt;docs(plan): consolidation execution status + post-deploy checklist @leecalcote (#5662)&lt;/li&gt;
 &lt;li&gt;fix(cmd): backfill-external-id must surface its startup errors, not exit silently @leecalcote (#5661)&lt;/li&gt;
