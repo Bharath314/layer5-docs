@@ -1,4 +1,425 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.198</title><link>/cloud/reference/releases/v1.0.198/</link><pubDate>Thu, 16 Jul 2026 18:25:27 +0000</pubDate><guid>/cloud/reference/releases/v1.0.198/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.234</title><link>/cloud/reference/releases/v1.0.234/</link><pubDate>Thu, 13 Aug 2026 05:26:11 +0000</pubDate><guid>/cloud/reference/releases/v1.0.234/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): brand the email-change verification email for its reader @yi-nuo426 (#5967)&lt;/li&gt;
+&lt;li&gt;docs(testing): map the feedback email senders&amp;rsquo; test functions to TP-011 cases @yi-nuo426 (#5968)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.22.2 @l5io (#5964)&lt;/li&gt;
+&lt;li&gt;fix(ui): remove hardcoded product brand from user-visible copy @yi-nuo426 (#5962)&lt;/li&gt;
+&lt;li&gt;docs: correct stale org-admin credential, list missing test users @leecalcote (#5963)&lt;/li&gt;
+&lt;li&gt;fix(email): resolve hardcoded template hosts and repair the dead filter publish notification @yi-nuo426 (#5956)&lt;/li&gt;
+&lt;li&gt;fix(ui): make the credential form&amp;rsquo;s secret object the persisted value @alexquincy (#5955)&lt;/li&gt;
+&lt;li&gt;fix(ui): read the badge form from the construct version the server binds @alexquincy (#5954)&lt;/li&gt;
+&lt;li&gt;fix(ui): restore the 403 permission-key work that #5892 merged without @yi-nuo426 (#5952)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(ui): filter OrgSwitcher to show only accessible orgs on 403 page @rishiraj38 (#5961)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @jamieplu, @l5io, @leecalcote, @pontusringblom, @rishiraj38, @willcalcote and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.233</title><link>/cloud/reference/releases/v1.0.233/</link><pubDate>Wed, 12 Aug 2026 13:05:36 +0000</pubDate><guid>/cloud/reference/releases/v1.0.233/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): offer the whole organization list in the workspace and environment pickers @yi-nuo426 (#5937)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote, @pontusringblom, @yi-nuo426 and Ahmed Jamil&lt;/p&gt;</description></item><item><title>v1.0.232</title><link>/cloud/reference/releases/v1.0.232/</link><pubDate>Wed, 12 Aug 2026 00:18:34 +0000</pubDate><guid>/cloud/reference/releases/v1.0.232/</guid><description>&lt;ul&gt;
+&lt;li&gt;Hide unpermitted nav items and gate dashboard widgets by permission @rishiraj38 (#5931)&lt;/li&gt;
+&lt;li&gt;feat(ui): display page-specific permission keys on 403 error page @rishiraj38 (#5892)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.22.1 @l5io (#5936)&lt;/li&gt;
+&lt;li&gt;fix(users): report role-read failures instead of rendering a role-less user @yi-nuo426 (#5939)&lt;/li&gt;
+&lt;li&gt;chore: remove the tracked .mcp.json shared MCP configuration @yi-nuo426 (#5938)&lt;/li&gt;
+&lt;li&gt;fix(email): link the full page URL in the feedback triage notification @yi-nuo426 (#5929)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @rishiraj38, @willcalcote, @winkletinkle, @yi-nuo426 and Ahmed Jamil&lt;/p&gt;</description></item><item><title>v1.0.231</title><link>/cloud/reference/releases/v1.0.231/</link><pubDate>Tue, 11 Aug 2026 17:37:07 +0000</pubDate><guid>/cloud/reference/releases/v1.0.231/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(email): report the submitter&amp;rsquo;s real roles and reader-correct branding in feedback emails @yi-nuo426 (#5928)&lt;/li&gt;
+&lt;li&gt;fix(handlers): scope id-addressed writes and subscription routes to the owning tenant @willcalcote (#5913)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd, @westcalcote, @willcalcote and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.230</title><link>/cloud/reference/releases/v1.0.230/</link><pubDate>Mon, 10 Aug 2026 22:08:14 +0000</pubDate><guid>/cloud/reference/releases/v1.0.230/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): create/edit workspace form addresses the canonical organizationId field @yi-nuo426 (#5922)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.229</title><link>/cloud/reference/releases/v1.0.229/</link><pubDate>Mon, 10 Aug 2026 21:07:21 +0000</pubDate><guid>/cloud/reference/releases/v1.0.229/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(database): backfill owner on unattributed session audit events @jijillery (#5910)&lt;/li&gt;
+&lt;li&gt;fix(ui): stop the Help &amp;amp; Support modal discarding the user&amp;rsquo;s description @yi-nuo426 (#5919)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery, @ritzorama and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.228</title><link>/cloud/reference/releases/v1.0.228/</link><pubDate>Sun, 09 Aug 2026 23:59:14 +0000</pubDate><guid>/cloud/reference/releases/v1.0.228/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): anchor every Hydra authorize hop on the tenant custom domain @jijillery (#5912)&lt;/li&gt;
+&lt;li&gt;fix: stop disabled nav icons from flickering on hover @NSTKrishna (#5893)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.22.0 @l5io (#5915)&lt;/li&gt;
+&lt;li&gt;Seed RBAC key for Uninstall Extension @rishiraj38 (#5905)&lt;/li&gt;
+&lt;li&gt;fix(ui): consume canonical @meshery/schemas types and repair filter import @willcalcote (#5908)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.46 @l5io (#5907)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @hamza-mohd, @hortison, @jijillery, @l5io, @leecalcote, @rishiraj38, @simihablo, @suttonskate, @willcalcote and tester&lt;/p&gt;</description></item><item><title>v1.0.227</title><link>/cloud/reference/releases/v1.0.227/</link><pubDate>Fri, 07 Aug 2026 04:11:19 +0000</pubDate><guid>/cloud/reference/releases/v1.0.227/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): restore green hover glow on Learning Cards @rishiraj38 (#5906)&lt;/li&gt;
+&lt;li&gt;[skills] iterate-pr 2.4.0: never report an unfetched PR as a clean one @arjunmehta-git (#5904)&lt;/li&gt;
+&lt;li&gt;feat(academy): add six Instructor Console statistics derived from the existing summary payload @willcalcote (#5903)&lt;/li&gt;
+&lt;li&gt;fix(ui): run e2e against a pre-built static export and fix the two defects it exposed @willcalcote (#5900)&lt;/li&gt;
+&lt;li&gt;fix(connections): answer 404 for a delete addressed to an unknown id @willcalcote (#5898)&lt;/li&gt;
+&lt;li&gt;fix(events): attribute organization session events to their real actor @jijillery (#5881)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git, @hamza-mohd, @hortison, @jamieplu, @jijillery, @leecalcote, @rishiraj38, @simihablo, @willcalcote and tester&lt;/p&gt;</description></item><item><title>v1.0.226</title><link>/cloud/reference/releases/v1.0.226/</link><pubDate>Wed, 05 Aug 2026 04:53:51 +0000</pubDate><guid>/cloud/reference/releases/v1.0.226/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(handlers): preserve unmentioned keys on the whole-document preference write @jijillery (#5875)&lt;/li&gt;
+&lt;li&gt;fix(ui): bump @meshery/schemas to v1.3.44 to restore event recording @jijillery (#5883)&lt;/li&gt;
+&lt;li&gt;fix(academy): the outage ate no attempts; restore five passes a rename orphaned @carlosriosilva (#5877)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@carlosriosilva, @chellej, @hortison, @jijillery and @willcalcote&lt;/p&gt;</description></item><item><title>v1.0.225</title><link>/cloud/reference/releases/v1.0.225/</link><pubDate>Wed, 05 Aug 2026 04:13:23 +0000</pubDate><guid>/cloud/reference/releases/v1.0.225/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(academy): add aggregated insight to the Instructor Console and fix its counts @willcalcote (#5889)&lt;/li&gt;
+&lt;li&gt;refactor(ui): source the design-import formData type from @meshery/schemas @willcalcote (#5887)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd, @hortison, @meshery-ci, @simihablo, @willcalcote and tester&lt;/p&gt;</description></item><item><title>v1.0.224</title><link>/cloud/reference/releases/v1.0.224/</link><pubDate>Tue, 04 Aug 2026 15:55:37 +0000</pubDate><guid>/cloud/reference/releases/v1.0.224/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): shield nav sections whose pages the user cannot reach @willcalcote (#5874)&lt;/li&gt;
+&lt;li&gt;fix(badges): repair mis-labelled and consolidation-stranded badge data @jijillery (#5871)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.45 @l5io (#5870)&lt;/li&gt;
+&lt;li&gt;docs(testing): verify PR #5822 hard-delete paths on a real stack; record deletion semantics @jijillery (#5828)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @fitzergerald, @hamza-mohd, @hortison, @jijillery, @l5io, @rishiraj38, @suttonskate and @willcalcote&lt;/p&gt;</description></item><item><title>v1.0.223</title><link>/cloud/reference/releases/v1.0.223/</link><pubDate>Tue, 04 Aug 2026 05:52:23 +0000</pubDate><guid>/cloud/reference/releases/v1.0.223/</guid><description>&lt;ul&gt;
+&lt;li&gt;docs(testing): verify PR #5822 hard-delete paths on a real stack; record deletion semantics @jijillery (#5828)&lt;/li&gt;
+&lt;li&gt;fix(badges): refuse destructive empty badge writes, stop silent award failures @jijillery (#5865)&lt;/li&gt;
+&lt;li&gt;feat(ui): pair Join Date with Last Active on the public profile @jijillery (#5862)&lt;/li&gt;
+&lt;li&gt;fix(academy): enforce registration ownership before starting a test session or reading a progress tracker @jijillery (#5860)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@carlosriosilva, @hamza-mohd, @hortison, @jijillery and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.222</title><link>/cloud/reference/releases/v1.0.222/</link><pubDate>Tue, 04 Aug 2026 00:15:10 +0000</pubDate><guid>/cloud/reference/releases/v1.0.222/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): stop 500s locking learners out of quiz re-attempts @jijillery (#5858)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery, @leecalcote and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.221</title><link>/cloud/reference/releases/v1.0.221/</link><pubDate>Mon, 03 Aug 2026 23:30:40 +0000</pubDate><guid>/cloud/reference/releases/v1.0.221/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(dao): constrain membership mappings and repair index-unsafe role writes @jijillery (#5822)&lt;/li&gt;
+&lt;li&gt;[identity] Exclude Last column from default Users table columns @hortison (#5853)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery, @leecalcote and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.220</title><link>/cloud/reference/releases/v1.0.220/</link><pubDate>Mon, 03 Aug 2026 21:09:51 +0000</pubDate><guid>/cloud/reference/releases/v1.0.220/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): Instructor Console 500s on historical quiz payloads (not an authorization bug) @westcalcote (#5855)&lt;/li&gt;
+&lt;li&gt;chore(skills): hard-rename iterate-pr &amp;ndash;full mode to &amp;ndash;merge @hamza-mohd (#5851)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd and @westcalcote&lt;/p&gt;</description></item><item><title>v1.0.219</title><link>/cloud/reference/releases/v1.0.219/</link><pubDate>Mon, 03 Aug 2026 18:43:27 +0000</pubDate><guid>/cloud/reference/releases/v1.0.219/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): report real registration counts on the instructor console @jijillery (#5849)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery and @westcalcote&lt;/p&gt;</description></item><item><title>v1.0.218</title><link>/cloud/reference/releases/v1.0.218/</link><pubDate>Mon, 03 Aug 2026 06:15:25 +0000</pubDate><guid>/cloud/reference/releases/v1.0.218/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(roles): let a Provider Admin list organization and team roles @jijillery (#5847)&lt;/li&gt;
+&lt;li&gt;[UI] Wire allure-playwright e2e reporter so the Layer5 Cloud QA report can repopulate @fitzergerald (#5846)&lt;/li&gt;
+&lt;li&gt;chore: track shared Claude Code hook registrations and harden the guards @jijillery (#5830)&lt;/li&gt;
+&lt;li&gt;chore(skills): fix iterate-pr feedback fetcher and bump vendored skill to 2.3.1 @jijillery (#5827)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-dependencies" class="heading-link"&gt;
+ ⬆️ Dependencies
+ &lt;a href="#-dependencies" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;9 changes&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(deps): bump github.com/labstack/echo/v4 from 4.15.1 to 4.15.4 @dependabot (#5843)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @mui/material from 9.1.2 to 9.2.0 in /ui @dependabot (#5842)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @stripe/stripe-js from 9.8.0 to 9.12.1 in /ui @dependabot (#5840)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump github.com/PuerkitoBio/goquery from 1.11.0 to 1.12.0 @dependabot (#5838)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump github.com/oapi-codegen/runtime from 1.4.2 to 1.6.0 @dependabot (#5839)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @casl/react from 7.0.0 to 7.0.1 in /ui @dependabot (#5837)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @rjsf/validator-ajv8 from 6.6.2 to 6.7.1 in /ui @dependabot (#5836)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump golang.org/x/net from 0.56.0 to 0.57.0 @dependabot (#5844)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump npm from 11.18.0 to 12.0.1 in /ui @dependabot (#5845)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@carlosriosilva, @dependabot, @fitzergerald, @hortison, @jijillery, @leecalcote, @meshery-ci, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.217</title><link>/cloud/reference/releases/v1.0.217/</link><pubDate>Sat, 01 Aug 2026 05:14:08 +0000</pubDate><guid>/cloud/reference/releases/v1.0.217/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(auth): front dev Kratos at /kratos and pin its ngrok base_url for local OIDC @willcalcote (#5835)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @hortison and @willcalcote&lt;/p&gt;</description></item><item><title>v1.0.216</title><link>/cloud/reference/releases/v1.0.216/</link><pubDate>Thu, 30 Jul 2026 20:50:28 +0000</pubDate><guid>/cloud/reference/releases/v1.0.216/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): gate anonymous-session minting and bound pseudo-JWT lifetimes @jijillery (#5819)&lt;/li&gt;
+&lt;li&gt;[UI] Add permission shields to Keys page action icons @rishiraj38 (#5824)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.44 @l5io (#5823)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery, @l5io, @leecalcote, @rishiraj38 and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.215</title><link>/cloud/reference/releases/v1.0.215/</link><pubDate>Tue, 28 Jul 2026 22:43:36 +0000</pubDate><guid>/cloud/reference/releases/v1.0.215/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): stop serving user email addresses to anonymous catalog callers @jijillery (#5821)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jamieplu, @jijillery and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.214</title><link>/cloud/reference/releases/v1.0.214/</link><pubDate>Tue, 28 Jul 2026 15:57:21 +0000</pubDate><guid>/cloud/reference/releases/v1.0.214/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(skills): consolidate agent skills into .agents/skills as single source of truth @leecalcote (#5815)&lt;/li&gt;
+&lt;li&gt;fix(server): restrict what unauthenticated and anonymous-status callers receive from the public user endpoints @leecalcote (#5812)&lt;/li&gt;
+&lt;li&gt;fix(handlers): Stop badge delete from printing SQL and tenant IDs to stdout @leecalcote (#5813)&lt;/li&gt;
+&lt;li&gt;fix(handlers): stop serving soft-deleted accounts from the public user profile @leecalcote (#5810)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @arjunmehta-git, @hortison, @leecalcote, @sarajkrishnasingh, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.213</title><link>/cloud/reference/releases/v1.0.213/</link><pubDate>Tue, 28 Jul 2026 00:17:15 +0000</pubDate><guid>/cloud/reference/releases/v1.0.213/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(handlers): scope badge catalog writes to the caller&amp;rsquo;s organization @jijillery (#5808)&lt;/li&gt;
+&lt;li&gt;Make the Helm chart publish survive a concurrent push to layer5io/docs @winkletinkle (#5805)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git, @hortison, @jijillery, @leecalcote, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.212</title><link>/cloud/reference/releases/v1.0.212/</link><pubDate>Mon, 27 Jul 2026 17:14:03 +0000</pubDate><guid>/cloud/reference/releases/v1.0.212/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(deps): align both meshery/schemas pins on v1.3.39 @jijillery (#5804)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery&lt;/p&gt;</description></item><item><title>v1.0.211</title><link>/cloud/reference/releases/v1.0.211/</link><pubDate>Mon, 27 Jul 2026 16:18:46 +0000</pubDate><guid>/cloud/reference/releases/v1.0.211/</guid><description>&lt;ul&gt;
+&lt;li&gt;Fix Edit User Profile modal layout, arm Save on notification changes @leecalcote (#5777)&lt;/li&gt;
+&lt;li&gt;test(connect): cover the GitHub wizard, fix its app-URL and the modal mapping @suttonskate (#5802)&lt;/li&gt;
+&lt;li&gt;Stop deriving the plans row type from generated data; guard the module-scope reads that 500 every route @leecalcote (#5778)&lt;/li&gt;
+&lt;li&gt;fix(workspaces): answer a malformed listing filter with a 400 naming the resource @leecalcote (#5799)&lt;/li&gt;
+&lt;li&gt;fix(collaboration): make client IDs collision-resistant and fail closed @carlosriosilva (#5797)&lt;/li&gt;
+&lt;li&gt;chore(ui): clear the 91 pre-existing prettier violations so &lt;code&gt;make ui-lint&lt;/code&gt; is green @winkletinkle (#5801)&lt;/li&gt;
+&lt;li&gt;fix(handlers): stop nil-user panic in the admin-gated events endpoints @hortison (#5794)&lt;/li&gt;
+&lt;li&gt;fix(handlers): stop InstallGithubAction deadlocking and racing on a shared err @miacycle (#5798)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@carlosriosilva, @hortison, @leecalcote, @marblom007, @miacycle, @ritzorama, @suttonskate and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.210</title><link>/cloud/reference/releases/v1.0.210/</link><pubDate>Mon, 27 Jul 2026 13:31:30 +0000</pubDate><guid>/cloud/reference/releases/v1.0.210/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): bound and quote the state-decoded ref on the Hydra callback log line @hamza-mohd (#5796)&lt;/li&gt;
+&lt;li&gt;test(e2e): make 2FA OAuth sign-in tooling runnable against a local ngrok custom-domain target @jijillery (#5790)&lt;/li&gt;
+&lt;li&gt;fix(credentials): resolve TypeError on modal close/cancel/continue @rishiraj38 (#5789)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd, @jijillery, @leecalcote and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.209</title><link>/cloud/reference/releases/v1.0.209/</link><pubDate>Mon, 27 Jul 2026 12:38:54 +0000</pubDate><guid>/cloud/reference/releases/v1.0.209/</guid><description>&lt;ul&gt;
+&lt;li&gt;refactor: six behaviour-preserving complexity reductions (-123 lines) @yi-nuo426 (#5788)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.208</title><link>/cloud/reference/releases/v1.0.208/</link><pubDate>Mon, 27 Jul 2026 05:08:53 +0000</pubDate><guid>/cloud/reference/releases/v1.0.208/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): close the ref open redirect in the shared post-auth redirect guard @jijillery (#5787)&lt;/li&gt;
+&lt;li&gt;feat(ui): migrate action buttons and icons to PermissionShield (Pattern A/B) @rishiraj38 (#5772)&lt;/li&gt;
+&lt;li&gt;fix: workspace table row click TypeError on name extraction @rishiraj38 (#5773)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery, @marblom007, @rishiraj38, @simihablo and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.207</title><link>/cloud/reference/releases/v1.0.207/</link><pubDate>Mon, 27 Jul 2026 03:58:46 +0000</pubDate><guid>/cloud/reference/releases/v1.0.207/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): close open redirect on unauthenticated GET /account @ritzorama (#5784)&lt;/li&gt;
+&lt;li&gt;document(release): close the merge, supersession, and post-publish gaps in the cut-release skill @alexquincy (#5782)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @hortison and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.206</title><link>/cloud/reference/releases/v1.0.206/</link><pubDate>Mon, 27 Jul 2026 03:12:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.206/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ci): fail the feature-data sync closed on bad payloads @jijillery (#5781)&lt;/li&gt;
+&lt;li&gt;harden return_to normalization against browser-normalized redirects; refresh post-#5769 sign-in docs @jijillery (#5771)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @jijillery, @l5io, @meshery-ci and @miacycle&lt;/p&gt;</description></item><item><title>v1.0.205</title><link>/cloud/reference/releases/v1.0.205/</link><pubDate>Sat, 25 Jul 2026 06:20:36 +0000</pubDate><guid>/cloud/reference/releases/v1.0.205/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): replay deep-link enroll intent across OAuth sign-in @jijillery (#5774)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @hortison, @jijillery and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.204</title><link>/cloud/reference/releases/v1.0.204/</link><pubDate>Fri, 24 Jul 2026 21:06:18 +0000</pubDate><guid>/cloud/reference/releases/v1.0.204/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(email): org-first footer contacts and a catalog deep link in the approval mail @jijillery (#5767)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.43 @l5io (#5768)&lt;/li&gt;
+&lt;li&gt;[Auth] Fix custom-domain sign-in stranding: mint a Hydra login challenge on every sign-in entry @CodeAhmedJamil (#5769)&lt;/li&gt;
+&lt;li&gt;test(ui): add browser coverage for the permission gates repaired by #5762 @jijillery (#5766)&lt;/li&gt;
+&lt;li&gt;fix(ui): resolve error on user edit action @rishiraj38 (#5758)&lt;/li&gt;
+&lt;li&gt;feat(ui): Mount PermissionProvider in AppShell and add permissionKey to NavigationNavbar items @rishiraj38 (#5757)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @carlosriosilva, @hamza-mohd, @jamieplu, @jijillery, @l5io, @leecalcote, @mascot-five, @miacycle, @pontusringblom, @rishiraj38, @ritzorama and @suttonskate&lt;/p&gt;</description></item><item><title>v1.0.203</title><link>/cloud/reference/releases/v1.0.203/</link><pubDate>Fri, 24 Jul 2026 05:56:20 +0000</pubDate><guid>/cloud/reference/releases/v1.0.203/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): write schema-complete Kratos rows in OIDC credential link (meshery-cloud-1735) @mascot-five (#5761)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.42 @l5io (#5760)&lt;/li&gt;
+&lt;li&gt;fix(ui): repair orphaned permission-key references breaking next build @jamieplu (#5762)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @chellej, @fitzergerald, @jamieplu, @l5io, @marblom007, @mascot-five, @meshery-ci, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.202</title><link>/cloud/reference/releases/v1.0.202/</link><pubDate>Thu, 23 Jul 2026 21:28:19 +0000</pubDate><guid>/cloud/reference/releases/v1.0.202/</guid><description>&lt;ul&gt;
+&lt;li&gt;[UI] Fix RJSF array validation crash in Catalog InfoModal @NSTKrishna (#5743)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna and @jamieplu&lt;/p&gt;</description></item><item><title>v1.0.201</title><link>/cloud/reference/releases/v1.0.201/</link><pubDate>Thu, 23 Jul 2026 19:17:48 +0000</pubDate><guid>/cloud/reference/releases/v1.0.201/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(orgs): enforce syntactic hostname validation on org custom domains @simihablo (#5756)&lt;/li&gt;
+&lt;li&gt;fix(catalog): preserve deep-linked filters on catalog page load @simihablo (#5754)&lt;/li&gt;
+&lt;li&gt;fix(catalog): surface failed catalog-propagation dispatch instead of silent success @simihablo (#5753)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @alexquincy, @arjunmehta-git, @carlosriosilva, @jamieplu, @leecalcote, @meshery-ci, @ritzorama and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.200</title><link>/cloud/reference/releases/v1.0.200/</link><pubDate>Wed, 22 Jul 2026 23:55:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.200/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): authorize environment/workspace writes against the request&amp;rsquo;s target org @simihablo (#5750)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @jamieplu and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.199</title><link>/cloud/reference/releases/v1.0.199/</link><pubDate>Wed, 22 Jul 2026 13:10:48 +0000</pubDate><guid>/cloud/reference/releases/v1.0.199/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.41 @l5io (#5747)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.39 @l5io (#5746)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.38 @l5io (#5744)&lt;/li&gt;
+&lt;li&gt;refactor: replace local permission constants with Keys from schemas @rishiraj38 (#5707)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @marblom007, @meshery-ci, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.198</title><link>/cloud/reference/releases/v1.0.198/</link><pubDate>Thu, 16 Jul 2026 18:25:27 +0000</pubDate><guid>/cloud/reference/releases/v1.0.198/</guid><description>&lt;ul&gt;
 &lt;li&gt;fix(ui): Migrate data tables to use standardized DataTableToolbar @KhushamBansal (#5740)&lt;/li&gt;
 &lt;/ul&gt;
 

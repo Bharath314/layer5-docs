@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/kanvas/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/kanvas/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.61-2</title><link>/kanvas/reference/releases/v1.0.61-2/</link><pubDate>Tue, 21 Jul 2026 17:40:32 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.61-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/kanvas/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/kanvas/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.66-1</title><link>/kanvas/reference/releases/v1.0.66-1/</link><pubDate>Thu, 13 Aug 2026 05:20:06 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.66-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.22.2 @l5io (#4328)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.22.1 @l5io (#4324)&lt;/li&gt;
+&lt;li&gt;fix(ui): bump @sistent/sistent to 0.22.0 and stop silent share failures @willcalcote (#4327)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @pontusringblom, @rishiraj38, @simihablo and @willcalcote&lt;/p&gt;</description></item><item><title>v1.0.65-2</title><link>/kanvas/reference/releases/v1.0.65-2/</link><pubDate>Fri, 07 Aug 2026 22:15:25 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.65-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(ui): route Help &amp;amp;amp; Support submissions through Meshery Server @willcalcote (#4321)&lt;/li&gt;
+&lt;li&gt;fix(ui): repoint duplicated RTK endpoints at @meshery/schemas clients @willcalcote (#4320)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @ritzorama and @willcalcote&lt;/p&gt;</description></item><item><title>v1.0.65-1</title><link>/kanvas/reference/releases/v1.0.65-1/</link><pubDate>Fri, 07 Aug 2026 04:53:55 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.65-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.46 @l5io (#4319)&lt;/li&gt;
+&lt;li&gt;[skills] iterate-pr 2.4.0: never report an unfetched PR as a clean one @arjunmehta-git (#4318)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git, @l5io, @rishiraj38 and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.64-2</title><link>/kanvas/reference/releases/v1.0.64-2/</link><pubDate>Wed, 05 Aug 2026 20:36:18 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.64-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Kanvas] Source the design-import contract from @meshery/schemas @hamza-mohd (#4317)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.45 @l5io (#4315)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @hamza-mohd, @l5io, @rishiraj38 and @suttonskate&lt;/p&gt;</description></item><item><title>v1.0.64-1</title><link>/kanvas/reference/releases/v1.0.64-1/</link><pubDate>Mon, 03 Aug 2026 21:14:20 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.64-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(skills): hard-rename iterate-pr &amp;ndash;full mode to &amp;ndash;merge @hamza-mohd (#4314)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd and @l5io&lt;/p&gt;</description></item><item><title>v1.0.63-2</title><link>/kanvas/reference/releases/v1.0.63-2/</link><pubDate>Thu, 30 Jul 2026 20:35:19 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.63-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor(ui): remove 8,123 lines of unreachable code, no functional change @jijillery (#4313)&lt;/li&gt;
+&lt;li&gt;[UI] Drop the ConfigurationSubscription prop @aabidsofi19 (#4289)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.44 @l5io (#4312)&lt;/li&gt;
+&lt;li&gt;chore(skills): consolidate agent skills into a single .agents/skills source of truth @sarajkrishnasingh (#4311)&lt;/li&gt;
+&lt;li&gt;refactor(ui): import permission keys from schemas @rishiraj38 (#4297)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@aabidsofi19, @jijillery, @l5io, @leecalcote, @miacycle, @pontusringblom, @rishiraj38, @sarajkrishnasingh, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.63-1</title><link>/kanvas/reference/releases/v1.0.63-1/</link><pubDate>Sun, 26 Jul 2026 16:02:01 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.63-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.43 @l5io (#4310)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.42 @l5io (#4309)&lt;/li&gt;
+&lt;li&gt;chore(skills): add /cut-release skill @jamieplu (#4308)&lt;/li&gt;
+&lt;li&gt;chore(ui): drop the date-fns dependency @simihablo (#4307)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @alexquincy, @jamieplu, @jijillery, @l5io, @leecalcote, @mascot-five, @miacycle, @ritzorama, @simihablo and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.62-1</title><link>/kanvas/reference/releases/v1.0.62-1/</link><pubDate>Wed, 22 Jul 2026 11:54:28 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.62-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: enforce exact pinning for externalized dependencies @marblom007 (#4301)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.41 @l5io (#4306)&lt;/li&gt;
+&lt;li&gt;Extensions: Compatibility guarantee @marblom007 (#4303)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.40 @l5io (#4305)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.39 @l5io (#4304)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @l5io, @leecalcote, @marblom007, @miacycle and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.61-2</title><link>/kanvas/reference/releases/v1.0.61-2/</link><pubDate>Tue, 21 Jul 2026 17:40:32 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.61-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
  What&amp;rsquo;s New
  &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
